@@ -1,0 +1,1 @@
+﻿Get-ChildItem -path '\\wserver\backup\bkp*' -file | Sort-Object -Property Modifiedtime -Descending | Select-Object -First 1 | copy-item -destination "D:\Circe Launches Backups\SQL Circe Bookings"

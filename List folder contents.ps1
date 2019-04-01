@@ -1,0 +1,1 @@
+﻿get-childitem -path '\\wserver\wmarine\kiosk\invoices\F2019' -Recurse | Select-Object directoryname, name|Sort-Object directoryname -CaseSensitive| Export-Csv 'C:\test\kioskallinv19.csv' 

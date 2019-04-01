@@ -1,0 +1,1 @@
+Get-ChildItem -path C:\Test

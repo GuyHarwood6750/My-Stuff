@@ -1,0 +1,1 @@
+﻿Add-VpnConnection -Name "Wmarine vpn1" -ServerAddress "remote.circelaunches.co.za" -TunnelType Sstp -AuthenticationMethod MSChapv2

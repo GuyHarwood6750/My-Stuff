@@ -1,0 +1,1 @@
+﻿Move-Item -Path 'C:\Pastel18\CIRCE19A\Documents\PDF\*.pdf' -Destination "\\wserver\wmarine\customers\_All Invoices & Credit Notes" -Force

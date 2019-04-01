@@ -1,0 +1,1 @@
+"Today is {0:ddd d MMMM yyyy} and my name is {1} {2}, i live in {3}." -f (Get-Date), ($env:Firstname), ($env:Lastname), ($env:City)

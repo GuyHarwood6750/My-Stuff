@@ -1,0 +1,1 @@
+﻿Copy-Item -Path 'C:\Pastel18\CIRCE19A\Documents\PDF\*.pdf' -Destination "C:\Search Invoices" -Recurse -force

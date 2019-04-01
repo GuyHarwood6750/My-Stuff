@@ -1,0 +1,1 @@
+﻿robocopy 'C:\Pastel18\CIRCE19A' '\\wserver\wmarine\Finance\Pastel Offsite Backup\2019_Data' /v /is /log+:"c:\ps scripts logs\pastel2.txt"

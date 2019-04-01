@@ -1,0 +1,4 @@
+id,product,qty,price,total
+12001,Hammer,5,45,"=c2*d2"
+12002,Saw,10,55,"=c3*d3"
+12003,Chisel,3,190,"=c4*d4"

@@ -1,0 +1,1827 @@
+Date,Time,Customer,PType,Type,QTY,Guide
+01-Jan-19,08:00,Private,CSH,Children,3,
+01-Jan-19,08:00,Private,CSH,Adults,23,
+01-Jan-19,08:45,Bonisa Tours,VCH,Adults,10,Klaas
+01-Jan-19,08:45,Live the Journey,VCH,Adults,17,Jaques
+01-Jan-19,08:45,Private,CSH,Adults,2,
+01-Jan-19,08:45,Private,CSH,Adults,2,
+01-Jan-19,08:45,Tourvest Destination Management,VCH,Adults,17,Heidi
+01-Jan-19,09:30,Carols Tours,CSH,Adults,10,Carol
+01-Jan-19,09:30,Private,CSH,Adults,9,
+01-Jan-19,09:30,Private,CSH,Adults,4,
+01-Jan-19,09:30,Private,CSH,Adults,20,
+01-Jan-19,09:30,Private,CSH,Adults,3,
+01-Jan-19,09:30,Sharon Africa Travel (Pty) Ltd.,CSH,Adults,2,Cindy
+01-Jan-19,09:30,Springbok Atlas,VCH,Adults,34,
+01-Jan-19,10:15,Africa Incoming (Pty) Ltd,VCH,Adults,2,Priyanka 
+01-Jan-19,10:15,ERM Tours (Pty) Ltd,VCH,Adults,1,Gavin 
+01-Jan-19,10:15,Gem Tours & Travel,CSH,Adults,60,
+01-Jan-19,10:15,Gem Tours & Travel,CSH,Adults,2,Deep
+01-Jan-19,10:15,Gem Tours & Travel,CSH,Children,1,Deep
+01-Jan-19,10:15,Hylton Ross Exclusive Touring,VCH,Adults,7,Robbie
+01-Jan-19,10:15,Hylton Ross Exclusive Touring,VCH,Children,2,Robbie
+01-Jan-19,10:15,Meljo,CSH,Children,2,Sydney
+01-Jan-19,10:15,Meljo,CSH,Adults,4,Sydney
+01-Jan-19,10:15,Private,CSH,Adults,6,
+01-Jan-19,10:15,Travcare Holidays,VCH,Adults,2,Shabier
+01-Jan-19,13:00,Travcare Holidays,VCH,Adults,2,Irfaan
+01-Jan-19,15:00,CASUAL BOOKINGS,CSH,Children,1,
+01-Jan-19,15:00,CASUAL BOOKINGS,CSH,Adults,3,
+01-Jan-19,15:00,CITA,CSH,Adults,14,Ming
+01-Jan-19,15:00,ERM Tours (Pty) Ltd,VCH,Children,1,Stanton
+01-Jan-19,15:00,ERM Tours (Pty) Ltd,VCH,Adults,25,Stanton
+01-Jan-19,15:00,Hylton Ross Exclusive Touring,CSH,Adults,5,Enrico 
+01-Jan-19,15:00,Hylton Ross Exclusive Touring,VCH,Adults,2,Enrico 
+01-Jan-19,15:00,MPUM: ta Quality Touring Services,VCH,Adults,1,Danie
+01-Jan-19,15:00,MPUM: ta Quality Touring Services,VCH,Adults,1,Danie
+01-Jan-19,16:00,Live the Journey,VCH,Children,3,Herman
+01-Jan-19,16:00,Live the Journey,VCH,Adults,17,Herman
+01-Jan-19,16:00,Private,CSH,Adults,2,
+02-Jan-19,08:00,TOURISM THAT CARES,VCH,Adults,18,Luis
+02-Jan-19,08:45,Easy Africa Tours,VCH,Adults,25,Wendy
+02-Jan-19,08:45,ERM Tours (Pty) Ltd,VCH,Children,1,Konny
+02-Jan-19,08:45,ERM Tours (Pty) Ltd,VCH,Adults,14,Konny
+02-Jan-19,09:30,Africa Gazago,CSH,Adults,2,Ludy
+02-Jan-19,09:30,Africa Gazago,CSH,Adults,13,Lee
+02-Jan-19,09:30,ARNH,CSH,Adults,12,Brian
+02-Jan-19,09:30,Day Trippers,CSH,Adults,4,Bill
+02-Jan-19,09:30,Easy travel,CSH,Adults,4,Joy
+02-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,7,Nathaniel
+02-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,Sebastiao
+02-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,5,Anna
+02-Jan-19,09:30,MSR,CSH,Adults,22,Vinesh
+02-Jan-19,10:15,Africa Tour Story,VCH,Adults,20,
+02-Jan-19,10:15,Asian Sun,CSH,Adults,13,Lee
+02-Jan-19,10:15,CASUAL BOOKINGS,CSH,Children,2,
+02-Jan-19,10:15,CASUAL BOOKINGS,CSH,Adults,2,
+02-Jan-19,10:15,Freelance Guides,CSH,Adults,5,Jongbe
+02-Jan-19,10:15,Freelance Guides,CSH,Adults,2,Enrico
+02-Jan-19,10:15,Gem Tours & Travel,CSH,Adults,27,Ivy
+02-Jan-19,10:15,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,6,Ilaria
+02-Jan-19,10:15,Merveilles,CSH,Adults,4,Mathieu
+02-Jan-19,10:15,NZR Shuttle and Tours,CSH,Adults,2,Madeeg
+02-Jan-19,10:15,SUDA CAPE,CSH,Adults,2,Suliman
+02-Jan-19,11:10,Asian Sun,CSH,Adults,3,John
+02-Jan-19,11:10,Freelance Guides,CSH,Adults,4,Wang
+02-Jan-19,11:10,Gem Tours & Travel,CSH,Adults,6,Francisca
+02-Jan-19,11:10,Gem Tours & Travel,CSH,Children,2,Francisca
+02-Jan-19,13:00,CASUAL BOOKINGS,CSH,Adults,3,
+02-Jan-19,15:00,Asian Sun,CSH,Adults,4,Gerald
+02-Jan-19,15:00,Cape of Good Hope Tours,EFT,Adults,3,Magnus
+02-Jan-19,15:00,CITA,CSH,Adults,13,Chloe
+02-Jan-19,15:00,Edge Hotel,CSH,Adults,26,Charl
+03-Jan-19,08:45,Adventure Cape Town,CSH,Adults,4,Ian
+03-Jan-19,08:45,Easy Africa Tours,VCH,Children,4,Billy
+03-Jan-19,08:45,Easy Africa Tours,VCH,Adults,25,Billy
+03-Jan-19,08:45,Meljo,CSH,Children,3,Miguel
+03-Jan-19,08:45,Meljo,CSH,Adults,19,Miguel
+03-Jan-19,08:45,Paradise Tours,CSH,Children,1,Noel
+03-Jan-19,08:45,Paradise Tours,CSH,Adults,4,Noel
+03-Jan-19,09:30,CASUAL BOOKINGS,CSH,Adults,2,Shaun
+03-Jan-19,09:30,CASUAL BOOKINGS,CSH,Children,5,Shaun
+03-Jan-19,09:30,Day Trippers,CSH,Adults,11,Bill
+03-Jan-19,09:30,Freelance Guides,CSH,Adults,2,Paul
+03-Jan-19,09:30,Freelance Guides,CSH,Adults,2,Duncan
+03-Jan-19,09:30,Freelance Guides,CSH,Children,3,Duncan
+03-Jan-19,09:30,Freelance Guides,CSH,Adults,3,Wayne
+03-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,8,Nathaniel
+03-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Children,1,Nathaniel
+03-Jan-19,10:15,CASUAL BOOKINGS,PRPD,Children,1,Bruck
+03-Jan-19,10:15,CASUAL BOOKINGS,PRPD,Adults,3,Bruck
+03-Jan-19,10:15,Freelance Guides,CSH,Children,1,Mike
+03-Jan-19,10:15,Freelance Guides,CSH,Adults,6,Mike
+03-Jan-19,10:15,Hana travel,CSH,Adults,3,Chung
+03-Jan-19,10:15,IVENTURE,PRPD,Adults,2,
+03-Jan-19,10:15,IVENTURE,PRPD,Children,2,
+03-Jan-19,10:15,JT Tours,CSH,Adults,5,Jeremy
+03-Jan-19,11:30,InterCape,CSH,Adults,2,Peter
+03-Jan-19,11:30,InterCape,CSH,Children,2,Peter
+03-Jan-19,14:00,CASUAL BOOKINGS,CSH,Children,2,
+03-Jan-19,14:00,CASUAL BOOKINGS,CSH,Adults,2,
+03-Jan-19,14:00,Donny Tours,CSH,Adults,2,Donovan
+03-Jan-19,14:00,Hylton Ross Exclusive Touring,CSH,Adults,10,Mario
+03-Jan-19,14:00,Jaret Tours,CSH,Adults,3,Johan
+03-Jan-19,15:00,CASUAL BOOKINGS,CSH,Adults,4,
+03-Jan-19,15:00,Live the Journey,VCH,Adults,18,Jaco
+03-Jan-19,15:00,MPUM: ta Quality Touring Services,VCH,Adults,2,Danie
+03-Jan-19,15:00,ORDO Tours,EFT,Adults,20,Shafiek
+04-Jan-19,08:00,ORDO Tours,PRPD,Adults,20,Shafiek
+04-Jan-19,08:45,CASUAL BOOKINGS,CSH,Adults,4,Marieka 
+04-Jan-19,08:45,Conxion Tours,CSH,Adults,2,Danielle
+04-Jan-19,08:45,I TRAVEL,CSH,Adults,2,Eugen
+04-Jan-19,08:45,Meljo,CSH,Adults,12,Joepie
+04-Jan-19,09:30,African Eagle,CSH,Adults,2,Sharol
+04-Jan-19,09:30,Day Trippers,CSH,Adults,8,Bill
+04-Jan-19,09:30,Hylton Ross Exclusive Touring,VCH,Adults,11,Suzette
+04-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,8,Bryan
+04-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,8,Vincenzo
+04-Jan-19,09:30,SA Longway International Promotion (Pty),EFT,Adults,4,Nicky
+04-Jan-19,10:15,Africa Tour Story,VCH,Adults,20,
+04-Jan-19,10:15,KABURA TRAVEL,CSH,Adults,2,Gavin
+04-Jan-19,10:15,Private,CSH,Adults,2,Mac
+04-Jan-19,10:15,SUNNY BAE TOURS,CSH,Adults,8,Sunny
+04-Jan-19,10:15,Windows Tours & Transfers,CSH,Adults,7,Jay
+04-Jan-19,11:30,KABURA TRAVEL,CSH,Adults,5,Barnabas
+04-Jan-19,11:30,Unicab,CSH,Adults,4,Andrew
+04-Jan-19,14:15,ATS Shuttles,CSH,Adults,2,Angelo
+04-Jan-19,14:15,Roots Africa,CSH,Adults,2,Ian
+04-Jan-19,14:45,ATS Shuttles,CSH,Adults,2,Angelo
+04-Jan-19,14:45,Roots Africa,CSH,Adults,2,Ian
+04-Jan-19,15:15,Cape of Good Hope Tours,EFT,Adults,2,Rene
+04-Jan-19,15:15,Cape of Good Hope Tours,INV,Adults,4,Magnus
+04-Jan-19,15:15,CASUAL BOOKINGS,CSH,Adults,4,
+04-Jan-19,16:45,Cullinan tours,CSH,Children,2,Ashley
+04-Jan-19,16:45,Cullinan tours,CSH,Adults,10,Ashley
+04-Jan-19,16:45,Hylton Ross Exclusive Touring,CSH,Adults,8,Bryan
+04-Jan-19,16:45,KABURA TRAVEL,CSH,Adults,10,Francis
+05-Jan-19,09:30,Galaxy Express,CSH,Children,2,Amy
+05-Jan-19,09:30,Galaxy Express,CSH,Adults,2,Amy
+05-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,6,Bradley
+05-Jan-19,09:30,Hylton Ross Exclusive Touring,VCH,Adults,5,Vuyo
+05-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,5,Maria
+05-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,Franco
+05-Jan-19,09:30,Oxford class tours,CSH,Adults,12,Shameer
+05-Jan-19,09:30,Travcare Holidays,VCH,Adults,2,ZANE
+05-Jan-19,09:30,Travcare Holidays,VCH,Children,2,ZANE
+05-Jan-19,09:30,U2 Africa Travel,CSH,Adults,4,Noland
+05-Jan-19,10:15,EDU Africa,CSH,Adults,31,Jeremy
+05-Jan-19,10:15,Freelance Guides,CSH,Adults,1,Ebrahim
+05-Jan-19,10:15,IVENTURE,CSH,Adults,4,
+05-Jan-19,10:15,Zenith Travel,CSH,Adults,8,Anastacia
+05-Jan-19,11:30,Enigma,CSH,Adults,3,Lesley
+05-Jan-19,11:30,Enigma,CSH,Children,2,Lesley
+05-Jan-19,11:30,KHAIRON'S TOURS,CSH,Adults,2,Khairun
+05-Jan-19,11:30,SEA BREEZE,CSH,Children,3,Vivian
+05-Jan-19,11:30,SEA BREEZE,CSH,Adults,2,Vivian
+05-Jan-19,15:00,Cape of Good Hope Tours,INV,Adults,2,Rene
+05-Jan-19,15:00,CITA,CSH,Adults,10,Alex
+05-Jan-19,15:00,Freelance Guides,CSH,Adults,5,Mel
+05-Jan-19,15:00,Freelance Guides,CSH,Children,3,Mel
+05-Jan-19,15:00,Gem Tours & Travel,CSH,Adults,10,Francisca
+05-Jan-19,15:00,KABURA TRAVEL,CSH,Children,2,Armand
+05-Jan-19,15:00,KABURA TRAVEL,CSH,Adults,2,Armand
+05-Jan-19,16:00,Compass Travel,CSH,Adults,11,Fazlie
+05-Jan-19,16:00,Freelance Guides,CSH,Adults,4,Johan
+05-Jan-19,16:00,KABURA TRAVEL,CSH,Adults,7,Francis
+05-Jan-19,16:00,MPUM: ta Quality Touring Services,VCH,Adults,7,Clive
+05-Jan-19,16:00,SA Time,CSH,Adults,19,Ada
+06-Jan-19,08:45,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,James
+06-Jan-19,08:45,SA Magic,EFT,Adults,19,
+06-Jan-19,08:45,SA Magic,EFT,Adults,40,Wendy
+06-Jan-19,09:30,Africa Tour Story,VCH,Adults,20,
+06-Jan-19,09:30,CASUAL BOOKINGS,CSH,Children,2,
+06-Jan-19,09:30,CASUAL BOOKINGS,CSH,Adults,4,
+06-Jan-19,09:30,Day Trippers,CSH,Adults,5,Pedro
+06-Jan-19,09:30,Freelance Guides,CSH,Adults,12,Chris
+06-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,5,Marina
+06-Jan-19,09:30,MPUM: ta Quality Touring Services,VCH,Adults,2,Sharon
+06-Jan-19,09:30,Papago tours,CSH,Adults,5,Jason
+06-Jan-19,09:30,SA Magic,EFT,Adults,16,James
+06-Jan-19,10:15,Africa Tour Story,VCH,Adults,30,
+06-Jan-19,10:15,Cape Tamna Travel,CSH,Adults,7,Boo
+06-Jan-19,10:15,Freelance Guides,CSH,Adults,2,Leon
+06-Jan-19,10:15,Freelance Guides,CSH,Adults,5,David
+06-Jan-19,10:15,Freelance Guides,CSH,Adults,4,Leon
+06-Jan-19,10:15,Springbok Atlas,VCH,Adults,2,
+06-Jan-19,10:15,T Tours,CSH,Adults,2,Tonic
+06-Jan-19,11:45,Cape Ryno Tours,CSH,Adults,2,Wasfiek
+06-Jan-19,11:45,Morine Taxis,CSH,Adults,4,Desmond
+06-Jan-19,11:45,SUDA CAPE,CSH,Adults,2,Suliman
+06-Jan-19,15:00,WTA ,CSH,Adults,14,Wendy
+07-Jan-19,08:45,Easy Africa Tours,VCH,Adults,24,Helena
+07-Jan-19,08:45,ERM Tours (Pty) Ltd,VCH,Adults,2,Enrico
+07-Jan-19,08:45,Ilios,CSH,Adults,3,Abdular
+07-Jan-19,08:45,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,Claudio
+07-Jan-19,08:45,ORDO Tours,PRPD,Adults,22,Avi
+07-Jan-19,08:45,SA Magic,EFT,Adults,30,Rio
+07-Jan-19,08:45,Tourvest Destination Management,CSH,Adults,3,Duncan
+07-Jan-19,09:30,Africa Tour Story,VCH,Adults,20,
+07-Jan-19,09:30,Day Trippers,CSH,Adults,13,Sele
+07-Jan-19,09:30,Freelance Guides,CSH,Adults,2,Vlad
+07-Jan-19,09:30,Oyster Collection,CSH,Adults,4,Lovemore
+07-Jan-19,09:30,SA Magic,EFT,Adults,31,Betty
+07-Jan-19,09:30,SA Magic,EFT,Adults,44,Shaun
+07-Jan-19,09:30,SA Magic,EFT,Adults,12,James
+07-Jan-19,10:15,African Pride Tours,VCH,Adults,4,Lynn
+07-Jan-19,10:15,Gem Tours & Travel,CSH,Adults,8,Jeet
+07-Jan-19,15:00,Easy travel,CSH,Adults,2,Peter pan
+07-Jan-19,15:00,HOTSPOTS 2C,CSH,Adults,4,Cornelius
+07-Jan-19,15:00,SA Magic,EFT,Adults,35,Josh
+07-Jan-19,16:00,Getaway Station,CSH,Adults,8,Zahier
+07-Jan-19,16:00,KABURA TRAVEL,CSH,Adults,10,Francis
+08-Jan-19,09:30,Africa Gazago,CSH,Adults,19,Lee
+08-Jan-19,09:30,African Pride Tours,VCH,Adults,2,Ella
+08-Jan-19,09:30,Cape Style Tours,CSH,Adults,3,Chris
+08-Jan-19,09:30,Gilbot Travel,CSH,Adults,2,Park
+08-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,6,Salome
+08-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,Pedro 
+08-Jan-19,09:30,Point B,CSH,Adults,6,Viwe
+08-Jan-19,10:15,Africa Incoming (Pty) Ltd,VCH,Adults,2,Ebrahim
+08-Jan-19,10:15,Africa Tour Story,VCH,Adults,20,
+08-Jan-19,10:15,Freelance Guides,CSH,Adults,2,Enrico
+08-Jan-19,10:15,KABURA TRAVEL,CSH,Adults,3,Francis
+08-Jan-19,10:15,SA Time,CSH,Adults,19,Yi
+08-Jan-19,11:45,Freelance Guides,CSH,Adults,1,Peter
+08-Jan-19,15:00,CITA,CSH,Adults,12,Tana
+08-Jan-19,15:00,Jd Tours,CSH,Children,2,Justine
+08-Jan-19,15:00,Jd Tours,CSH,Adults,2,Justine
+08-Jan-19,15:00,SA Magic,EFT,Adults,14,Alex
+08-Jan-19,15:00,WTA ,CSH,Adults,19,Jason
+09-Jan-19,08:45,Easy Africa Tours,VCH,Adults,19,Nico
+09-Jan-19,08:45,Ilios,CSH,Adults,2,
+09-Jan-19,08:45,Jensen Safaris,VCH,Adults,30,
+09-Jan-19,08:45,Thompsons Africa,CSH,Children,2,Faziel
+09-Jan-19,08:45,Thompsons Africa,CSH,Adults,2,Faziel
+09-Jan-19,09:30,Africa Tour Story,VCH,Adults,8,Sunny
+09-Jan-19,09:30,Cape of Good Hope Tours,EFT,Adults,2,Magnus
+09-Jan-19,09:30,CASUAL BOOKINGS,FOC,Children,2,
+09-Jan-19,09:30,CASUAL BOOKINGS,FOC,Adults,2,
+09-Jan-19,09:30,Highline Tours,CSH,Adults,12,Andries
+09-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,4,Nathaniel
+09-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,7,Maria
+09-Jan-19,09:30,Miola Safaris (Pty) Ltd,EFT,Adults,23,Nicky
+09-Jan-19,09:30,Private,CSH,Adults,4,
+09-Jan-19,09:30,Unicab,CSH,Adults,2,Salman
+09-Jan-19,09:30,Xenitu,CSH,Adults,4,Inna
+09-Jan-19,10:15,Africa Incoming (Pty) Ltd,VCH,Adults,1,Wuzir
+09-Jan-19,10:15,OSCAR TOURS,CSH,Adults,31,JOSEPH
+09-Jan-19,10:15,OSCAR TOURS,CSH,Children,1,JOSEPH
+09-Jan-19,11:45,Altimate Travel,CSH,Adults,3,Gavus
+09-Jan-19,11:45,Comodor hotel,CSH,Adults,1,Anthany
+09-Jan-19,11:45,Compass Travel,CSH,Adults,2,Fazlie
+09-Jan-19,11:45,Compass Travel,CSH,Children,2,Fazlie
+09-Jan-19,11:45,Thompsons Africa,CSH,Adults,3,Garth
+09-Jan-19,11:45,Unicab,CSH,Adults,2,Adolphe
+09-Jan-19,13:30,Ilios,CSH,Adults,2,Chris
+09-Jan-19,13:30,KABURA TRAVEL,CSH,Adults,6,Francis
+09-Jan-19,13:30,KABURA TRAVEL,CSH,Adults,6,Francis
+09-Jan-19,15:00,CITA,CSH,Adults,16,Chloe
+09-Jan-19,15:00,CITA,CSH,Children,1,Chloe
+09-Jan-19,15:00,Private,CSH,Adults,1,
+09-Jan-19,15:00,SA Magic,EFT,Adults,39,Cathrine
+09-Jan-19,16:00,SA Magic,EFT,Adults,41,Sunny
+09-Jan-19,16:00,SA Magic,EFT,Adults,39,Richard
+10-Jan-19,08:45,Cape Style Tours,CSH,Adults,2,Chris
+10-Jan-19,08:45,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,8,Claudio
+10-Jan-19,08:45,SA Magic,EFT,Adults,38,Evan
+10-Jan-19,08:45,SA Magic,EFT,Children,1,Evan
+10-Jan-19,08:45,SA Magic,EFT,Adults,38,Wenjia
+10-Jan-19,08:45,Springbok Atlas,CSH,Adults,2,Norman
+10-Jan-19,09:30,African Eagle,CSH,Adults,6,Chris
+10-Jan-19,09:30,African touch tours,CSH,Adults,3,John
+10-Jan-19,09:30,HOTSPOTS 2C,CSH,Adults,3,Gerhard
+10-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,9,Marcon
+10-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,Paola
+10-Jan-19,09:30,Jaret Tours,CSH,Adults,6,James
+10-Jan-19,09:30,Mile By Mile Tours,CSH,Adults,4,James
+10-Jan-19,09:30,Natasha Tours,CSH,Adults,2,Natasha
+10-Jan-19,09:30,OSCAR TOURS,CSH,Adults,40,JOSEPH
+10-Jan-19,09:30,OSCAR TOURS,CSH,Children,10,JOSEPH
+10-Jan-19,09:30,SA Magic,EFT,Adults,19,Ying
+10-Jan-19,10:15,Africa Tour Story,VCH,Adults,20,
+10-Jan-19,10:15,Africa Tour Story,VCH,Adults,20,
+10-Jan-19,10:15,Africa Tour Story,VCH,Adults,8,Sunny
+10-Jan-19,10:15,Compass Travel,CSH,Adults,11,Fazlie
+10-Jan-19,10:15,Private,CSH,Adults,8,
+10-Jan-19,15:00,CITA,CSH,Adults,15,Eddy
+10-Jan-19,15:00,K.K.K Travel,CSH,Adults,2,Percy
+10-Jan-19,15:00,SA Magic,EFT,Adults,43,Sam
+11-Jan-19,08:45,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,Claudio
+11-Jan-19,08:45,Nauticat,CSH,Adults,7,
+11-Jan-19,08:45,ORDO Tours,PRPD,Adults,15,Shireen
+11-Jan-19,08:45,ORDO Tours,EFT,Adults,9,John
+11-Jan-19,08:45,Private,CSH,Adults,4,
+11-Jan-19,08:45,T.T.C,CSH,Adults,3,Jacques
+11-Jan-19,09:30,Africa Tour Story,VCH,Adults,20,
+11-Jan-19,09:30,African Eagle,CSH,Adults,9,Chris
+11-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Children,1,Michael
+11-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,6,Michael
+11-Jan-19,09:30,Meljo,CSH,Adults,2,Joepie
+11-Jan-19,09:30,Private,CSH,Adults,2,
+11-Jan-19,09:30,Private,CSH,Adults,1,
+11-Jan-19,09:30,Private,CSH,Adults,2,
+11-Jan-19,09:30,Private,CSH,Adults,2,
+11-Jan-19,09:30,TOURISM THAT CARES,VCH,Adults,23,Luis
+11-Jan-19,09:30,TOURISM THAT CARES,VCH,Children,1,Luis
+11-Jan-19,10:15,AC Tours,CSH,Adults,12,Kevin
+11-Jan-19,10:15,Africa Tour Story,VCH,Adults,20,
+11-Jan-19,10:15,CITA,CSH,Adults,15,Chloe
+11-Jan-19,10:15,Garry Taxi ,CSH,Adults,2,Garry
+11-Jan-19,10:15,Private,CSH,Adults,2,
+11-Jan-19,10:15,Private,CSH,Adults,4,
+11-Jan-19,11:45,Africa Incoming (Pty) Ltd,VCH,Adults,2,Ridiwaan
+11-Jan-19,11:45,Springbok Atlas,VCH,Adults,10,Mongezi
+11-Jan-19,11:45,Yellow Tours,CSH,Children,1,Victor
+11-Jan-19,11:45,Yellow Tours,CSH,Adults,2,Victor
+11-Jan-19,15:00,HOTSPOTS 2C,CSH,Adults,4,(Office) Tyla-Rae
+11-Jan-19,15:00,LAL Language Centre,CSH,Children,13,Charles
+11-Jan-19,15:00,LAL Language Centre,CSH,Adults,2,Charles
+11-Jan-19,15:00,SA Magic,EFT,Adults,10,Alex
+11-Jan-19,15:00,Travcare Holidays,VCH,Adults,4,Randall
+12-Jan-19,08:45,Freelance Guides,CSH,Adults,33,Sharon
+12-Jan-19,08:45,SA Time,CSH,Adults,18,Andy
+12-Jan-19,08:45,SAFPOL SAFARIS (Pty) Ltd,PRPD,Adults,26,Karen
+12-Jan-19,09:30,African Eagle,CSH,Adults,5,Chris
+12-Jan-19,09:30,African Pride Tours,VCH,Children,6,Rafael
+12-Jan-19,09:30,African Pride Tours,VCH,Adults,8,Rafael
+12-Jan-19,09:30,Day Trippers,CSH,Adults,10,Sele
+12-Jan-19,09:30,Private,CSH,Adults,2,
+12-Jan-19,09:30,Private,CSH,Adults,4,
+12-Jan-19,09:30,Private,CSH,Adults,2,
+12-Jan-19,09:30,Quality Touring,VCH,Adults,1,Natalia
+12-Jan-19,09:30,Travcare Holidays,VCH,Adults,4,Randall
+12-Jan-19,10:15,CITA,CSH,Adults,8,Leo
+12-Jan-19,10:15,Private,CSH,Adults,6,
+12-Jan-19,10:15,SA Time,CSH,Adults,16,Boli
+12-Jan-19,10:15,U2 Africa Travel,CSH,Adults,9,Leonard
+12-Jan-19,10:15,U2 Africa Travel,CSH,Adults,11,Noland
+12-Jan-19,11:30,Gem Tours & Travel,CSH,Adults,22,Narif
+12-Jan-19,11:30,Gem Tours & Travel,CSH,Children,2,Narif
+12-Jan-19,11:30,Private,CSH,Adults,8,
+12-Jan-19,11:30,Private,CSH,Children,2,
+12-Jan-19,11:30,Private,CSH,Adults,2,
+12-Jan-19,11:30,Tourvest Destination Management,VCH,Adults,45,DAWID
+12-Jan-19,13:30,CITA,CSH,Adults,15,Wei
+12-Jan-19,13:30,Compass Travel,CSH,Adults,7,Fazlie
+12-Jan-19,13:30,Private,CSH,Adults,7,
+12-Jan-19,13:30,SA Magic,EFT,Adults,19,Kathy
+12-Jan-19,13:30,V2 Travels (Pty) Ltd,EFT,Adults,4,Agmat
+12-Jan-19,15:00,Cassiem Taxi,CSH,Adults,2,Cassiem
+12-Jan-19,15:00,CITA,CSH,Adults,13,Kevin
+12-Jan-19,15:00,Private,CSH,Adults,4,
+12-Jan-19,15:00,Unicab,CSH,Adults,3,Jamiel
+13-Jan-19,08:45,HOTSPOTS 2C,PRPD,Students,9,JP
+13-Jan-19,08:45,Nauticat,CSH,Adults,7,
+13-Jan-19,09:30,Africa Incoming (Pty) Ltd,VCH,Adults,2,Yasien
+13-Jan-19,09:30,Africa Tour Story,VCH,Adults,26,Mr
+13-Jan-19,09:30,Brian Tours,CSH,Adults,2,Brian
+13-Jan-19,09:30,CASUAL BOOKINGS,CSH,Adults,2,
+13-Jan-19,09:30,Day Trippers,CSH,Adults,2,Pedro
+13-Jan-19,09:30,Fabulous Tours,CSH,Adults,3,Shauibe
+13-Jan-19,09:30,GAP Tours,CSH,Adults,1,Tertius
+13-Jan-19,09:30,Hylton Ross Exclusive Touring,VCH,Adults,3,
+13-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,5,Grant
+13-Jan-19,09:30,Ilios,CSH,Adults,8,Desmond
+13-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,Marina
+13-Jan-19,09:30,Kuoni Private Safaris (Pty) Ltd,VCH,Children,4,Charlton
+13-Jan-19,09:30,Kuoni Private Safaris (Pty) Ltd,VCH,Adults,4,Charlton
+13-Jan-19,10:15,Africa Tour Story,VCH,Adults,11,Lee 
+13-Jan-19,10:15,African Eagle,CSH,Adults,8,Didia
+13-Jan-19,10:15,African Eagle,CSH,Adults,6,Cas
+13-Jan-19,10:15,Ashantlee Charter & Tours,CSH,Adults,4,Lami
+13-Jan-19,10:15,CITY VIEW  CAPE TOWN,CSH,Adults,4,Esther
+13-Jan-19,11:30,CASUAL BOOKINGS,CSH,Adults,1,
+13-Jan-19,11:30,CASUAL BOOKINGS,CSH,Adults,3,
+13-Jan-19,13:45,Bloemendal Clinic,CSH,Adults,10,Anwar
+13-Jan-19,15:00,Edge Hotel,CSH,Adults,14,Charl
+13-Jan-19,15:00,SA Magic,EFT,Adults,19,Ning
+13-Jan-19,15:00,WTA ,CSH,Adults,12,Hau
+13-Jan-19,15:00,WTA ,CSH,Children,1,Hau
+14-Jan-19,08:45,HOTSPOTS 2C,CSH,Adults,1,Nico
+14-Jan-19,08:45,SA Magic,EFT,Adults,29,Joyce
+14-Jan-19,09:30,Africa Tour Story,VCH,Adults,14,Miya
+14-Jan-19,09:30,Africa Tour Story,VCH,Adults,20,
+14-Jan-19,09:30,African Eagle,CSH,Adults,9,Chris
+14-Jan-19,09:30,CITA,CSH,Adults,6,Ming
+14-Jan-19,09:30,SA Magic,EFT,Adults,15,Linda
+14-Jan-19,10:15,Africa Incoming (Pty) Ltd,VCH,Children,1,Ridiwaan
+14-Jan-19,10:15,Africa Incoming (Pty) Ltd,VCH,Adults,7,Ridiwaan
+14-Jan-19,10:15,Africa Tour Story,VCH,Adults,21,Sunny
+14-Jan-19,10:15,CITY VIEW  CAPE TOWN,EFT,Adults,3,Esther
+14-Jan-19,10:15,Freelance Guides,CSH,Adults,2,Sydney
+14-Jan-19,10:15,FRESH HOLIDAY,CSH,Adults,3,LUKE
+14-Jan-19,10:15,Hylton Ross Exclusive Touring,CSH,Adults,5,Kabelo
+14-Jan-19,10:15,SKYRIM TRAVEL AFRICA (PTY) LTD,CSH,Adults,18,Wayne
+15-Jan-19,08:45,GREEN VOYAGES,PRPD,Adults,41,Lionel
+15-Jan-19,08:45,SA Magic,EFT,Adults,28,Joey
+15-Jan-19,08:45,SA Time,CSH,Adults,17,Cindy
+15-Jan-19,08:45,SA Time,CSH,Children,1,Cindy
+15-Jan-19,08:45,SONA,CSH,Adults,2,BARRE
+15-Jan-19,08:45,Travcare Holidays,VCH,Adults,4,Shafiek
+15-Jan-19,09:30,Africa Gazago,CSH,Adults,16,Lee
+15-Jan-19,09:30,African Diamond Tours & Incent,VCH,Adults,23,WILMA
+15-Jan-19,09:30,African Eagle,CSH,Adults,2,Noreen
+15-Jan-19,09:30,Day Trippers,CSH,Adults,6,Sele
+15-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,4,Kabelo
+15-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,Sandro
+15-Jan-19,09:30,Long Travel,CSH,Adults,3,Ady
+15-Jan-19,09:30,SCA Tours,CSH,Adults,29,ANDRE
+15-Jan-19,10:15,Africa Incoming (Pty) Ltd,VCH,Adults,4,Wisdom
+15-Jan-19,10:15,Africa Incoming (Pty) Ltd,VCH,Children,2,Wisdom
+15-Jan-19,10:15,Asian Sun,CSH,Adults,14,Kim
+15-Jan-19,10:15,Cape Tours,CSH,Adults,2,CHUNG
+15-Jan-19,10:15,Freelance Guides,CSH,Adults,2,JONATHAN
+15-Jan-19,10:15,Freelance Guides,CSH,Children,2,JONATHAN
+15-Jan-19,10:15,Long Travel,CSH,Adults,3,Ady
+15-Jan-19,10:15,National Express,CSH,Adults,2,MJ
+15-Jan-19,10:15,SA Time,CSH,Adults,19,Ada
+15-Jan-19,10:15,SA Time,CSH,Children,2,Phil
+15-Jan-19,10:15,SA Time,CSH,Adults,17,Phil
+15-Jan-19,10:15,Top Travel,CSH,Adults,2,LEON
+15-Jan-19,10:15,WTA ,CSH,Adults,21,Yvonne
+15-Jan-19,12:00,Excite Taxis,CSH,Adults,2,Ismail
+15-Jan-19,12:00,Excite Taxis,CSH,Adults,3,Ivan
+15-Jan-19,12:00,Faste Travel,CSH,Adults,3,Farmanali
+15-Jan-19,12:00,Freelance Guides,CSH,Adults,2,Michelle
+15-Jan-19,12:00,Freelance Guides,CSH,Adults,2,Gillian
+15-Jan-19,14:00,CITA,CSH,Adults,19,Kevin
+15-Jan-19,14:00,Gem Tours & Travel,CSH,Adults,1,Jasper
+15-Jan-19,14:00,Springbok Atlas,VCH,Adults,2,Self drive
+15-Jan-19,15:00,CITA,CSH,Adults,19,Chloe
+15-Jan-19,15:00,SA Magic,EFT,Adults,15,Daniel
+15-Jan-19,15:00,SA Magic,EFT,Adults,19,Eddy
+15-Jan-19,15:00,WTA ,CSH,Adults,19,Jason
+15-Jan-19,15:00,WTA ,CSH,Adults,19,Wendy
+16-Jan-19,08:45,Jensen Safaris,VCH,Adults,30,
+16-Jan-19,09:30,African Blue,CSH,Adults,2,Duncan
+16-Jan-19,09:30,African Eagle,CSH,Adults,7,Chris
+16-Jan-19,09:30,Freelance Guides,CSH,Adults,2,Abdul
+16-Jan-19,09:30,Freelance Guides,CSH,Adults,2,Jonathan
+16-Jan-19,09:30,Hylton Ross Exclusive Touring,VCH,Adults,9,Ben
+16-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,9,Carmia
+16-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,Fiorella
+16-Jan-19,09:30,MPUM: ta Quality Touring Services,VCH,Adults,2,Kevin
+16-Jan-19,09:30,SKYRIM TRAVEL AFRICA (PTY) LTD,CSH,Adults,24,Ben
+16-Jan-19,09:30,Tour D'Afrique,CSH,Adults,4,Karin
+16-Jan-19,10:15,Africa Tour Story,VCH,Adults,20,
+16-Jan-19,10:15,African Pride Tours,VCH,Adults,4,Claudia
+16-Jan-19,10:15,CITA,CSH,Adults,11,Cindy
+16-Jan-19,10:15,Freelance Guides,CSH,Adults,3,Lorenzo
+16-Jan-19,10:15,Freelance Guides,CSH,Adults,2,Olga
+16-Jan-19,10:15,Freelance Guides,CSH,Adults,2,Suleiman
+16-Jan-19,10:15,Private,CSH,Adults,2,cora
+16-Jan-19,10:15,SA Magic,EFT,Adults,14,Wendy
+16-Jan-19,10:15,Vacanza Tours,CSH,Adults,2,Jose
+16-Jan-19,12:00,CITA,CSH,Adults,9,Ming
+17-Jan-19,08:45,CITA,CSH,Adults,9,Edward
+17-Jan-19,08:45,EXOTIC TRAVEL,CSH,Adults,3,Jill
+17-Jan-19,08:45,Freelance Guides,CSH,Adults,1,Gavin
+17-Jan-19,08:45,SA Magic,EFT,Adults,19,
+17-Jan-19,08:45,SA Magic,EFT,Adults,19,
+17-Jan-19,08:45,SA Magic,EFT,Adults,24,
+17-Jan-19,08:45,SA Magic,EFT,Adults,16,Andy
+17-Jan-19,09:30,Africa Gazago,CSH,Adults,7,Ludy
+17-Jan-19,09:30,Day Trippers,CSH,Adults,4,Sele
+17-Jan-19,09:30,Freelance Guides,CSH,Adults,2,Antonello
+17-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,4,Carmia
+17-Jan-19,09:30,Oxford class tours,CSH,Children,2,Shameer
+17-Jan-19,09:30,Oxford class tours,CSH,Adults,3,Shameer
+17-Jan-19,09:30,Ronelle Cooper Tours,CSH,Adults,1,Ronelle
+17-Jan-19,09:30,SA Magic,EFT,Adults,38,SUNNY
+17-Jan-19,09:30,SA Magic,EFT,Adults,19,
+17-Jan-19,10:15,Africa Incoming (Pty) Ltd,VCH,Children,1,Ebrahim
+17-Jan-19,10:15,Africa Incoming (Pty) Ltd,VCH,Adults,3,Ebrahim
+17-Jan-19,10:15,Asian Sun,CSH,Adults,23,Lee
+17-Jan-19,10:15,CASUAL BOOKINGS,COMP,Children,1,
+17-Jan-19,10:15,CASUAL BOOKINGS,COMP,Adults,2,
+17-Jan-19,10:15,Freelance Guides,CSH,Adults,2,Leon
+17-Jan-19,10:15,Freelance Guides,CSH,Adults,2,Jongbe
+17-Jan-19,10:15,Gem Tours & Travel,CSH,Adults,10,Joel
+17-Jan-19,10:15,Gilbot Travel,CSH,Adults,13,Jung
+17-Jan-19,10:15,Sharon Africa Travel (Pty) Ltd.,CSH,Adults,2,Sharon
+17-Jan-19,10:15,Sharon Africa Travel (Pty) Ltd.,CSH,Children,1,Sharon
+17-Jan-19,10:15,The Silhouette Shuttle,CSH,Adults,1,Rodney
+17-Jan-19,10:15,WTA ,CSH,Adults,1,Kai
+17-Jan-19,10:15,Xenon Travel,CSH,Adults,7,Stephan
+17-Jan-19,11:45,Jaap Travels,PRPD,Adults,4,Salie
+17-Jan-19,11:45,Khashamongo,CSH,Adults,4,Robert
+17-Jan-19,11:45,Travcare Holidays,VCH,Adults,2,Nur
+17-Jan-19,15:00,CITA,CSH,Children,1,Wong
+17-Jan-19,15:00,CITA,CSH,Adults,17,Wong
+17-Jan-19,15:00,Freelance Guides,CSH,Adults,2,Deon
+17-Jan-19,15:00,SA Time,CSH,Adults,23,Boli
+17-Jan-19,15:00,Tourvest Destination Management,VCH,Adults,1,
+18-Jan-19,08:00,ORDO Tours,PRPD,Adults,28,Gavin
+18-Jan-19,08:45,Cullinan,CSH,Adults,11,Phillip
+18-Jan-19,08:45,Egoli,PRPD,Adults,24,Omar
+18-Jan-19,08:45,Hylton Ross Exclusive Touring,VCH,Adults,3,Zet
+18-Jan-19,08:45,SA Magic,EFT,Adults,19,
+18-Jan-19,08:45,Windward Coach CC,CSH,Adults,20,Anthony 
+18-Jan-19,09:30,CITA,CSH,Adults,15,Kevin
+18-Jan-19,09:30,CITY VIEW  CAPE TOWN,EFT,Adults,2,Esther
+18-Jan-19,09:30,Day Trippers,CSH,Adults,7,Pedro
+18-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,7,Carmia
+18-Jan-19,09:30,Hylton Ross Exclusive Touring,VCH,Adults,2,Carmia
+18-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,Marina
+18-Jan-19,09:30,MPUM: ta Quality Touring Services,VCH,Adults,2,Kevin
+18-Jan-19,09:30,MPUM: ta Quality Touring Services,VCH,Adults,2,Kevin
+18-Jan-19,09:30,Private,CSH,Adults,8,
+18-Jan-19,09:30,SAFPOL SAFARIS (Pty) Ltd,PRPD,Adults,3,Danuta
+18-Jan-19,10:15,Africa Incoming (Pty) Ltd,VCH,Adults,2,Ebrahim
+18-Jan-19,10:15,Ashantlee Charter & Tours,CSH,Adults,2,Roger
+18-Jan-19,10:15,Ashantlee Charter & Tours,CSH,Adults,2,Farouk
+18-Jan-19,10:15,CITA,CSH,Adults,15,Kevin
+18-Jan-19,10:15,Holiday Experts,CSH,Adults,14,Bashier
+18-Jan-19,10:15,KABURA TRAVEL,CSH,Adults,2,Gavin
+18-Jan-19,10:15,Tour Africa,CSH,Adults,4,Park
+18-Jan-19,10:15,Tour Africa,CSH,Children,1,Park
+18-Jan-19,10:15,V2 Travels (Pty) Ltd,EFT,Children,2,Yusuf
+18-Jan-19,10:15,V2 Travels (Pty) Ltd,EFT,Adults,25,Yusuf
+18-Jan-19,11:10,Africa Tour Story,VCH,Adults,11,Lee 
+18-Jan-19,11:10,Ashantlee Charter & Tours,CSH,Adults,2,Lami
+18-Jan-19,11:10,CASUAL BOOKINGS,CSH,Adults,2,
+18-Jan-19,11:10,CASUAL BOOKINGS,CSH,Adults,4,
+18-Jan-19,11:10,Springbok Atlas,VCH,Adults,37,Shai. 1st No
+18-Jan-19,15:00,CITA,CSH,Adults,13,Jessica
+18-Jan-19,15:00,RK Tours,CSH,Adults,2,Rameer
+18-Jan-19,15:00,SA Time,CSH,Adults,5,Rebecca
+18-Jan-19,16:00,Captain Jack,COMP,Adults,8,James
+18-Jan-19,16:00,Captain Jack,COMP,Children,10,James
+18-Jan-19,16:00,SA Time,CSH,Adults,18,Johnathan
+18-Jan-19,16:00,SA Time,CSH,Adults,15,Li
+18-Jan-19,16:00,Thompsons Africa,CSH,Children,2,Anita
+18-Jan-19,16:00,Thompsons Africa,CSH,Adults,2,Anita
+18-Jan-19,17:00,PRIVATE CHARTERS,PRPD,Adults,51,
+19-Jan-19,08:45,ATC,CSH,Adults,23,Brian
+19-Jan-19,08:45,SA Magic,EFT,Adults,19,
+19-Jan-19,08:45,SA Magic,EFT,Adults,9,Erica
+19-Jan-19,08:45,SA Time,CSH,Adults,19,Ada
+19-Jan-19,08:45,SA Time,CSH,Children,1,Cindy
+19-Jan-19,08:45,SA Time,CSH,Adults,16,Cindy
+19-Jan-19,09:30,African Eagle,CSH,Adults,9,Chris
+19-Jan-19,09:30,CITA,CSH,Adults,10,Michelle
+19-Jan-19,09:30,Day Trippers,CSH,Adults,6,Bill
+19-Jan-19,09:30,Freelance Guides,CSH,Children,1,Wenjia
+19-Jan-19,09:30,Freelance Guides,CSH,Adults,2,Wenjia
+19-Jan-19,09:30,Freelance Guides,CSH,Adults,2,Joepie
+19-Jan-19,09:30,Hylton Ross Exclusive Touring,VCH,Adults,3,Marcon
+19-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,7,Fiorella
+19-Jan-19,09:30,Springbok Atlas,CSH,Adults,4,Faizel
+19-Jan-19,10:15,Africa Gazago,CSH,Adults,12,Ludy
+19-Jan-19,10:15,Freelance Guides,CSH,Adults,2,Ali
+19-Jan-19,10:15,Freelance Guides,CSH,Adults,2,Dumisani
+19-Jan-19,10:15,Freelance Guides,CSH,Adults,10,Han
+19-Jan-19,10:15,Freelance Guides,CSH,Adults,4,Mark
+19-Jan-19,10:15,Jared Tours,CSH,Adults,2,Rafiq
+19-Jan-19,10:15,Southern Africa 360,PRPD,Adults,3,
+19-Jan-19,10:15,Table Bay Hotel,CSH,Adults,3,Gideon
+19-Jan-19,10:15,Table Bay Hotel,CSH,Children,2,Gideon
+19-Jan-19,10:15,Top Travel,CSH,Adults,1,Danny
+19-Jan-19,10:15,U2 Africa Travel,CSH,Adults,13,Leonard
+19-Jan-19,11:45,2 MA Transport,CSH,Adults,3,Neville
+19-Jan-19,11:45,BUCKETLIST AFRICA,CSH,Adults,2,Nolene
+19-Jan-19,11:45,BUCKETLIST AFRICA,CSH,Children,1,Nolene
+19-Jan-19,11:45,Compass Travel,CSH,Adults,11,Fazlie
+19-Jan-19,11:45,Explore Africa,CSH,Children,2,Mohamed
+19-Jan-19,11:45,Explore Africa,CSH,Adults,2,Mohamed
+19-Jan-19,11:45,Freelance Guides,CSH,Adults,1,Claudio
+19-Jan-19,11:45,Freelance Guides,CSH,Adults,2,Marek
+19-Jan-19,13:45,SA Time,CSH,Adults,17,Andy
+19-Jan-19,15:30,CITA,CSH,Adults,10,Erick
+19-Jan-19,15:30,Freelance Guides,CSH,Adults,10,Kadi
+19-Jan-19,15:30,Freelance Guides,CSH,Children,2,Kadi
+19-Jan-19,15:30,Hylton Ross Exclusive Touring,CSH,Adults,10,Zet
+19-Jan-19,15:30,Oxford English Academy,PRPD,Adults,9,Michael
+19-Jan-19,15:30,Oxford English Academy,PRPD,Students,38,Michael
+20-Jan-19,08:45,Africa Tour Story,VCH,Adults,13,Sunny
+20-Jan-19,08:45,Edge Marketing,CSH,Adults,28,Andre
+20-Jan-19,08:45,SA Magic,EFT,Adults,19,
+20-Jan-19,08:45,Springbok Atlas,CSH,Adults,6,Asfraaf
+20-Jan-19,08:45,Travel This Is Africa,CSH,Adults,19,Kevin
+20-Jan-19,09:30,Africa Tour Story,VCH,Adults,23,Kim
+20-Jan-19,09:30,Asian Sun,COMP,Adults,4,Ben
+20-Jan-19,09:30,CITY VIEW  CAPE TOWN,PRPD,Adults,20,Esther
+20-Jan-19,09:30,MPUM: ta Quality Touring Services,VCH,Adults,2,Clive
+20-Jan-19,09:30,Private,CSH,Adults,7,
+20-Jan-19,09:30,Private,CSH,Adults,5,
+20-Jan-19,09:30,Private,CSH,Adults,2,
+20-Jan-19,09:30,Unicab,CSH,Adults,3,Erick
+20-Jan-19,09:30,WTA ,CSH,Adults,15,Yvonne
+20-Jan-19,10:15,Africa Tour Story,VCH,Adults,11,Miya
+20-Jan-19,10:15,Africa Tour Story,VCH,Adults,11,Lee
+20-Jan-19,10:15,Amazing Shuttles,CSH,Adults,2,Anwan
+20-Jan-19,10:15,KABURA TRAVEL,CSH,Adults,10,Francious
+20-Jan-19,10:15,Private,CSH,Adults,8,
+20-Jan-19,10:15,Private,CSH,Adults,7,
+20-Jan-19,10:15,Private,CSH,Adults,2,
+20-Jan-19,10:15,SKYRIM TRAVEL AFRICA (PTY) LTD,CSH,Adults,11,Wayne
+20-Jan-19,10:15,Windward Coach CC,COMP,Adults,2,Warren
+20-Jan-19,11:45,Private,CSH,Adults,7,
+20-Jan-19,11:45,Private,CSH,Adults,4,
+20-Jan-19,11:45,Private,CSH,Adults,6,
+20-Jan-19,11:45,Private,CSH,Children,3,
+20-Jan-19,11:45,Private,CSH,Adults,4,
+20-Jan-19,11:45,Travcare Holidays,VCH,Adults,4,Saliem
+20-Jan-19,13:45,CASUAL BOOKINGS,COMP,Adults,17,
+20-Jan-19,13:45,Private,CSH,Adults,3,
+20-Jan-19,13:45,SA Time,CSH,Adults,11,Rebecca
+20-Jan-19,13:45,Travcare Holidays,VCH,Adults,4,Saliem
+20-Jan-19,15:00,CITA,CSH,Adults,9,Isa
+20-Jan-19,15:00,CITA,CSH,Children,2,Isa
+20-Jan-19,15:00,CITA,CSH,Adults,11,Vitas
+20-Jan-19,15:00,Private,CSH,Adults,7,
+20-Jan-19,16:00,Ashantlee Charter & Tours,CSH,Adults,5,Lami
+20-Jan-19,16:00,Springbok Atlas,VCH,Adults,42,Marshall
+21-Jan-19,08:45,Akilanga (Pty) Ltd,VCH,Adults,20,
+21-Jan-19,08:45,HOTSPOTS 2C,CSH,Adults,8,Ulrich
+21-Jan-19,09:30,Africa Tour Story,VCH,Adults,11,Lee
+21-Jan-19,09:30,African Blue,CSH,Adults,2,Duncan
+21-Jan-19,09:30,African Eagle,CSH,Adults,11,Kaz
+21-Jan-19,09:30,Day Trippers,CSH,Adults,4,Bill
+21-Jan-19,09:30,Distinctive Tours,CSH,Adults,4,Cyril
+21-Jan-19,09:30,Gate One,CSH,Adults,19,Desmond
+21-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,7,Nathaniel
+21-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Children,2,Nathaniel
+21-Jan-19,09:30,SA Longway International Promotion (Pty),PRPD,Children,1,Patrick
+21-Jan-19,09:30,SA Longway International Promotion (Pty),PRPD,Adults,13,Patrick
+21-Jan-19,09:30,Springbok Atlas,VCH,Adults,26,Farouk
+21-Jan-19,09:30,Unicab,CSH,Adults,3,Darrel
+21-Jan-19,10:15,Aero Travel Tours,VCH,Adults,19,Marta
+21-Jan-19,10:15,Africa Tour Story,VCH,Adults,16,Park
+21-Jan-19,10:15,CITA,CSH,Adults,9,Connie
+21-Jan-19,10:15,Elegant Country,CSH,Adults,2,Ivan
+21-Jan-19,10:15,Freelance Guides,CSH,Children,2,Moehamad
+21-Jan-19,10:15,Freelance Guides,CSH,Adults,2,Moehamad
+21-Jan-19,10:15,SA Lee Tours,CSH,Adults,2,Allan
+21-Jan-19,10:15,Springbok Atlas,VCH,Adults,2,Abdul
+21-Jan-19,10:15,V2 Travels (Pty) Ltd,EFT,Children,1,Toufeik
+21-Jan-19,10:15,V2 Travels (Pty) Ltd,EFT,Adults,32,Toufeik
+21-Jan-19,11:30,Drumbeat Charters,CSH,Adults,4,
+21-Jan-19,11:30,Gem Tours & Travel,CSH,Adults,16,Jeet
+21-Jan-19,11:30,Gem Tours & Travel,CSH,Adults,6,Elton
+21-Jan-19,11:30,Ilios,CSH,Adults,2,Ridwaan
+21-Jan-19,11:30,Mission for Africa,CSH,Adults,13,Joseph
+21-Jan-19,15:00,Travcare Holidays,VCH,Children,1,James
+21-Jan-19,15:00,Travcare Holidays,VCH,Adults,12,James
+21-Jan-19,15:00,Travcare Holidays,VCH,Adults,8,Randall
+21-Jan-19,15:00,WTA ,CSH,Adults,19,Haushi
+21-Jan-19,16:00,CITA,CSH,Adults,21,Chloe
+22-Jan-19,08:45,Ilios,CSH,Adults,7,Jorge
+22-Jan-19,08:45,Ilios,CSH,Children,1,Jorge
+22-Jan-19,08:45,SA Magic,EFT,Children,1,Evan
+22-Jan-19,08:45,SA Magic,EFT,Adults,12,Evan
+22-Jan-19,08:45,SA Magic,EFT,Adults,17,Sam
+22-Jan-19,08:45,SA Magic,EFT,Adults,18,Alex
+22-Jan-19,09:30,African Diamond Tours & Incent,VCH,Adults,14,Wilma
+22-Jan-19,09:30,African Dream Travel,PRPD,Adults,15,Cheung
+22-Jan-19,09:30,CITA,CSH,Adults,17,Cindy
+22-Jan-19,09:30,Freelance Guides,CSH,Adults,1,Moehamad
+22-Jan-19,09:30,Kenedara Tours,CSH,Adults,12,Ellie
+22-Jan-19,09:30,SA Magic,EFT,Adults,15,Richard
+22-Jan-19,09:30,SA Time,CSH,Adults,2,Jerry
+22-Jan-19,09:30,Thompsons Africa,CSH,Adults,5,Deon
+22-Jan-19,10:15,Africa Gazago,CSH,Adults,23,Lee
+22-Jan-19,10:15,Africa Tour Story,VCH,Adults,12,Mr
+22-Jan-19,10:15,Africa Tour Story,VCH,Adults,20,
+22-Jan-19,10:15,African Pride Tours,VCH,Adults,24,Ella
+22-Jan-19,10:15,African Pride Tours,VCH,Children,2,Ella
+22-Jan-19,10:15,African Pride Tours,VCH,Adults,12,Self Drive
+22-Jan-19,10:15,African Pride Tours,VCH,Children,2,Self Drive
+22-Jan-19,10:15,Charlo Tours,CSH,Adults,2,Salome
+22-Jan-19,10:15,KABURA TRAVEL,CSH,Adults,8,Felix
+22-Jan-19,10:15,Miola Safaris (Pty) Ltd,EFT,Adults,4,Harold
+22-Jan-19,10:15,T Tours,CSH,Adults,2,Tonic
+22-Jan-19,11:10,Asian Sun,CSH,Adults,12,Lee
+22-Jan-19,11:10,CITA,CSH,Adults,17,Kevin
+22-Jan-19,11:10,Compass Travel,CSH,Adults,12,Fazlie
+22-Jan-19,11:10,Gem Tours & Travel,CSH,Adults,18,
+22-Jan-19,11:10,SA Time,CSH,Children,2,Jeff
+22-Jan-19,11:10,SA Time,CSH,Adults,4,Jeff
+22-Jan-19,15:00,MPUM: ta Quality Touring Services,VCH,Adults,2,Carren
+22-Jan-19,15:00,WTA ,CSH,Adults,15,Wendy
+23-Jan-19,08:45,HOTSPOTS 2C,CSH,Adults,4,
+23-Jan-19,08:45,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,Claudio
+23-Jan-19,08:45,SA Magic,EFT,Adults,12,Joey
+23-Jan-19,08:45,SA Magic,EFT,Adults,17,Sunny
+23-Jan-19,08:45,SA Magic,EFT,Adults,12,Rio
+23-Jan-19,08:45,SA Magic,INV,Adults,12,Rio
+23-Jan-19,08:45,Springbok Atlas,CSH,Adults,6,Jade
+23-Jan-19,09:30,African Diamond Tours & Incent,VCH,Children,1,Tanzer
+23-Jan-19,09:30,African Diamond Tours & Incent,VCH,Adults,34,Tanzer
+23-Jan-19,09:30,African Eagle,CSH,Adults,4,Bruce
+23-Jan-19,09:30,Cape Tamna Travel,PRPD,Adults,18,Boo
+23-Jan-19,09:30,CITA,CSH,Adults,12,Leo
+23-Jan-19,09:30,Day Trippers,CSH,Adults,10,Pedro
+23-Jan-19,09:30,HOTSPOTS 2C,CSH,Adults,2,Ulrich
+23-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,4,Garth
+23-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,Paolo
+23-Jan-19,09:30,SOUTHERN DESTINATIONS,PRPD,Adults,18,Patrick
+23-Jan-19,09:30,WTA ,CSH,Adults,8,Peter
+23-Jan-19,10:15,CITA,CSH,Students,9,Edward
+23-Jan-19,10:15,Freelance Guides,CSH,Adults,2,Paul
+23-Jan-19,10:15,Freelance Guides,CSH,Adults,16,Louis
+23-Jan-19,10:15,Freelance Guides,CSH,Adults,4,Jose
+23-Jan-19,10:15,KABURA TRAVEL,CSH,Adults,4,Barnabas
+23-Jan-19,10:15,SAFPOL SAFARIS (Pty) Ltd,PRPD,Adults,10,Marek
+23-Jan-19,10:15,Southern Africa 360,PRPD,Adults,13,Havelyn
+23-Jan-19,10:15,Tour India,CSH,Adults,29,Mr Lee
+23-Jan-19,10:15,Unicab,CSH,Adults,2,Kelvin
+23-Jan-19,10:15,WTA ,CSH,Adults,4,Javy
+23-Jan-19,11:45,Africa Incoming (Pty) Ltd,VCH,Adults,4,Ebrahim
+23-Jan-19,11:45,CITA,CSH,Adults,3,Wong
+23-Jan-19,11:45,KABURA TRAVEL,CSH,Children,3,Santana
+23-Jan-19,11:45,KABURA TRAVEL,CSH,Adults,4,Santana
+23-Jan-19,14:00,SA Time,CSH,Adults,17,Rebecca
+23-Jan-19,15:30,WTA ,CSH,Children,2,Kai
+23-Jan-19,15:30,WTA ,CSH,Adults,16,Kai
+24-Jan-19,08:00,ORDO Tours,EFT,Adults,34,Shafiek
+24-Jan-19,08:45,CITA,CSH,Adults,26,Chloe
+24-Jan-19,08:45,ERM Tours (Pty) Ltd,FOC,Adults,4,Gwen
+24-Jan-19,08:45,Freelance Guides,CSH,Children,2,Francois
+24-Jan-19,08:45,Freelance Guides,CSH,Adults,2,Francois
+24-Jan-19,08:45,SA Magic,EFT,Adults,10,Andy
+24-Jan-19,08:45,SA Magic,EFT,Adults,19,
+24-Jan-19,08:45,SA Magic,EFT,Adults,19,
+24-Jan-19,08:45,SA Magic,EFT,Children,1,Cathrine
+24-Jan-19,08:45,SA Magic,EFT,Adults,14,Cathrine
+24-Jan-19,08:45,SA Time,CSH,Adults,19,Cindy
+24-Jan-19,09:30,African Blue,CSH,Adults,2,Percy
+24-Jan-19,09:30,African Diamond Tours & Incent,VCH,Adults,26,Wendelll
+24-Jan-19,09:30,Day Trippers,CSH,Adults,3,Bill
+24-Jan-19,09:30,Freelance Guides,CSH,Children,2,Stephan
+24-Jan-19,09:30,Freelance Guides,CSH,Adults,7,Stephan
+24-Jan-19,09:30,SA Time,CSH,Adults,16,Boli
+24-Jan-19,09:30,SKYRIM TRAVEL AFRICA (PTY) LTD,CSH,Adults,26,YING
+24-Jan-19,09:30,Table Bay Hotel,CSH,Adults,9,Abraham
+24-Jan-19,09:30,Table Bay Hotel,CSH,Children,1,Abraham
+24-Jan-19,10:15,Africa AFRICA,CSH,Adults,4,Andrew
+24-Jan-19,10:15,Africa Tour Story,VCH,Adults,20,
+24-Jan-19,10:15,Africa Tour Story,VCH,Adults,20,
+24-Jan-19,10:15,Cape Tamna Travel,CSH,Adults,20,Boo
+24-Jan-19,10:15,CITA,CSH,Children,2,Michelle
+24-Jan-19,10:15,CITA,CSH,Adults,13,Michelle
+24-Jan-19,10:15,Gem Tours & Travel,CSH,Adults,8,Jacque
+24-Jan-19,10:15,Kuoni Private Safaris (Pty) Ltd,VCH,Adults,2,Charlton
+24-Jan-19,10:15,Travcare Holidays,VCH,Children,2,Abdul
+24-Jan-19,10:15,Travcare Holidays,VCH,Adults,30,Abdul
+24-Jan-19,11:10,Asian Sun,CSH,Adults,20,Kim
+24-Jan-19,11:10,Carat Tours,CSH,Adults,2,Natalia
+24-Jan-19,11:10,CITA,CSH,Adults,17,Kevin
+24-Jan-19,11:10,Golden Bell,CSH,Adults,2,Choi
+24-Jan-19,11:10,Home to Home,CSH,Adults,2,Tony
+24-Jan-19,11:10,IVENTURE,PRPD,Adults,3,
+24-Jan-19,11:10,Miola Safaris (Pty) Ltd,EFT,Adults,42,Karl
+24-Jan-19,11:10,Ultimate travel,CSH,Adults,2,Gavin
+24-Jan-19,11:10,Ultimate travel,CSH,Children,1,Gavin
+24-Jan-19,15:00,AC Tours,CSH,Adults,13,Mei
+24-Jan-19,15:00,CITA,CSH,Adults,13,Isa
+24-Jan-19,15:00,CITA,CSH,Children,1,Isa
+24-Jan-19,15:00,SA Time,CSH,Adults,13,Ning
+25-Jan-19,08:00,ORDO Tours,INV,Adults,31,
+25-Jan-19,08:45,CITA,CSH,Adults,18,Ming
+25-Jan-19,08:45,Hylton Ross Exclusive Touring,VCH,Adults,9,Michael
+25-Jan-19,08:45,ROZIGAL TOURS,CSH,Adults,2,Elaine
+25-Jan-19,08:45,SA Magic,EFT,Adults,24,
+25-Jan-19,08:45,SA Magic,EFT,Children,2,Shaun
+25-Jan-19,08:45,SA Magic,EFT,Adults,14,Shaun
+25-Jan-19,08:45,SA Magic,EFT,Children,2,Joyce
+25-Jan-19,08:45,SA Magic,EFT,Adults,26,Joyce
+25-Jan-19,09:30,African Diamond Tours & Incent,VCH,Adults,25,Colleen
+25-Jan-19,09:30,African Diamond Tours & Incent,VCH,Children,1,Colleen
+25-Jan-19,09:30,CITY VIEW  CAPE TOWN,PRPD,Adults,17,Esther
+25-Jan-19,09:30,Freelance Guides,CSH,Adults,2,Grace
+25-Jan-19,09:30,Freelance Guides,CSH,Adults,2,Enrico
+25-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,5,Salome
+25-Jan-19,09:30,SA Longway International Promotion (Pty),PRPD,Adults,4,Dom
+25-Jan-19,09:30,SA Time,CSH,Adults,19,Kevin
+25-Jan-19,09:30,Thompsons Africa,CSH,Adults,2,Anita
+25-Jan-19,09:30,Thompsons Africa,CSH,Children,2,Anita
+25-Jan-19,09:30,TOURISM THAT CARES,VCH,Adults,25,
+25-Jan-19,09:30,Windchester,CSH,Adults,1,Shaheed
+25-Jan-19,09:30,WTA ,CSH,Adults,12,Hau
+25-Jan-19,10:15,Freelance Guides,CSH,Adults,8,Wayne
+25-Jan-19,10:15,Freelance Guides,CSH,Adults,7,Alino
+25-Jan-19,10:15,KABURA TRAVEL,CSH,Adults,3,Jahaad
+25-Jan-19,10:15,KABURA TRAVEL,CSH,Adults,2,Stephan
+25-Jan-19,10:15,Miola Safaris (Pty) Ltd,EFT,Adults,35,Harold
+25-Jan-19,10:15,Private,CSH,Adults,4,Nadeem
+25-Jan-19,10:15,QC TROURS,CSH,Adults,11,John
+25-Jan-19,15:00,Africa Tour Story,VCH,Adults,9,Mr
+25-Jan-19,15:00,Freelance Guides,CSH,Adults,5,Phil
+25-Jan-19,15:00,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,Juliano
+25-Jan-19,15:00,KABURA TRAVEL,CSH,Children,1,Francis
+25-Jan-19,15:00,KABURA TRAVEL,CSH,Adults,4,Francis
+25-Jan-19,15:00,KABURA TRAVEL,CSH,Adults,4,Armand
+25-Jan-19,15:00,L.E.L.E. School,CSH,Adults,2,Kyle
+25-Jan-19,15:00,L.E.L.E. School,CSH,Children,3,Kyle
+25-Jan-19,15:00,SA Magic,EFT,Children,1,Wendy
+25-Jan-19,15:00,SA Magic,EFT,Adults,15,Wendy
+25-Jan-19,15:00,WTA ,CSH,Adults,18,Jason
+26-Jan-19,08:45,Akilanga (Pty) Ltd,VCH,Adults,20,Jean-Blaise
+26-Jan-19,08:45,Connect Travel,CSH,Adults,5,Eon
+26-Jan-19,08:45,Day Trippers,CSH,Adults,2,Bill
+26-Jan-19,08:45,Ilios,CSH,Adults,4,Sharief
+26-Jan-19,08:45,SA Magic,EFT,Adults,19,
+26-Jan-19,08:45,SA Magic,EFT,Adults,19,
+26-Jan-19,08:45,SA Time,CSH,Children,4,Helen
+26-Jan-19,08:45,SA Time,CSH,Adults,15,Helen
+26-Jan-19,09:30,CASUAL BOOKINGS,CSH,Adults,3,
+26-Jan-19,09:30,Drumbeat Charters,CSH,Adults,5,
+26-Jan-19,09:30,Freelance Guides,CSH,Adults,2,Michael
+26-Jan-19,09:30,Freelance Guides,CSH,Adults,7,Andrew
+26-Jan-19,09:30,Freelance Guides,CSH,Adults,6,Rory
+26-Jan-19,09:30,Freelance Guides,CSH,Adults,2,Rong
+26-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,10,Donovan
+26-Jan-19,09:30,MPUM: ta Quality Touring Services,VCH,Adults,2,Coreen
+26-Jan-19,09:30,Private,CSH,Adults,2,
+26-Jan-19,09:30,Southern Africa 360,PRPD,Adults,2,Nigel
+26-Jan-19,09:30,Thompsons Africa,CSH,Adults,2,Anita
+26-Jan-19,09:30,Thompsons Africa,CSH,Children,2,Anita
+26-Jan-19,09:30,Tourvest Destination Management,CSH,Adults,12,Fritz
+26-Jan-19,09:30,Unicab,CSH,Adults,4,Didi
+26-Jan-19,10:15,Africa Incoming (Pty) Ltd,VCH,Adults,4,Ebrahim
+26-Jan-19,10:15,Cape Town Golden bell,CSH,Adults,1,Min
+26-Jan-19,10:15,Cape Town Golden bell,CSH,Children,9,Min
+26-Jan-19,10:15,CASUAL BOOKINGS,CSH,Adults,2,
+26-Jan-19,10:15,Freelance Guides,CSH,Adults,3,Chong
+26-Jan-19,10:15,Freelance Guides,CSH,Adults,4,James
+26-Jan-19,10:15,Freelance Guides,CSH,Adults,4,Ngaliam
+26-Jan-19,10:15,Freelance Guides,CSH,Adults,2,Rosina
+26-Jan-19,10:15,FRESH HOLIDAY,CSH,Adults,2,Sunny Man
+26-Jan-19,10:15,KABURA TRAVEL,CSH,Adults,2,Danson
+26-Jan-19,10:15,Peter Tours,CSH,Adults,4,Lindelwa
+26-Jan-19,11:10,Freelance Guides,CSH,Adults,5,Ebrahim
+26-Jan-19,11:10,Freelance Guides,CSH,Adults,9,Lezlie
+26-Jan-19,11:10,Freelance Guides,CSH,Adults,3,Jasmin
+26-Jan-19,11:10,GIVING IS LIVING,FOC,Students,23,Shankar
+26-Jan-19,11:10,GIVING IS LIVING,FOC,Adults,3,Shankar
+26-Jan-19,11:10,Happy Travel,CSH,Adults,5,Felzverto
+26-Jan-19,11:10,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,5,Javier
+26-Jan-19,11:10,MK Tours,CSH,Adults,2,Desmond
+26-Jan-19,11:10,SA Longway International Promotion (Pty),PRPD,Adults,8,John
+26-Jan-19,11:10,SA Longway International Promotion (Pty),PRPD,Children,1,John
+26-Jan-19,13:30,CASUAL BOOKINGS,CSH,Adults,5,Sandise
+26-Jan-19,13:30,Freelance Guides,CSH,Adults,9,James
+26-Jan-19,13:30,Travcare Holidays,VCH,Adults,5,Irfaan
+26-Jan-19,15:00,SA Magic,EFT,Adults,15,John
+26-Jan-19,15:00,SA Time,CSH,Adults,18,Yi
+26-Jan-19,15:00,SA Time,CSH,Children,1,Yi
+26-Jan-19,15:00,WTA ,CSH,Adults,18,Frank
+26-Jan-19,15:00,WTA ,CSH,Children,1,Wendy
+26-Jan-19,15:00,WTA ,CSH,Adults,12,Wendy
+27-Jan-19,08:45,Cullinan tours,CSH,Adults,2,Ashley
+27-Jan-19,08:45,Edge Hotel,CSH,Adults,26,Charl
+27-Jan-19,08:45,ORDO Tours,PRPD,Adults,37,Shireen
+27-Jan-19,08:45,SA Magic,EFT,Adults,19,
+27-Jan-19,08:45,SA Magic,EFT,Adults,13,Daniel
+27-Jan-19,08:45,SA Magic,EFT,Adults,17,Joey
+27-Jan-19,09:30,Africa Tour Story,VCH,Adults,21,Miya
+27-Jan-19,09:30,African Diamond Tours & Incent,VCH,Adults,13,Akieba
+27-Jan-19,09:30,Day Trippers,CSH,Adults,4,Pedro
+27-Jan-19,09:30,Freelance Guides,CSH,Adults,7,Linda
+27-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,48,Jenny
+27-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Children,1,Jenny
+27-Jan-19,09:30,Kuoni Private Safaris (Pty) Ltd,VCH,Adults,2,Ivan
+27-Jan-19,09:30,Live the Journey,VCH,Adults,18,Jaco
+27-Jan-19,09:30,MH Makeli Tours,CSH,Adults,6,Mamnkeli
+27-Jan-19,09:30,MH Makeli Tours,CSH,Children,1,Mamnkeli
+27-Jan-19,09:30,MPUM: ta Quality Touring Services,VCH,Adults,2,Coreen
+27-Jan-19,09:30,Private,CSH,Children,1,Wenjia
+27-Jan-19,09:30,Private,CSH,Adults,4,Wenjia
+27-Jan-19,09:30,Private,CSH,Adults,4,Zain
+27-Jan-19,09:30,Sunway Safaris,CSH,Adults,11,Tanaka
+27-Jan-19,10:15,African Pride Tours,VCH,Students,8,Melodie
+27-Jan-19,10:15,African Pride Tours,VCH,Adults,2,Melodie
+27-Jan-19,10:15,African Pride Tours,VCH,Adults,2,Shahied
+27-Jan-19,10:15,Freelance Guides,CSH,Adults,2,Maliek
+27-Jan-19,10:15,Miola Safaris (Pty) Ltd,EFT,Adults,49,Karl
+27-Jan-19,10:15,Miola Safaris (Pty) Ltd,EFT,Children,1,Karl
+27-Jan-19,10:15,SA Time,CSH,Adults,16,Ada
+27-Jan-19,10:15,SA Time,CSH,Children,1,Ada
+27-Jan-19,10:15,SA Time,CSH,Adults,10,Johnathan
+27-Jan-19,11:10,Africa Tour Story,VCH,Adults,30,
+27-Jan-19,11:10,Cape 360 Tours,CSH,Adults,3,Lowi
+27-Jan-19,11:10,CITA,CSH,Adults,96,Kelly 2
+27-Jan-19,11:10,FRESH HOLIDAY,CSH,Children,1,Sunny Man
+27-Jan-19,11:10,FRESH HOLIDAY,CSH,Adults,28,Sunny Man
+27-Jan-19,11:10,Jaap Travels,PRPD,Adults,2,Salie
+27-Jan-19,11:10,SA Magic,EFT,Adults,14,Eddy
+27-Jan-19,11:10,SAFPOL SAFARIS (Pty) Ltd,CSH,Adults,2,Marek
+27-Jan-19,12:00,Fullmark Tours,CSH,Adults,2,Peter
+27-Jan-19,15:00,AC Tours,CSH,Adults,19,Joe
+27-Jan-19,15:00,CITA,CSH,Adults,19,Chloe
+27-Jan-19,15:00,Freelance Guides,CSH,Adults,7,Kim
+27-Jan-19,15:00,KABURA TRAVEL,CSH,Adults,2,Armand
+27-Jan-19,15:00,WTA ,CSH,Adults,3,Jack 2
+28-Jan-19,08:45,Another Escape,CSH,Adults,2,Defna
+28-Jan-19,08:45,Drumbeat Charters,CSH,Adults,45,
+28-Jan-19,08:45,Gateway Escape,CSH,Adults,2,Flor
+28-Jan-19,08:45,Gateway Escape,CSH,Children,2,Flor
+28-Jan-19,08:45,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,Claudio
+28-Jan-19,08:45,Nauticat,PD,Adults,18,
+28-Jan-19,08:45,SA Magic,EFT,Adults,19,
+28-Jan-19,08:45,SA Magic,EFT,Adults,19,
+28-Jan-19,08:45,SA Time,CSH,Adults,16,Bradley
+28-Jan-19,09:30,Adventure SaFARI,CSH,Adults,7,Fuaad
+28-Jan-19,09:30,Africa Tour Story,VCH,Adults,20,
+28-Jan-19,09:30,African Diamond Tours & Incent,VCH,Adults,18,Wilma
+28-Jan-19,09:30,African Diamond Tours & Incent,VCH,Children,1,Wilma
+28-Jan-19,09:30,African Pride Tours,VCH,Adults,1,Paul
+28-Jan-19,09:30,CITA,CSH,Children,3,Tana
+28-Jan-19,09:30,CITA,CSH,Adults,19,Tana
+28-Jan-19,09:30,Day Trippers,CSH,Adults,6,Sele
+28-Jan-19,09:30,Freelance Guides,CSH,Adults,2,Paul
+28-Jan-19,09:30,HOTSPOTS 2C,CSH,Adults,2,Liezel
+28-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,7,Nathanael
+28-Jan-19,09:30,Ilios,CSH,Adults,8,Darrel
+28-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,3,Pedro 
+28-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Children,2,Pedro 
+28-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,Antonello
+28-Jan-19,09:30,SA Time,CSH,Adults,7,Phil
+28-Jan-19,09:30,Safari studio,CSH,Adults,6,Marfa
+28-Jan-19,09:30,Safari studio,CSH,Children,4,Marfa
+28-Jan-19,10:15,Africa Tour Story,VCH,Adults,16,Sunny
+28-Jan-19,10:15,Alzara,CSH,Adults,2,Khadija
+28-Jan-19,10:15,Freelance Guides,CSH,Adults,5,Sam
+28-Jan-19,10:15,Happy Travel,CSH,Adults,2,Felzverto
+28-Jan-19,10:15,Nauticat,PD,Adults,39,
+28-Jan-19,10:15,SEVENTH SKY TOURS & TRAVELS,CSH,Adults,13,Shamir
+28-Jan-19,10:15,Unicab,CSH,Adults,1,James
+28-Jan-19,12:00,P.TOURS,CSH,Adults,2,HERRY
+28-Jan-19,15:00,Cape of Good Hope Tours,INV,Adults,2,Anthea
+28-Jan-19,15:00,EXTRA-ORDINARY EVENTS & TRS,PRPD,Adults,4,James
+28-Jan-19,15:00,SA Magic,EFT,Adults,14,Sunny
+28-Jan-19,15:00,SA Magic,EFT,Adults,9,Kathy
+28-Jan-19,15:00,WTA ,CSH,Children,2,Haushi
+28-Jan-19,15:00,WTA ,CSH,Adults,12,Haushi
+28-Jan-19,15:00,WTA ,CSH,Children,4,Jason
+28-Jan-19,15:00,WTA ,CSH,Adults,8,Jason
+29-Jan-19,08:45,ESCAPE TO CAPE TOURS,CSH,Adults,4,Dafna
+29-Jan-19,08:45,Nauticat,CSH,Adults,28,
+29-Jan-19,08:45,SA Magic,EFT,Adults,19,
+29-Jan-19,08:45,SA Magic,EFT,Adults,8,Alex
+29-Jan-19,08:45,SA Magic,EFT,Adults,19,Sunny
+29-Jan-19,08:45,SA Magic,EFT,Adults,12,Betty
+29-Jan-19,08:45,SA Magic,EFT,Children,1,Cathrine
+29-Jan-19,08:45,SA Magic,EFT,Adults,15,Cathrine
+29-Jan-19,09:30,Hylton Ross Exclusive Touring,VCH,Children,1,Deon
+29-Jan-19,09:30,Hylton Ross Exclusive Touring,VCH,Adults,2,Deon
+29-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,5,Gavin 2 
+29-Jan-19,09:30,Ilios,CSH,Adults,10,Darrel
+29-Jan-19,09:30,Ilios,CSH,Adults,5,James
+29-Jan-19,09:30,SA Magic,EFT,Children,1,Sam
+29-Jan-19,09:30,SA Magic,EFT,Adults,12,Sam
+29-Jan-19,09:30,SA Magic,EFT,Children,1,Linda
+29-Jan-19,09:30,SA Magic,EFT,Adults,17,Linda
+29-Jan-19,09:30,SA Time,CSH,Adults,2,Cindy
+29-Jan-19,09:30,SA Time,CSH,Children,1,Cindy
+29-Jan-19,09:30,SA Time,CSH,Adults,16,Rebecca
+29-Jan-19,09:30,SA Time,CSH,Children,2,Rebecca
+29-Jan-19,09:30,Travcare Holidays,VCH,Adults,2,James
+29-Jan-19,09:30,Yannick Tours,CSH,Adults,2,Yannick
+29-Jan-19,10:15,Africa Incoming (Pty) Ltd,VCH,Adults,2,Ebrahim
+29-Jan-19,10:15,African Elite,CSH,Adults,2,Harold
+29-Jan-19,10:15,Ashantlee Charter & Tours,CSH,Adults,3,Lami
+29-Jan-19,10:15,Asian Sun,CSH,Adults,15,Lee
+29-Jan-19,10:15,Cape Tours,CSH,Adults,6,Sean
+29-Jan-19,10:15,Kuoni Private Safaris (Pty) Ltd,VCH,Adults,23,Garth
+29-Jan-19,10:15,SKYRIM TRAVEL AFRICA (PTY) LTD,CSH,Adults,24,Wayne
+29-Jan-19,11:45,CASUAL BOOKINGS,CSH,Adults,3,
+29-Jan-19,11:45,Compass Travel,CSH,Adults,11,Fazlie
+29-Jan-19,11:45,Private,CSH,Adults,2,
+29-Jan-19,11:45,Private,CSH,Adults,2,
+29-Jan-19,15:00,CITA,CSH,Adults,13,Kevin
+29-Jan-19,15:00,CITA,CSH,Children,2,Kevin
+29-Jan-19,15:00,Freelance Guides,CSH,Adults,3,AMY
+29-Jan-19,15:00,Private,CSH,Adults,6,
+29-Jan-19,15:00,Private,CSH,Adults,2,
+30-Jan-19,08:00,Nauticat,EFT,Adults,76,
+30-Jan-19,08:45,AC Tours,CSH,Children,1,Jack 2
+30-Jan-19,08:45,AC Tours,CSH,Adults,9,Jack 2
+30-Jan-19,08:45,Bonisa Tours,VCH,Adults,14,Klaas
+30-Jan-19,08:45,Easy Africa Tours,VCH,Adults,23,Nico
+30-Jan-19,08:45,HOTSPOTS 2C,CSH,Adults,6,Ulrich
+30-Jan-19,08:45,Ilios,CSH,Adults,2,Faziel
+30-Jan-19,08:45,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,Claudio
+30-Jan-19,08:45,Private,CSH,Adults,3,
+30-Jan-19,08:45,SA Magic,EFT,Adults,24,
+30-Jan-19,08:45,SA Time,CSH,Adults,2,Jerry
+30-Jan-19,08:45,SA Time,CSH,Adults,17,Yi
+30-Jan-19,09:30,African At Heart,CSH,Adults,7,Natasha
+30-Jan-19,09:30,Alpha Zulu Africa,CSH,Adults,12,Reisa
+30-Jan-19,09:30,CITA,CSH,Adults,19,Chloe
+30-Jan-19,09:30,CITA,CSH,Children,2,Edward
+30-Jan-19,09:30,CITA,CSH,Adults,13,Edward
+30-Jan-19,09:30,Electric,CSH,Adults,2,Nombulelo
+30-Jan-19,09:30,Fullmark Tours,CSH,Adults,4,Sam
+30-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,Antonello
+30-Jan-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,50,Maria
+30-Jan-19,09:30,Private,CSH,Adults,6,
+30-Jan-19,09:30,Private,CSH,Adults,4,
+30-Jan-19,09:30,PTK,CSH,Adults,2,Andre
+30-Jan-19,09:30,SA Magic,EFT,Adults,19,James
+30-Jan-19,09:30,SA Magic,EFT,Adults,19,
+30-Jan-19,10:15,CITA,CSH,Adults,10,Erick
+30-Jan-19,10:15,CITA,CSH,Children,1,Alex
+30-Jan-19,10:15,CITA,CSH,Adults,18,Alex
+30-Jan-19,10:15,Fullmark Tours,CSH,Adults,5,Sam
+30-Jan-19,10:15,KABURA TRAVEL,CSH,Adults,4,Amon
+30-Jan-19,10:15,SA Magic,COMP,Adults,3,Joey
+30-Jan-19,10:15,WTA ,CSH,Adults,15,Jason2
+30-Jan-19,14:00,SA Magic,EFT,Adults,11,Joyce
+30-Jan-19,14:00,SA Magic,EFT,Adults,12,Richard
+30-Jan-19,14:00,SA Magic,EFT,Children,1,Richard
+30-Jan-19,14:00,WTA ,CSH,Children,3,Hau
+30-Jan-19,14:00,WTA ,CSH,Adults,11,Hau
+30-Jan-19,14:00,WTA ,CSH,Adults,13,Kai
+30-Jan-19,15:00,SA Magic,EFT,Children,4,Sam
+30-Jan-19,15:00,SA Magic,EFT,Adults,9,Sam
+30-Jan-19,15:00,WTA ,CSH,Adults,15,Wendy
+30-Jan-19,15:00,WTA ,CSH,Adults,18,Yvonne
+30-Jan-19,15:00,WTA ,CSH,Children,3,Yvonne
+30-Jan-19,16:00,SA Longway International Promotion (Pty),PRPD,Children,2,Eric
+30-Jan-19,16:00,SA Longway International Promotion (Pty),PRPD,Adults,14,Eric
+30-Jan-19,16:00,SA Magic,EFT,Children,1,Ning
+30-Jan-19,16:00,SA Magic,EFT,Adults,16,Ning
+30-Jan-19,16:00,Thompsons Africa,CSH,Adults,14,Anita
+30-Jan-19,16:00,Thompsons Africa,CSH,Children,1,Anita
+30-Jan-19,16:00,WTA ,CSH,Adults,15,Colin
+31-Jan-19,08:45,CITA,CSH,Adults,19,Boli
+31-Jan-19,08:45,Freelance Guides,CSH,Adults,4,Emmy
+31-Jan-19,08:45,IVENTURE,PRPD,Adults,2,
+31-Jan-19,08:45,Private,CSH,Adults,2,
+31-Jan-19,08:45,SA Magic,EFT,Adults,16,Amy
+31-Jan-19,08:45,SA Magic,EFT,Children,2,Amy
+31-Jan-19,08:45,SA Magic,EFT,Adults,11,Alex
+31-Jan-19,08:45,SA Time,CSH,Adults,17,Kevin
+31-Jan-19,08:45,Springbok Atlas,CSH,Adults,7,Super
+31-Jan-19,09:30,African Eagle,CSH,Adults,12,Chris
+31-Jan-19,09:30,CITA,CSH,Adults,9,Tana
+31-Jan-19,09:30,CITA,CSH,Adults,12,Ming
+31-Jan-19,09:30,Day Trippers,CSH,Adults,4,Pedro
+31-Jan-19,09:30,Freelance Guides,CSH,Adults,2,Brahm
+31-Jan-19,09:30,Freelance Guides,CSH,Adults,2,Yannick
+31-Jan-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,2,Mario
+31-Jan-19,09:30,SA Magic,EFT,Adults,19,Kelvin
+31-Jan-19,10:15,CASUAL BOOKINGS,CSH,Adults,6,
+31-Jan-19,10:15,CITA,CSH,Adults,12,Michelle
+31-Jan-19,10:15,CITA,CSH,Adults,16,Chloe
+31-Jan-19,10:15,CITA,CSH,Children,2,Chloe
+31-Jan-19,10:15,Freelance Guides,CSH,Adults,2,Enrico
+31-Jan-19,10:15,Freelance Guides,CSH,Adults,5,Dong
+31-Jan-19,10:15,Hylton Ross Exclusive Touring,VCH,Adults,27,Kashief
+31-Jan-19,10:15,Hylton Ross Exclusive Touring,VCH,Adults,27,Andrew
+31-Jan-19,10:15,Ru Africa,CSH,Adults,2,Julia
+31-Jan-19,10:15,SKYRIM TRAVEL AFRICA (PTY) LTD,CSH,Adults,15,Ben
+31-Jan-19,11:45,CASUAL BOOKINGS,CSH,Adults,2,
+31-Jan-19,11:45,Freelance Guides,CSH,Adults,3,Tari
+31-Jan-19,11:45,Freelance Guides,CSH,Adults,5,Bo
+31-Jan-19,11:45,Freelance Guides,CSH,Adults,1,Sonie
+31-Jan-19,11:45,Freelance Guides,CSH,Children,3,Sonie
+31-Jan-19,11:45,Gem Tours & Travel,CSH,Adults,16,Francisca
+31-Jan-19,11:45,Iphipha Le Afrika,CSH,Adults,4,Allen
+31-Jan-19,11:45,Mtungua Shuttle,CSH,Adults,1,Khumalo
+31-Jan-19,13:15,CLOSED FOR MAINTENANCE,FOC,Adults,96,
+31-Jan-19,14:00,CLOSED FOR MAINTENANCE,FOC,Adults,96,
+31-Jan-19,15:00,CLOSED FOR MAINTENANCE,FOC,Adults,96,
+31-Jan-19,16:00,CLOSED FOR MAINTENANCE,FOC,Adults,96,
+01-Feb-19,08:00,ORDO Tours,INV,Adults,31,
+01-Feb-19,08:45,Freelance Guides,CSH,Adults,2,AMOS
+01-Feb-19,08:45,HOTSPOTS 2C,CSH,Adults,2,Uriel
+01-Feb-19,08:45,Live the Journey,VCH,Adults,4,Kobus
+01-Feb-19,08:45,SA Magic,EFT,Adults,24,
+01-Feb-19,08:45,Springbok Atlas,CSH,Adults,8,Super
+01-Feb-19,08:45,Windward Coach CC,CSH,Adults,4,Thabiet
+01-Feb-19,09:30,Africa Incoming (Pty) Ltd,VCH,Adults,2,Yasein
+01-Feb-19,09:30,Freelance Guides,CSH,Adults,7,Chris
+01-Feb-19,09:30,Kandre Tours,CSH,Adults,3,William
+01-Feb-19,10:15,CITA,CSH,Adults,15,Erick
+01-Feb-19,10:15,CITA,CSH,Adults,9,Leo
+01-Feb-19,10:15,Freelance Guides,CSH,Adults,6,Janson
+01-Feb-19,10:15,KABURA TRAVEL,CSH,Adults,5,Duncan
+01-Feb-19,10:15,KABURA TRAVEL,CSH,Adults,2,Barnabas
+01-Feb-19,10:15,Meljo,CSH,Adults,19,Joepie
+01-Feb-19,10:15,Mission for Africa,CSH,Adults,8,Joseph
+01-Feb-19,10:15,SAFPOL SAFARIS (Pty) Ltd,PRPD,Adults,5,Marek
+01-Feb-19,12:00,Glen@J,CSH,Adults,1,Everil
+01-Feb-19,15:00,SA Longway International Promotion (Pty),PRPD,Adults,10,Peng
+01-Feb-19,15:00,SA Longway International Promotion (Pty),PRPD,Children,1,Peng
+01-Feb-19,15:00,SA Longway International Promotion (Pty),PRPD,Adults,10,Cici
+01-Feb-19,15:00,SA Longway International Promotion (Pty),PRPD,Children,2,Cici
+01-Feb-19,15:00,SA Magic,EFT,Children,1,Shaun
+01-Feb-19,15:00,SA Magic,EFT,Adults,11,Shaun
+01-Feb-19,15:00,Travcare Holidays,VCH,Adults,10,Randall
+01-Feb-19,15:00,WTA ,CSH,Adults,9,Nigel
+01-Feb-19,15:00,WTA ,CSH,Adults,21,Harry
+01-Feb-19,18:30,PRIVATE CHARTERS,CSH,Adults,96,Richard
+02-Feb-19,08:00,SA Time,CSH,Adults,19,Rebecca
+02-Feb-19,08:00,SA Time,CSH,Adults,19,Phil
+02-Feb-19,08:45,CITA,CSH,Adults,16,Kevin
+02-Feb-19,08:45,CITA,CSH,Children,1,Kevin
+02-Feb-19,08:45,Freelance Guides,CSH,Adults,2,Ashley
+02-Feb-19,08:45,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,1,Claudio
+02-Feb-19,08:45,Private,CSH,Adults,3,
+02-Feb-19,08:45,SA Magic,EFT,Adults,17,Sandy
+02-Feb-19,08:45,SA Magic,EFT,Children,1,Sandy
+02-Feb-19,08:45,SA Magic,EFT,Children,2,Ying
+02-Feb-19,08:45,SA Magic,EFT,Adults,15,Ying
+02-Feb-19,08:45,Zunaids Transport,CSH,Adults,10,Zunaid
+02-Feb-19,09:30,AC Tours,CSH,Children,4,Li
+02-Feb-19,09:30,AC Tours,CSH,Adults,6,Li
+02-Feb-19,09:30,African Pride Tours,VCH,Adults,4,Rafael
+02-Feb-19,09:30,Day Trippers,CSH,Adults,3,Bill
+02-Feb-19,09:30,Freelance Guides,CSH,Adults,2,Karen
+02-Feb-19,09:30,Freelance Guides,CSH,Adults,9,Chris
+02-Feb-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,3,Marcon
+02-Feb-19,09:30,Ilios,CSH,Adults,3,Zunaid
+02-Feb-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,4,Antonello
+02-Feb-19,09:30,Private,CSH,Adults,2,Olga
+02-Feb-19,09:30,SA Longway International Promotion (Pty),PRPD,Children,1,Inocient
+02-Feb-19,09:30,SA Longway International Promotion (Pty),PRPD,Adults,24,Inocient
+02-Feb-19,09:30,SA Time,CSH,Adults,19,Jerry
+02-Feb-19,09:30,Unicab,CSH,Adults,6,Alex
+02-Feb-19,10:15,Live the Journey,VCH,Adults,13,Elily
+02-Feb-19,10:15,Private,CSH,Adults,7,Seth
+02-Feb-19,10:15,SA Time,CSH,Adults,19,Phil
+02-Feb-19,10:15,U2 Africa Travel,CSH,Adults,7,Noland
+02-Feb-19,10:15,WTA ,CSH,Adults,6,Haushi
+02-Feb-19,10:15,WTA ,CSH,Children,1,Haushi
+02-Feb-19,12:00,Shang tours,CSH,Adults,5,Granville
+02-Feb-19,12:00,Tyrones Tours,CSH,Adults,12,Tyrone
+02-Feb-19,13:30,CITA,CSH,Adults,2,Leo
+02-Feb-19,13:30,Freelance Guides,CSH,Adults,6,Fazlie
+02-Feb-19,13:30,KABURA TRAVEL,CSH,Adults,6,John
+02-Feb-19,15:00,CASUAL BOOKINGS,COMP,Adults,2,Julian
+02-Feb-19,15:00,CASUAL BOOKINGS,COMP,Children,2,Julian
+02-Feb-19,15:00,CITA,CSH,Children,4,Michelle
+02-Feb-19,15:00,CITA,CSH,Adults,15,Michelle
+02-Feb-19,15:00,Private,CSH,Adults,6,Clive
+02-Feb-19,15:00,Unicab,CSH,Adults,2,Nahiem
+02-Feb-19,15:00,Unicab,CSH,Adults,7,Migual
+02-Feb-19,15:00,WTA ,CSH,Adults,6,Eddy
+02-Feb-19,15:00,WTA ,CSH,Children,2,Eddy
+02-Feb-19,16:00,KABURA TRAVEL,CSH,Adults,10,Francis
+02-Feb-19,18:00,SUNSET CRUISE - RICHARD,CSH,Adults,96,Richard
+03-Feb-19,08:45,Live the Journey,VCH,Adults,17,Roehetta
+03-Feb-19,08:45,SA Magic,EFT,Adults,10,Haidih
+03-Feb-19,08:45,SA Magic,EFT,Children,2,Haidih
+03-Feb-19,08:45,SA Time,CSH,Adults,11,Helen
+03-Feb-19,09:30,Africa Gazago,CSH,Adults,3,Lee
+03-Feb-19,09:30,Africa Gazago,CSH,Adults,10,Ludy
+03-Feb-19,09:30,Africa Tour Story,VCH,Adults,20,
+03-Feb-19,09:30,African Eagle,CSH,Adults,4,Jennifer
+03-Feb-19,09:30,African Eagle,CSH,Adults,3,Chris
+03-Feb-19,09:30,African touch tours,CSH,Adults,3,mick
+03-Feb-19,09:30,Hylton Ross Exclusive Touring,VCH,Adults,12,Junko
+03-Feb-19,09:30,Hylton Ross Exclusive Touring,VCH,Adults,3,Michael
+03-Feb-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,2,Michael
+03-Feb-19,09:30,Kuoni Private Safaris (Pty) Ltd,VCH,Adults,1,
+03-Feb-19,09:30,SA Longway International Promotion (Pty),PRPD,Children,3,Lucy
+03-Feb-19,09:30,SA Longway International Promotion (Pty),PRPD,Adults,23,Lucy
+03-Feb-19,09:30,SA Magic,EFT,Adults,9,Linda
+03-Feb-19,09:30,SA Magic,EFT,Children,2,Linda
+03-Feb-19,09:30,VIKEA TR AND INVE,CSH,Adults,5,Kim
+03-Feb-19,09:30,VIKEA TR AND INVE,CSH,Children,2,Kim
+03-Feb-19,10:15,Africa Asia,CSH,Children,2,Stella
+03-Feb-19,10:15,Africa Asia,CSH,Adults,19,Stella
+03-Feb-19,10:15,Africa Incoming (Pty) Ltd,VCH,Adults,2,Zain
+03-Feb-19,10:15,Asian Sun,CSH,Adults,7,Ben
+03-Feb-19,10:15,CITA,CSH,Adults,13,Connie
+03-Feb-19,10:15,CITA,CSH,Children,2,Connie
+03-Feb-19,10:15,CITA,CSH,Adults,8,Jessica
+03-Feb-19,10:15,SA Magic,EFT,Children,1,Richard
+03-Feb-19,10:15,SA Magic,EFT,Adults,13,Richard
+03-Feb-19,10:15,Windward Coach CC,CSH,Adults,2,Abdull
+03-Feb-19,11:45,CASUAL BOOKINGS,CSH,Adults,4,
+03-Feb-19,11:45,Charlo Tours,CSH,Adults,9,Charlo
+03-Feb-19,11:45,Travcare Holidays,VCH,Adults,23,James
+03-Feb-19,15:00,Africa Incoming (Pty) Ltd,VCH,Adults,2,Yasein
+03-Feb-19,15:00,CITA,CSH,Adults,16,Chloe
+03-Feb-19,15:00,CITA,CSH,Adults,9,Ming
+03-Feb-19,15:00,CITA,CSH,Adults,9,Isa
+03-Feb-19,15:00,SA Magic,EFT,Children,3,Andy
+03-Feb-19,15:00,SA Magic,EFT,Adults,16,Andy
+03-Feb-19,15:00,WTA ,CSH,Adults,16,ZOE 2
+03-Feb-19,16:00,Oxford English Academy,CSH,Adults,1,Michael
+03-Feb-19,16:00,Oxford English Academy,CSH,Students,18,Michael
+03-Feb-19,16:00,Private,CSH,Adults,5,
+03-Feb-19,16:00,SA Magic,EFT,Adults,19,Josh
+03-Feb-19,16:00,SA Magic,EFT,Children,2,Josh
+03-Feb-19,16:00,SA Magic,EFT,Adults,11,Jack
+03-Feb-19,16:00,SA Time,CSH,Adults,12,Yi
+03-Feb-19,16:00,SA Time,CSH,Children,1,Yi
+04-Feb-19,08:45,Freelance Guides,CSH,Adults,2,Reeza
+04-Feb-19,08:45,SA Magic,EFT,Adults,19,
+04-Feb-19,08:45,SA Magic,EFT,Adults,18,Michelle
+04-Feb-19,09:30,Aero Travel Tours,VCH,Adults,20,Arthur
+04-Feb-19,09:30,Africa Tour Story,VCH,Adults,20,
+04-Feb-19,09:30,African Blue,CSH,Adults,2,Duncan
+04-Feb-19,09:30,CITA,CSH,Adults,9,Isa
+04-Feb-19,09:30,Day Trippers,CSH,Adults,2,Bill
+04-Feb-19,09:30,Freelance Guides,CSH,Adults,2,Andre
+04-Feb-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,3,Pedro 
+04-Feb-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Children,1,Pedro 
+04-Feb-19,09:30,Thompsons Africa,CSH,Adults,2,Armoy
+04-Feb-19,09:30,Travcare Holidays,VCH,Adults,2,Nur
+04-Feb-19,09:30,Unicab,CSH,Adults,6,Manie
+04-Feb-19,09:30,Xenon Travel,CSH,Adults,2,Faeez
+04-Feb-19,10:15,Africa Tour Story,VCH,Adults,10,
+04-Feb-19,10:15,Asian Sun,CSH,Adults,22,Kim
+04-Feb-19,10:15,CITA,CSH,Adults,15,Lucy
+04-Feb-19,10:15,Daily Charters,CSH,Adults,9,Rafiek
+04-Feb-19,10:15,Freelance Guides,CSH,Adults,2,Donovan
+04-Feb-19,10:15,Gem Tours & Travel,CSH,Adults,9,Jeet
+04-Feb-19,10:15,Hylton Ross Exclusive Touring,CSH,Adults,8,Carmia
+04-Feb-19,10:15,Papago tours,CSH,Adults,7,Winston
+04-Feb-19,10:15,SA Time,CSH,Adults,19,Daniel
+04-Feb-19,11:30,KABURA TRAVEL,CSH,Adults,2,JOSEPH
+04-Feb-19,11:30,WTA ,CSH,Adults,18,Hau
+04-Feb-19,15:00,CASUAL BOOKINGS,CSH,Children,3,
+04-Feb-19,15:00,CASUAL BOOKINGS,CSH,Adults,6,
+04-Feb-19,15:00,CITA,CSH,Adults,4,Kelly
+04-Feb-19,15:00,Freelance Guides,CSH,Adults,2,Alex
+04-Feb-19,15:00,Freelance Guides,CSH,Adults,1,Helen
+04-Feb-19,15:00,Freelance Guides,CSH,Children,1,Helen
+04-Feb-19,15:00,SA Magic,EFT,Adults,22,Wendy
+04-Feb-19,15:00,SA Magic,EFT,Adults,12,Kathy
+04-Feb-19,15:00,WTA ,CSH,Adults,7,Peter
+04-Feb-19,15:00,WTA ,CSH,Children,1,Peter
+04-Feb-19,15:00,WTA ,CSH,Adults,15,Yvonne
+04-Feb-19,15:00,WTA ,CSH,Children,2,Yvonne
+04-Feb-19,16:00,CITA,CSH,Adults,15,Walter
+04-Feb-19,16:00,CITA,CSH,Children,4,Walter
+04-Feb-19,16:00,Compass Travel,CSH,Adults,7,Fazlie
+04-Feb-19,16:00,Unicab,CSH,Adults,2,Ciril
+04-Feb-19,16:00,WTA ,CSH,Children,2,Frank
+04-Feb-19,16:00,WTA ,CSH,Adults,5,Frank
+04-Feb-19,17:00,SA Magic,EFT,Adults,24,Minnie
+05-Feb-19,08:45,CITA,CSH,Adults,12,Amy
+05-Feb-19,08:45,Ilios,CSH,Adults,4,Mark
+05-Feb-19,08:45,Iluka Tourism Inv. (Pty) Ltd,VCH,Children,2,Claudio
+05-Feb-19,08:45,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,4,Claudio
+05-Feb-19,08:45,SA Magic,EFT,Adults,24,
+05-Feb-19,08:45,SA Magic,EFT,Adults,17,Evan
+05-Feb-19,08:45,SA Magic,EFT,Children,2,Evan
+05-Feb-19,08:45,SA Time,CSH,Children,2,Cindy
+05-Feb-19,08:45,SA Time,CSH,Adults,16,Cindy
+05-Feb-19,09:30,African Dream Travel,PRPD,Adults,16,Cheung
+05-Feb-19,09:30,HOTSPOTS 2C,CSH,Adults,2,Andrew
+05-Feb-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,6,Nathaniel
+05-Feb-19,09:30,Live the Journey,VCH,Adults,18,Pierre
+05-Feb-19,09:30,SA Longway International Promotion (Pty),PRPD,Adults,24,Dom
+05-Feb-19,09:30,SA Longway International Promotion (Pty),PRPD,Children,3,Dom
+05-Feb-19,09:30,SA Magic,EFT,Children,1,Uki
+05-Feb-19,09:30,SA Magic,EFT,Adults,7,Uki
+05-Feb-19,09:30,SA Magic,EFT,Adults,9,Daniel
+05-Feb-19,09:30,Southern Africa 360,PRPD,Adults,2,Nigel
+05-Feb-19,10:15,Africa Incoming (Pty) Ltd,VCH,Children,1,Ebrahim
+05-Feb-19,10:15,Africa Incoming (Pty) Ltd,VCH,Adults,4,Ebrahim
+05-Feb-19,10:15,CITA,CSH,Children,2,Jessica
+05-Feb-19,10:15,CITA,CSH,Adults,17,Jessica
+05-Feb-19,10:15,CITA,CSH,Children,2,Erick
+05-Feb-19,10:15,CITA,CSH,Adults,17,Erick
+05-Feb-19,10:15,Golden Bell,CSH,Children,1,Choi
+05-Feb-19,10:15,Golden Bell,CSH,Adults,4,Choi
+05-Feb-19,11:45,CASUAL BOOKINGS,CSH,Adults,3,
+05-Feb-19,11:45,Freelance Guides,CSH,Adults,5,Julia
+05-Feb-19,11:45,Mission for Africa,CSH,Adults,17,Joseph
+05-Feb-19,12:00,COMBINED SAFETY DRILL,CSH,Adults,96,
+05-Feb-19,13:15,COMBINED SAFETY DRILL,CSH,Adults,96,
+05-Feb-19,14:00,CASUAL BOOKINGS,CSH,Adults,3,
+05-Feb-19,14:00,COMBINED SAFETY DRILL,CSH,Adults,96,
+05-Feb-19,14:00,SA Magic,EFT,Adults,11,Sunny
+05-Feb-19,14:00,SA Magic,EFT,Children,1,Joey
+05-Feb-19,14:00,SA Magic,EFT,Adults,15,Joey
+05-Feb-19,15:00,CASUAL BOOKINGS,COMP,Adults,2,
+05-Feb-19,15:00,CITA,CSH,Adults,15,Cindy
+05-Feb-19,15:00,CITA,CSH,Children,1,Cindy
+05-Feb-19,15:00,CITA,CSH,Adults,19,Tana
+05-Feb-19,15:00,CITA,CSH,Adults,12,Michelle
+05-Feb-19,15:00,IVENTURE,PRPD,Adults,3,
+05-Feb-19,15:00,SA Time,CSH,Adults,4,Johnathan
+05-Feb-19,16:00,CITA,CSH,Children,2,Wong
+05-Feb-19,16:00,CITA,CSH,Adults,21,Wong
+05-Feb-19,16:00,SA Magic,EFT,Adults,16,Sunny
+05-Feb-19,16:00,SA Magic,EFT,Children,3,Sunny
+05-Feb-19,16:00,SA Time,CSH,Adults,14,Jia
+05-Feb-19,16:00,SA Time,CSH,Adults,6,Ling
+05-Feb-19,16:00,WTA ,CSH,Adults,12,Jason
+05-Feb-19,16:00,WTA ,CSH,Children,1,Jason
+06-Feb-19,08:45,Akilanga (Pty) Ltd,VCH,Adults,21,Nkosinathi
+06-Feb-19,08:45,Easy Africa Tours,VCH,Adults,26,Dennis
+06-Feb-19,08:45,SA Magic,EFT,Adults,15,Josh
+06-Feb-19,08:45,SA Magic,EFT,Adults,18,James
+06-Feb-19,08:45,SA Magic,EFT,Children,1,James
+06-Feb-19,08:45,SA Magic,EFT,Adults,11,Rio
+06-Feb-19,09:30,African Eagle,CSH,Adults,4,Chris
+06-Feb-19,09:30,Day Trippers,CSH,Adults,6,Pedro
+06-Feb-19,09:30,Freelance Guides,CSH,Adults,4,Chris
+06-Feb-19,09:30,Freelance Guides,CSH,Adults,4,Nuno
+06-Feb-19,09:30,KABURA TRAVEL,CSH,Adults,7,Leticia
+06-Feb-19,09:30,MPUM: ta Quality Touring Services,VCH,Adults,4,Clive
+06-Feb-19,09:30,SA Magic,EFT,Adults,8,Amy
+06-Feb-19,09:30,SA Magic,EFT,Adults,12,Kelvin
+06-Feb-19,09:30,Travcare Holidays,VCH,Adults,2,Manny
+06-Feb-19,10:15,Africa Incoming (Pty) Ltd,VCH,Adults,2,Thabiet
+06-Feb-19,10:15,Africa Incoming (Pty) Ltd,VCH,Adults,4,Kyle
+06-Feb-19,10:15,ATS Shuttles,CSH,Adults,2,Lungile
+06-Feb-19,10:15,CITA,CSH,Adults,12,Edward
+06-Feb-19,10:15,CITA,CSH,Children,2,Edward
+06-Feb-19,10:15,City Shuttles,CSH,Adults,2,Houden
+06-Feb-19,10:15,ERM Tours (Pty) Ltd,VCH,Adults,2,Enrico
+06-Feb-19,10:15,Freelance Guides,CSH,Children,2,Nicky
+06-Feb-19,10:15,Freelance Guides,CSH,Adults,3,Nicky
+06-Feb-19,10:15,Freelance Guides,CSH,Adults,7,Boo
+06-Feb-19,10:15,Freelance Guides,CSH,Adults,3,Oleg
+06-Feb-19,10:15,Freelance Guides,CSH,Adults,2,Steven 2
+06-Feb-19,10:15,Thanks Africa,CSH,Adults,4,Kim
+06-Feb-19,10:15,WTA ,CSH,Adults,15,Haushi
+06-Feb-19,12:00,Freelance Guides,CSH,Adults,2,Ziphozakhe
+06-Feb-19,15:00,AC Tours,CSH,Adults,4,Joe
+06-Feb-19,15:00,AC Tours,CSH,Children,1,Joe
+06-Feb-19,15:00,AC Tours,CSH,Adults,6,Leo
+06-Feb-19,15:00,AC Tours,CSH,Children,1,Leo
+06-Feb-19,15:00,CASUAL BOOKINGS,CSH,Adults,2,Noorunisha
+06-Feb-19,15:00,CITA,CSH,Children,1,Chloe
+06-Feb-19,15:00,CITA,CSH,Adults,16,Chloe
+06-Feb-19,15:00,CITA,CSH,Adults,17,Peter
+06-Feb-19,15:00,Freelance Guides,CSH,Adults,2,Hans
+06-Feb-19,15:00,SA Magic,EFT,Children,1,Ning
+06-Feb-19,15:00,SA Magic,EFT,Adults,11,Ning
+06-Feb-19,15:00,SA Magic,EFT,Children,2,Sam
+06-Feb-19,15:00,SA Magic,EFT,Adults,14,Sam
+06-Feb-19,16:00,CITA,CSH,Adults,27,Leo
+06-Feb-19,16:00,SA Magic,EFT,Children,1,Betty
+06-Feb-19,16:00,SA Magic,EFT,Adults,10,Betty
+06-Feb-19,16:00,SA Time,CSH,Children,3,Iris
+06-Feb-19,16:00,SA Time,CSH,Adults,15,Iris
+06-Feb-19,16:00,SA Time,CSH,Adults,18,Boli
+06-Feb-19,16:00,SA Time,CSH,Children,1,Boli
+06-Feb-19,16:00,SA Time,CSH,Adults,16,Ada
+06-Feb-19,16:00,SA Time,CSH,Children,1,Ada
+07-Feb-19,08:00,ORDO Tours,EFT,Adults,31,Shafiek
+07-Feb-19,08:00,Rainbow Tours,CSH,Adults,37,Magda
+07-Feb-19,08:00,SA Magic,EFT,Children,1,Erica
+07-Feb-19,08:00,SA Magic,EFT,Adults,9,Erica
+07-Feb-19,08:00,Springbok Atlas,VCH,Adults,7,Warren
+07-Feb-19,08:45,AC Tours,CSH,Adults,18,Kevin
+07-Feb-19,08:45,SA Magic,EFT,Adults,19,
+07-Feb-19,08:45,SA Magic,EFT,Children,1,Joyce
+07-Feb-19,08:45,SA Magic,EFT,Adults,18,Joyce
+07-Feb-19,08:45,SA Magic,EFT,Adults,9,John
+07-Feb-19,08:45,SA Time,CSH,Children,1,Phil
+07-Feb-19,08:45,SA Time,CSH,Adults,17,Phil
+07-Feb-19,09:30,CITA,CSH,Adults,16,Connie
+07-Feb-19,09:30,CITA,CSH,Children,3,Connie
+07-Feb-19,09:30,KABURA TRAVEL,CSH,Adults,2,Mike
+07-Feb-19,09:30,Meljo,CSH,Adults,2,Joepie
+07-Feb-19,09:30,SA Magic,EFT,Children,1,Sunny
+07-Feb-19,09:30,SA Magic,EFT,Adults,12,Sunny
+07-Feb-19,09:30,SA Time,CSH,Adults,13,Cindy
+07-Feb-19,09:30,SA Time,CSH,Children,3,Cindy
+07-Feb-19,09:30,SKYRIM TRAVEL AFRICA (PTY) LTD,CSH,Adults,16,Wayne
+07-Feb-19,09:30,WTA ,CSH,Adults,10,Kai
+07-Feb-19,10:15,Africa Tour,CSH,Adults,4,Marina
+07-Feb-19,10:15,Asian Sun,CSH,Adults,2,Jenny
+07-Feb-19,10:15,Day Trippers,CSH,Adults,4,Bill
+07-Feb-19,10:15,Freelance Guides,CSH,Adults,1,Ronnie
+07-Feb-19,10:15,Freelance Guides,CSH,Adults,4,Shaub
+07-Feb-19,10:15,FRESH HOLIDAY,CSH,Adults,7,Aphrodite
+07-Feb-19,10:15,FRESH HOLIDAY,CSH,Children,2,Aphrodite
+07-Feb-19,10:15,Gery's Taxis,CSH,Adults,2,Garry
+07-Feb-19,10:15,SA Time,CSH,Adults,18,Wei
+07-Feb-19,10:15,SA Time,CSH,Adults,10,Joy
+07-Feb-19,10:15,SA Time,CSH,Children,5,Joy
+07-Feb-19,10:15,Travcare Holidays,VCH,Adults,2,Abdul
+07-Feb-19,10:15,Unicab,CSH,Adults,4,Bertin
+07-Feb-19,10:15,Vacation In,CSH,Children,1,Ricky
+07-Feb-19,10:15,Vacation In,CSH,Adults,6,Ricky
+07-Feb-19,10:15,WTA ,CSH,Adults,16,Jason 3 
+07-Feb-19,11:10,Africa Incoming (Pty) Ltd,VCH,Adults,2,Zain
+07-Feb-19,11:10,Asian Sun,CSH,Adults,12,Lee
+07-Feb-19,11:10,CASUAL BOOKINGS,COMP,Adults,4,
+07-Feb-19,11:10,Compass Travel,CSH,Adults,15,Fazlie
+07-Feb-19,11:10,Freelance Guides,CSH,Adults,2,Oleg
+07-Feb-19,11:10,KABURA TRAVEL,CSH,Adults,2,Grace
+07-Feb-19,11:10,SA Magic,EFT,Adults,15,Wendy
+07-Feb-19,11:10,SA Time,CSH,Adults,5,Ling
+07-Feb-19,11:10,SA Time,CSH,Children,1,Ling
+07-Feb-19,11:10,Springbok Atlas,VCH,Adults,2,Farouk
+07-Feb-19,14:00,CITA,CSH,Adults,11,Kevin
+07-Feb-19,14:00,CITA,CSH,Children,1,Kevin
+07-Feb-19,14:00,CITA,CSH,Adults,16,Anita
+07-Feb-19,14:00,Kwathlano,CSH,Adults,3,John
+07-Feb-19,14:00,Sonya Tours,CSH,Children,2,Barre
+07-Feb-19,14:00,Sonya Tours,CSH,Adults,3,Barre
+07-Feb-19,15:00,Network Tours,CSH,Adults,1,Soli
+07-Feb-19,15:00,SA Magic,EFT,Adults,18,Linda
+07-Feb-19,15:00,SA Magic,EFT,Children,1,Linda
+07-Feb-19,15:00,SA Time,CSH,Adults,16,Rebecca
+07-Feb-19,15:00,SA Time,CSH,Children,3,Rebecca
+07-Feb-19,15:00,WTA ,CSH,Adults,14,Nigel 2
+07-Feb-19,15:00,WTA ,CSH,Adults,13,ZOE 2
+07-Feb-19,15:00,WTA ,CSH,Children,2,ZOE 2
+07-Feb-19,15:00,WTA ,CSH,Children,1,Wendy
+07-Feb-19,15:00,WTA ,CSH,Adults,14,Wendy
+07-Feb-19,16:00,CITA,CSH,Children,2,Michelle
+07-Feb-19,16:00,CITA,CSH,Adults,14,Michelle
+07-Feb-19,16:00,CITA,CSH,Children,1,Nick
+07-Feb-19,16:00,CITA,CSH,Adults,14,Nick
+07-Feb-19,16:00,Freelance Guides,CSH,Adults,1,Egon
+07-Feb-19,16:00,SA Magic,EFT,Adults,15,Wenjia
+07-Feb-19,16:45,Freelance Guides,CSH,Adults,3,Sherry
+07-Feb-19,16:45,SA Time,CSH,Adults,19,Yi
+08-Feb-19,08:00,ORDO Tours,PRPD,Adults,27,Shireen
+08-Feb-19,08:00,SA Magic,EFT,Adults,28,Alex
+08-Feb-19,08:00,SA Magic,EFT,Children,1,Alex
+08-Feb-19,08:00,SA Magic,EFT,Children,2,Jones Yen Liang
+08-Feb-19,08:00,SA Magic,EFT,Adults,13,Jones Yen Liang
+08-Feb-19,08:45,CITA,CSH,Adults,14,Jessica
+08-Feb-19,08:45,Freelance Guides,CSH,Adults,4,Ben
+08-Feb-19,08:45,GREEN VOYAGES,PRPD,Adults,21,Lionel
+08-Feb-19,08:45,Hylton Ross Exclusive Touring,CSH,Adults,4,Nathaniel
+08-Feb-19,08:45,SA Magic,EFT,Adults,13,Amy
+08-Feb-19,08:45,SA Magic,EFT,Adults,12,Celia
+08-Feb-19,08:45,SA Magic,EFT,Children,1,Celia
+08-Feb-19,08:45,SA Magic,EFT,Adults,8,Betty
+08-Feb-19,08:45,WTA ,CSH,Adults,13,Hannah
+08-Feb-19,09:30,Africa Gazago,CSH,Adults,5,Lee
+08-Feb-19,09:30,Day Trippers,CSH,Adults,7,Pedro
+08-Feb-19,09:30,HOTSPOTS 2C,CSH,Adults,2,Liezel
+08-Feb-19,09:30,Hylton Ross Exclusive Touring,VCH,Adults,4,Stain
+08-Feb-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,8,Salome
+08-Feb-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,Antonello
+08-Feb-19,09:30,KABURA TRAVEL,CSH,Adults,2,Nathan
+08-Feb-19,09:30,SA Longway International Promotion (Pty),PRPD,Adults,26,JJ
+08-Feb-19,09:30,SA Longway International Promotion (Pty),PRPD,Children,1,JJ
+08-Feb-19,09:30,SA Magic,EFT,Children,1,Uki
+08-Feb-19,09:30,SA Magic,EFT,Adults,22,Uki
+08-Feb-19,10:15,CITA,CSH,Adults,15,Kelly
+08-Feb-19,10:15,CITA,CSH,Children,2,Kelly
+08-Feb-19,10:15,CITA,CSH,Adults,2,Yumei
+08-Feb-19,10:15,CITA,CSH,Adults,2,Saadia
+08-Feb-19,10:15,ERM Tours (Pty) Ltd,VCH,Adults,21,Tommy
+08-Feb-19,10:15,Freelance Guides,CSH,Adults,2,
+08-Feb-19,10:15,Freelance Guides,CSH,Adults,4,
+08-Feb-19,10:15,Uber,CSH,Adults,3,Feziel
+08-Feb-19,10:15,WTA ,CSH,Children,1,Yvonne
+08-Feb-19,10:15,WTA ,CSH,Adults,8,Yvonne
+08-Feb-19,14:00,CITA,CSH,Children,2,Chloe
+08-Feb-19,14:00,CITA,CSH,Adults,16,Chloe
+08-Feb-19,14:00,SA Magic,EFT,Children,1,Jacky
+08-Feb-19,14:00,SA Magic,EFT,Adults,14,Jacky
+08-Feb-19,14:00,SA Time,CSH,Adults,17,Mei
+08-Feb-19,14:00,SA Time,CSH,Adults,6,Kevin
+08-Feb-19,14:00,SA Time,CSH,Adults,12,Hans2
+08-Feb-19,14:00,WTA ,CSH,Adults,15,Jason
+08-Feb-19,14:00,WTA ,CSH,Children,1,Harry 
+08-Feb-19,14:00,WTA ,CSH,Adults,9,Harry 
+08-Feb-19,15:00,CITA,CSH,Adults,19,Connie
+08-Feb-19,15:00,Comfort Travel,CSH,Adults,11,SCORPIO
+08-Feb-19,15:00,Freelance Guides,CSH,Adults,7,Evan
+08-Feb-19,15:00,SA Magic,EFT,Adults,16,Richard
+08-Feb-19,15:00,SA Magic,EFT,Children,3,Richard
+08-Feb-19,16:15,Centurion Tours,CSH,Adults,2,Abul
+08-Feb-19,16:15,CITA,CSH,Children,3,Ming
+08-Feb-19,16:15,CITA,CSH,Adults,13,Ming
+08-Feb-19,16:15,CITA,CSH,Adults,13,Jessy
+08-Feb-19,16:15,CITA,CSH,Adults,12,Isa
+08-Feb-19,16:15,CITA,CSH,Children,1,Alex 2
+08-Feb-19,16:15,CITA,CSH,Adults,6,Alex 2
+08-Feb-19,16:15,SA Time,CSH,Adults,27,Hans
+08-Feb-19,16:15,SA Time,CSH,Children,2,Hans
+09-Feb-19,08:45,Aero Travel Tours,VCH,Adults,12,Witek
+09-Feb-19,08:45,Aero Travel Tours,VCH,Children,2,Witek
+09-Feb-19,08:45,Freelance Guides,CSH,Adults,2,Chris
+09-Feb-19,08:45,HOTSPOTS 2C,CSH,Adults,5,Andrew
+09-Feb-19,08:45,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,23,Maria
+09-Feb-19,08:45,Mile By Mile Tours,CSH,Adults,2,Egon
+09-Feb-19,08:45,SA Magic,EFT,Adults,9,Daniel
+09-Feb-19,08:45,SA Magic,EFT,Adults,9,Sandy
+09-Feb-19,08:45,SA Magic,EFT,Children,1,Sandy
+09-Feb-19,08:45,WTA ,CSH,Children,2,Peter
+09-Feb-19,08:45,WTA ,CSH,Adults,11,Peter
+09-Feb-19,08:45,Zunaids Transport,CSH,Adults,11,Zunaid
+09-Feb-19,09:30,Day Trippers,CSH,Adults,5,Pedro
+09-Feb-19,09:30,ERM Tours (Pty) Ltd,VCH,Adults,16,Ms
+09-Feb-19,09:30,MPUM: ta Quality Touring Services,VCH,Adults,3,Wendel
+09-Feb-19,09:30,MPUM: ta Quality Touring Services,VCH,Children,2,Wendel
+09-Feb-19,09:30,SA Longway International Promotion (Pty),PD,Children,1,Azoka
+09-Feb-19,09:30,SA Longway International Promotion (Pty),PD,Adults,16,Azoka
+09-Feb-19,09:30,SA Magic,EFT,Adults,10,Shaun
+09-Feb-19,09:30,SA Magic,EFT,Children,1,Shaun
+09-Feb-19,09:30,SA Magic,EFT,Adults,12,Wenjia
+09-Feb-19,09:30,SA Time,CSH,Adults,12,Bradley
+09-Feb-19,09:30,SA Time,CSH,Children,3,Bradley
+09-Feb-19,09:30,Thompsons Africa,CSH,Adults,4,Rong
+09-Feb-19,09:30,Thompsons Africa,CSH,Adults,4,Rong
+09-Feb-19,09:30,U2 Africa Travel,CSH,Adults,7,Leonard
+09-Feb-19,09:30,Unicab,CSH,Adults,4,Mike
+09-Feb-19,10:15,AC Tours,CSH,Adults,4,Kevin
+09-Feb-19,10:15,AC Tours,CSH,Children,2,Kevin
+09-Feb-19,10:15,AC Tours,CSH,Adults,8,Xia Sunny
+09-Feb-19,10:15,AC Tours,CSH,Children,1,Xia Sunny
+09-Feb-19,10:15,Africa Tour Story,VCH,Adults,20,
+09-Feb-19,10:15,Africa Tour Story,VCH,Adults,10,Sunny
+09-Feb-19,10:15,Charlo Tours,CSH,Adults,2,Charles
+09-Feb-19,10:15,CITA,CSH,Adults,2,Steven
+09-Feb-19,10:15,CITA,CSH,Adults,8,Kelly 2
+09-Feb-19,10:15,Freelance Guides,CSH,Adults,3,Simone
+09-Feb-19,10:15,SA Magic,EFT,Adults,9,Ying
+09-Feb-19,10:15,SA Magic,EFT,Children,1,Joey
+09-Feb-19,10:15,SA Magic,EFT,Adults,12,Joey
+09-Feb-19,10:15,TBH,CSH,Adults,2,Mario
+09-Feb-19,10:15,U2 Africa Travel,CSH,Adults,4,Noland
+09-Feb-19,11:10,Freelance Guides,CSH,Adults,6,Lorenzo
+09-Feb-19,11:10,Freelance Guides,CSH,Adults,4,Craig
+09-Feb-19,11:10,SA Magic,EFT,Children,2,Eric
+09-Feb-19,11:10,SA Magic,EFT,Adults,14,Eric
+09-Feb-19,11:10,SAFPOL SAFARIS (Pty) Ltd,PRPD,Adults,9,Marek
+09-Feb-19,13:45,CASUAL BOOKINGS,CSH,Adults,2,
+09-Feb-19,13:45,CASUAL BOOKINGS,CSH,Children,1,
+09-Feb-19,13:45,CITA,CSH,Adults,17,Leo
+09-Feb-19,13:45,Freelance Guides,CSH,Adults,2,Nasief
+09-Feb-19,13:45,Private,COMP,Adults,2,
+09-Feb-19,13:45,SA Time,CSH,Adults,7,Paula
+09-Feb-19,13:45,SA Time,CSH,Children,2,Paula
+09-Feb-19,15:00,Asian Sun,CSH,Children,2,Mr Wang
+09-Feb-19,15:00,Asian Sun,CSH,Adults,2,Mr Wang
+09-Feb-19,15:00,CITA,CSH,Adults,10,Nancy
+09-Feb-19,15:00,CITA,CSH,Children,2,Nancy
+09-Feb-19,15:00,CITA,CSH,Adults,16,Cindy
+09-Feb-19,15:00,CITA,CSH,Children,2,Cindy
+09-Feb-19,15:00,CITA,CSH,Adults,19,Alex
+09-Feb-19,15:00,CITA,CSH,Children,1,Alex
+09-Feb-19,15:00,Freelance Guides,CSH,Children,5,Tilaam
+09-Feb-19,15:00,Freelance Guides,CSH,Adults,3,Tilaam
+09-Feb-19,15:00,Private,CSH,Adults,2,
+09-Feb-19,15:00,SA Magic,EFT,Adults,12,Alex
+09-Feb-19,15:00,Tyrones Tours,CSH,Adults,3,Tarryn
+09-Feb-19,16:15,CITA,CSH,Adults,31,Edward
+09-Feb-19,16:15,CITA,CSH,Adults,15,Vicky
+09-Feb-19,16:15,CITA,CSH,Adults,2,Johnny
+09-Feb-19,16:15,Oxford English Academy,CSH,Students,13,Michael
+09-Feb-19,16:15,Oxford English Academy,CSH,Adults,1,Michael
+09-Feb-19,16:15,SA Magic,EFT,Adults,18,Cathrine
+09-Feb-19,18:00,CASUAL BOOKINGS,CSH,Adults,4,
+09-Feb-19,18:00,PRIVATE CHARTERS,CSH,Adults,92,
+10-Feb-19,08:00,SA Magic,EFT,Adults,15,Celia
+10-Feb-19,08:45,BOYA SAFARIS,CSH,Adults,11,Jerry
+10-Feb-19,08:45,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,6,Jose
+10-Feb-19,08:45,Private,CSH,Adults,3,Han
+10-Feb-19,08:45,SA Magic,EFT,Children,1,Vivian
+10-Feb-19,08:45,SA Magic,EFT,Adults,10,Vivian
+10-Feb-19,08:45,SA Magic,EFT,Adults,19,
+10-Feb-19,08:45,SA Magic,EFT,Adults,19,Jia
+10-Feb-19,08:45,SA Magic,EFT,Children,1,Amy
+10-Feb-19,08:45,SA Magic,EFT,Adults,12,Amy
+10-Feb-19,08:45,SA Time,CSH,Children,1,Jack
+10-Feb-19,08:45,SA Time,CSH,Adults,12,Jack
+10-Feb-19,08:45,SA Time,CSH,Adults,16,Carra
+10-Feb-19,08:45,SA Time,CSH,Children,2,Carra
+10-Feb-19,08:45,Tourvest Destination Management,CSH,Adults,8,Washington
+10-Feb-19,09:30,Africa Tour Story,VCH,Adults,6,Smile
+10-Feb-19,09:30,African Eagle,CSH,Adults,7,Chris
+10-Feb-19,09:30,African Eagle,CSH,Children,1,Chris
+10-Feb-19,09:30,Asian Sun,CSH,Adults,6,Ying
+10-Feb-19,09:30,Day Trippers,CSH,Adults,3,Bill
+10-Feb-19,09:30,Hylton Ross Exclusive Touring,VCH,Adults,9,Haruhiko
+10-Feb-19,09:30,SA Longway International Promotion (Pty),PRPD,Adults,17,Azoka
+10-Feb-19,09:30,SA Longway International Promotion (Pty),PRPD,Children,6,Azoka
+10-Feb-19,09:30,SA Magic,EFT,Adults,14,Jack
+10-Feb-19,09:30,Sandown Tour and Incentives,VCH,Adults,22,Adriano
+10-Feb-19,10:15,AC Tours,CSH,Adults,5,Shuting
+10-Feb-19,10:15,Africa Incoming (Pty) Ltd,VCH,Adults,2,Ebrahim
+10-Feb-19,10:15,Africa Tour Story,VCH,Adults,30,
+10-Feb-19,10:15,CITA,CSH,Adults,9,Michelle
+10-Feb-19,10:15,CITA,CSH,Adults,8,Nick
+10-Feb-19,10:15,CITA,CSH,Children,1,Nick
+10-Feb-19,10:15,CITA,CSH,Adults,14,Jessica
+10-Feb-19,10:15,Freelance Guides,CSH,Children,2,Wayne
+10-Feb-19,10:15,Freelance Guides,CSH,Adults,2,Wayne
+10-Feb-19,10:15,SA Magic,EFT,Adults,15,Joyce
+10-Feb-19,10:15,SA Magic,EFT,Children,1,Joyce
+10-Feb-19,10:15,SA Time,CSH,Adults,17,Luke
+10-Feb-19,10:15,SA Time,CSH,Children,1,Luke
+10-Feb-19,10:15,SA Time,CSH,Adults,3,Jeff
+10-Feb-19,10:15,SKYRIM TRAVEL AFRICA (PTY) LTD,CSH,Adults,9,Konny
+10-Feb-19,10:15,Springbok Atlas,VCH,Adults,2,Farouk
+10-Feb-19,11:10,Capitec,CSH,Adults,80,David
+10-Feb-19,11:10,SA Magic,EFT,Adults,11,John
+10-Feb-19,11:10,SA Magic,EFT,Children,1,John
+10-Feb-19,11:10,Travcare Holidays,VCH,Adults,12,Shafiek
+10-Feb-19,12:00,AC Tours,CSH,Adults,10,Linda
+10-Feb-19,12:00,Charlo Tours,CSH,Adults,3,Charles
+10-Feb-19,12:00,Escape & Explore,CSH,Adults,6,James
+10-Feb-19,12:00,Private,CSH,Adults,1,Axel
+10-Feb-19,12:00,Private,CSH,Adults,1,Ismail
+10-Feb-19,12:00,Unicab,CSH,Adults,4,Darrel
+10-Feb-19,13:30,SA Magic,EFT,Adults,9,Sam
+10-Feb-19,15:00,AC Tours,CSH,Adults,4,Li
+10-Feb-19,15:00,CITA,CSH,Adults,9,Isa
+10-Feb-19,15:00,Comfort Travel,CSH,Children,1,Bing
+10-Feb-19,15:00,Comfort Travel,CSH,Adults,9,Bing
+10-Feb-19,15:00,Freelance Guides,CSH,Adults,3,Peter
+10-Feb-19,15:00,KABURA TRAVEL,CSH,Adults,2,Armand
+10-Feb-19,15:00,SA Magic,EFT,Adults,13,Michelle
+10-Feb-19,15:00,SA Magic,EFT,Children,2,Michelle
+10-Feb-19,15:00,SA Magic,EFT,Children,1,Alex
+10-Feb-19,15:00,SA Magic,EFT,Adults,15,Alex
+10-Feb-19,15:00,WTA ,CSH,Adults,9,Hau
+10-Feb-19,16:00,Africa Tour Story,VCH,Adults,27,Lee 
+10-Feb-19,16:00,CITA,CSH,Adults,11,Walter
+10-Feb-19,16:00,CITA,CSH,Children,3,Walter
+10-Feb-19,16:00,SA Magic,EFT,Adults,13,Joey
+10-Feb-19,16:00,SA Magic,EFT,Children,2,Joey
+10-Feb-19,16:00,SA Magic,EFT,Children,1,James
+10-Feb-19,16:00,SA Magic,EFT,Adults,16,James
+11-Feb-19,08:45,ERM Tours (Pty) Ltd,VCH,Adults,10,Mark
+11-Feb-19,08:45,Hylton Ross Exclusive Touring,CSH,Adults,4,Nathanael
+11-Feb-19,08:45,Kuoni Private Safaris (Pty) Ltd,VCH,Adults,14,Natalia
+11-Feb-19,08:45,SA Magic,EFT,Adults,15,Erica
+11-Feb-19,08:45,SA Magic,EFT,Children,1,Erica
+11-Feb-19,09:30,African Eagle,CSH,Adults,5,Chris
+11-Feb-19,09:30,CITA,CSH,Adults,17,Tana
+11-Feb-19,09:30,CITA,CSH,Children,4,Chloe
+11-Feb-19,09:30,CITA,CSH,Adults,7,Chloe
+11-Feb-19,09:30,Comfort Travel,CSH,Adults,5,Eric
+11-Feb-19,09:30,Day Trippers,CSH,Adults,5,Bill
+11-Feb-19,09:30,FRESH HOLIDAY,CSH,Adults,3,Will
+11-Feb-19,09:30,FRESH HOLIDAY,CSH,Children,2,Will
+11-Feb-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,2,Claudio
+11-Feb-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,4,James
+11-Feb-19,09:30,Meljo,CSH,Adults,3,Tommy
+11-Feb-19,09:30,Meljo,CSH,Adults,4,Sydney
+11-Feb-19,09:30,MPUM: ta Quality Touring Services,VCH,Adults,2,Coreen
+11-Feb-19,10:15,Africa Incoming (Pty) Ltd,VCH,Adults,2,Thabiet
+11-Feb-19,10:15,CITA,CSH,Children,2,Ming
+11-Feb-19,10:15,CITA,CSH,Adults,14,Ming
+11-Feb-19,10:15,FRESH HOLIDAY,CSH,Adults,3,Daniel
+11-Feb-19,10:15,KABURA TRAVEL,CSH,Adults,3,Felix
+11-Feb-19,10:15,Kuoni Private Safaris (Pty) Ltd,VCH,Adults,6,Gabriel 
+11-Feb-19,10:15,Meljo,CSH,Adults,2,Joepie
+11-Feb-19,10:15,Private,CSH,Adults,2,
+11-Feb-19,10:15,Private,CSH,Adults,4,
+11-Feb-19,10:15,Private,CSH,Children,2,
+11-Feb-19,10:15,Private,CSH,Adults,3,
+11-Feb-19,10:15,SA Time,CSH,Adults,19,Daniel
+11-Feb-19,11:30,Africaza,CSH,Adults,2,Oleg
+11-Feb-19,11:30,Domingo Tours,CSH,Adults,2,Fawaaz
+11-Feb-19,11:30,SA Time,CSH,Adults,17,Ling
+11-Feb-19,11:30,Tour Africa,CSH,Adults,2,Dong
+11-Feb-19,14:00,Cape Tours,CSH,Adults,18,Casker
+11-Feb-19,14:00,CITA,CSH,Adults,8,Leo
+11-Feb-19,14:00,CITA,CSH,Children,4,Leo
+11-Feb-19,14:00,WTA ,CSH,Children,1,Jason
+11-Feb-19,14:00,WTA ,CSH,Adults,17,Jason
+11-Feb-19,15:00,CITA,CSH,Children,4,Kelvin
+11-Feb-19,15:00,CITA,CSH,Adults,4,Kelvin
+11-Feb-19,15:00,SA Longway International Promotion (Pty),PD,Adults,12,John
+11-Feb-19,15:00,SA Longway International Promotion (Pty),PD,Children,2,John
+11-Feb-19,15:00,SA Magic,EFT,Adults,16,Wendy
+11-Feb-19,15:00,SA Magic,EFT,Children,3,Wendy
+11-Feb-19,15:00,WTA ,CSH,Adults,19,Danny
+11-Feb-19,15:00,WTA ,CSH,Adults,14,Frank
+11-Feb-19,16:00,Private,CSH,Adults,10,
+11-Feb-19,16:00,SA Magic,EFT,Adults,21,Josh
+11-Feb-19,16:00,SA Magic,EFT,Children,2,Josh
+11-Feb-19,16:00,SA Magic,EFT,Adults,12,Cathrine
+11-Feb-19,16:00,SA Magic,EFT,Children,1,Eddy
+11-Feb-19,16:00,SA Magic,EFT,Adults,16,Eddy
+11-Feb-19,16:00,SA Time,CSH,Children,1,Rebecca
+11-Feb-19,16:00,SA Time,CSH,Adults,16,Rebecca
+11-Feb-19,16:00,Tyrones Tours,CSH,Adults,5,Tarryn
+12-Feb-19,08:00,AAA Travel,CSH,Adults,26,Johan
+12-Feb-19,08:00,Comfort Travel,CSH,Adults,5,Amy
+12-Feb-19,08:00,Comfort Travel,CSH,Children,1,Amy
+12-Feb-19,08:45,ERM Tours (Pty) Ltd,VCH,Adults,2,Bryan
+12-Feb-19,08:45,Hylton Ross Exclusive Touring,CSH,Adults,2,Chris 
+12-Feb-19,08:45,Ilios,CSH,Adults,2,Dumisani
+12-Feb-19,08:45,MK Tours,CSH,Adults,9,Omar
+12-Feb-19,08:45,SA Magic,EFT,Adults,12,Kathy
+12-Feb-19,08:45,SA Magic,EFT,Adults,13,Rio
+12-Feb-19,08:45,SA Magic,EFT,Children,1,Rio
+12-Feb-19,08:45,SA Time,CSH,Adults,8,Bradley
+12-Feb-19,08:45,Thompsons Africa,CSH,Adults,2,Faziel
+12-Feb-19,08:45,Thompsons Africa,CSH,Adults,2,Sabrie
+12-Feb-19,09:30,African Dream Travel,EFT,Adults,16,Sharon
+12-Feb-19,09:30,African Eagle,CSH,Children,1,Rachel
+12-Feb-19,09:30,African Eagle,CSH,Adults,2,Rachel
+12-Feb-19,09:30,CITA,CSH,Adults,19,Boli
+12-Feb-19,09:30,Comfort Travel,CSH,Adults,3,SCORPIO
+12-Feb-19,09:30,Freelance Guides,CSH,Adults,2,Harold
+12-Feb-19,09:30,Freelance Guides,CSH,Adults,4,Nuno
+12-Feb-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,6,Pamela
+12-Feb-19,09:30,ORDO Tours,EFT,Adults,2,Self Drive
+12-Feb-19,09:30,SA Time,CSH,Adults,16,Wei
+12-Feb-19,10:15,African Eagle,CSH,Adults,2,
+12-Feb-19,10:15,Freelance Guides,CSH,Adults,2,Enrico
+12-Feb-19,10:15,KABURA TRAVEL,CSH,Adults,5,Francis
+12-Feb-19,10:15,SA Magic,EFT,Adults,11,Minnie
+12-Feb-19,10:15,SAFPOL SAFARIS (Pty) Ltd,PRPD,Adults,12,Gillian
+12-Feb-19,10:15,SAFPOL SAFARIS (Pty) Ltd,PRPD,Children,1,Gillian
+12-Feb-19,10:15,Windows Tours & Transfers,CSH,Adults,5,Rushdia
+12-Feb-19,10:15,WTA ,CSH,Adults,13,ZOE 2
+12-Feb-19,10:15,WTA ,CSH,Children,1,ZOE 2
+12-Feb-19,10:15,WTA ,CSH,Adults,5,Hau
+12-Feb-19,11:10,Gem Tours & Travel,CSH,Adults,25,Yash
+12-Feb-19,11:10,Tourvest Destination Management,VCH,Adults,39,Dawid
+12-Feb-19,11:10,Travcare Holidays,VCH,Adults,2,Abdul
+12-Feb-19,11:10,WTA ,CSH,Children,2,David
+12-Feb-19,11:10,WTA ,CSH,Adults,2,David
+12-Feb-19,15:00,SA Magic,EFT,Children,2,Alex
+12-Feb-19,15:00,SA Magic,EFT,Adults,20,Alex
+12-Feb-19,15:00,SA Magic,EFT,Adults,17,Haidih
+12-Feb-19,16:30,My Tours,CSH,Adults,2,Roger
+12-Feb-19,16:30,SA Time,CSH,Adults,16,Ada
+13-Feb-19,08:45,HOTSPOTS 2C,CSH,Adults,3,Koos
+13-Feb-19,08:45,Iluka Tourism Inv. (Pty) Ltd,VCH,Children,1,Sandro
+13-Feb-19,08:45,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,26,Sandro
+13-Feb-19,08:45,IVENTURE,PRPD,Adults,2,
+13-Feb-19,08:45,Live the Journey,VCH,Adults,17,Jaco
+13-Feb-19,08:45,SA Magic,EFT,Adults,12,Jones Yen Liang
+13-Feb-19,08:45,SA Time,CSH,Children,1,Jerry
+13-Feb-19,08:45,SA Time,CSH,Adults,16,Jerry
+13-Feb-19,09:30,AC Tours,CSH,Children,1,Leo
+13-Feb-19,09:30,AC Tours,CSH,Adults,4,Leo
+13-Feb-19,09:30,African Eagle,CSH,Adults,7,Chris
+13-Feb-19,09:30,CITA,CSH,Adults,16,Erick
+13-Feb-19,09:30,Daf Tours,CSH,Adults,3,Tashas
+13-Feb-19,09:30,Daf Tours,CSH,Children,1,Tashas
+13-Feb-19,09:30,Day Trippers,CSH,Adults,6,Bill
+13-Feb-19,09:30,Hylton Ross Exclusive Touring,VCH,Adults,12,Karen
+13-Feb-19,09:30,Hylton Ross Exclusive Touring,CSH,Adults,8,Nathaniel
+13-Feb-19,09:30,Iluka Tourism Inv. (Pty) Ltd,VCH,Adults,6,Franco
+13-Feb-19,10:15,Africa Incoming (Pty) Ltd,VCH,Adults,11,Dillon
+13-Feb-19,10:15,African Land Touring Operators,EFT,Adults,3,Andre
+13-Feb-19,10:15,CITA,CSH,Adults,15,Alex
+13-Feb-19,10:15,Domingo Tours,CSH,Adults,2,Shuab
+13-Feb-19,10:15,Freelance Guides,CSH,Adults,4,Boo
+13-Feb-19,10:15,MPUM: ta Quality Touring Services,VCH,Adults,11,Karen
+13-Feb-19,10:15,Travcare Holidays,VCH,Adults,2,Randall
+13-Feb-19,11:30,Compass Travel,CSH,Adults,8,Fazlie
+13-Feb-19,11:30,Freelance Guides,CSH,Adults,2,Lezley
+13-Feb-19,11:30,Springbok Atlas,VCH,Adults,2,Farouk
+13-Feb-19,11:30,Thompsons Africa,CSH,Adults,2,Susan
+13-Feb-19,11:30,Thompsons Africa,CSH,Children,1,Susan
+13-Feb-19,13:30,SA Longway International Promotion (Pty),PD,Adults,12,Eric
+13-Feb-19,13:30,WTA ,CSH,Adults,17,Jason 3 
+13-Feb-19,15:00,CITA,CSH,Adults,9,Anita
+13-Feb-19,15:00,CITA,CSH,Children,2,Anita
+13-Feb-19,15:00,Long Travel,CSH,Adults,11,Ady
+13-Feb-19,15:00,Long Travel,CSH,Children,3,Ady
+13-Feb-19,15:00,SA Time,CSH,Adults,19,Phil
+13-Feb-19,15:00,SA Time,CSH,Adults,19,Phil
+13-Feb-19,16:00,CITA,CSH,Adults,15,Connie
+13-Feb-19,16:00,CITA,CSH,Children,2,Connie
+13-Feb-19,16:00,CITA,CSH,Children,16,Kevin
+13-Feb-19,16:00,CITA,CSH,Adults,23,Kevin
+13-Feb-19,16:00,SA Magic,EFT,Children,2,Linda
+13-Feb-19,16:00,SA Magic,EFT,Adults,18,Linda
+13-Feb-19,16:00,SA Time,CSH,Children,1,Mei
+13-Feb-19,16:00,SA Time,CSH,Adults,18,Mei
+14-Feb-19,08:45,Easy Africa Tours,VCH,Adults,23,Jennifer
+14-Feb-19,08:45,Long Travel,CSH,Adults,11,Ady
+14-Feb-19,08:45,Long Travel,CSH,Children,3,Ady
+14-Feb-19,08:45,ORDO Tours,EFT,Adults,20,Shireen
+14-Feb-19,08:45,SA Magic,EFT,Adults,20,Betty
+14-Feb-19,08:45,SA Magic,EFT,Adults,19,
+14-Feb-19,08:45,SA Time,CSH,Adults,16,Cindy
+14-Feb-19,09:30,African Blue,CSH,Adults,4,Michael
+14-Feb-19,09:30,African Diamond Tours & Incent,VCH,Adults,23,Wendelll
+14-Feb-19,09:30,African Eagle,CSH,Adults,9,Chris
+14-Feb-19,09:30,CASUAL BOOKINGS,CSH,Adults,2,
+14-Feb-19,09:30,Comfort Travel,CSH,Children,1,Jenny
+14-Feb-19,09:30,Comfort Travel,CSH,Adults,6,Jenny
+14-Feb-19,09:30,Freelance Guides,CSH,Adults,2,Evan
+14-Feb-19,09:30,Hylton Ross Exclusive Touring,VCH,Adults,11,Deon
+14-Feb-19,09:30,MPUM: ta Quality Touring Services,VCH,Adults,3,Coreen
+14-Feb-19,09:30,Thompsons Africa,CSH,Adults,17,Sunny
+14-Feb-19,10:15,Ace Travel,CSH,Adults,19,Lee
+14-Feb-19,10:15,Africa Tour Story,VCH,Adults,20,
+14-Feb-19,10:15,Cape Discovery,CSH,Adults,4,Gary
+14-Feb-19,10:15,CASUAL BOOKINGS,CSH,Adults,2,
+14-Feb-19,10:15,CITA,CSH,Adults,9,Leo
+14-Feb-19,10:15,Compass Travel,CSH,Adults,9,Afra
+14-Feb-19,10:15,SA Time,CSH,Adults,19,Phil
+14-Feb-19,10:15,She Africa Tours,CSH,Adults,2,Hilton
+14-Feb-19,10:15,She Africa Tours,CSH,Children,2,Hilton
+14-Feb-19,10:15,Thompsons Africa,CSH,Children,2,Sunny
+14-Feb-19,10:15,Thompsons Africa,CSH,Adults,15,Sunny
+14-Feb-19,11:30,ORDO Tours,PRPD,Adults,32,Shafiek
+14-Feb-19,15:00,CITA,CSH,Adults,20,Peter
+14-Feb-19,15:00,SA Magic,EFT,Children,1,Sunny
+14-Feb-19,15:00,SA Magic,EFT,Adults,18,Sunny
+14-Feb-19,15:00,SA Time,CSH,Adults,19,Yi
+15-Feb-19,08:45,Egoli,PRPD,Adults,18,Omar
+15-Feb-19,08:45,Live the Journey,VCH,Adults,15,Paul
+15-Feb-19,08:45,Live the Journey,VCH,Adults,16,Johan
+15-Feb-19,08:45,SA Magic,EFT,Adults,13,Shaun
+15-Feb-19,09:30,AC Tours,CSH,Adults,12,Hans
+15-Feb-19,09:30,African Eagle,CSH,Adults,11,Chris
+15-Feb-19,09:30,CITY VIEW  CAPE TOWN,PRPD,Adults,10,Esther
+15-Feb-19,09:30,Day Trippers,CSH,Adults,2,Pedro
+15-Feb-19,09:30,Ezizwe Tours,CSH,Adults,2,Thabang
+15-Feb-19,09:30,Hylton Ross Exclusive Touring,VCH,Adults,15,Haruhiko
+15-Feb-19,09:30,Hylton Ross Exclusive Touring,VCH,Adults,3,Bradley
+15-Feb-19,09:30,Hylton Ross Exclusive Touring,VCH,Children,3,Bradley
+15-Feb-19,09:30,Mile By Mile Tours,CSH,Adults,3,James
+15-Feb-19,09:30,My Tours,CSH,Adults,2,Roger
+15-Feb-19,09:30,Thompsons Africa,CSH,Adults,8,Corra
+15-Feb-19,09:30,TOURISM THAT CARES,VCH,Adults,25,
+15-Feb-19,09:30,Travcare Holidays,VCH,Adults,2,Irfaan
+15-Feb-19,10:15,Africa Incoming (Pty) Ltd,VCH,Adults,2,Thabiet
+15-Feb-19,10:15,FRESH HOLIDAY,CSH,Adults,13,Cindy
+15-Feb-19,10:15,FRESH HOLIDAY,CSH,Children,2,Cindy
+15-Feb-19,10:15,Gilbot Travel,CSH,Adults,7,Jung
+15-Feb-19,10:15,ORDO Tours,EFT,Adults,31,Ian
+15-Feb-19,10:15,Unicab,CSH,Adults,2,Mark
+15-Feb-19,10:15,Windows Tours & Transfers,CSH,Adults,10,Jay
+15-Feb-19,15:00,Cape of Good Hope Tours,INV,Adults,2,Anthea
+15-Feb-19,15:00,CITA,CSH,Adults,3,Kelly 2
+15-Feb-19,15:00,SA Magic,EFT,Adults,11,Richard
+15-Feb-19,15:00,WTA ,CSH,Adults,14,nigel
+15-Feb-19,15:00,WTA ,CSH,Children,2,nigel
+15-Feb-19,15:00,WTA ,CSH,Children,1,Harry 
+15-Feb-19,15:00,WTA ,CSH,Adults,12,Harry 
+15-Feb-19,15:00,WTA ,CSH,Adults,7,Jason

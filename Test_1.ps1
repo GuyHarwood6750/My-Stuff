@@ -1,0 +1,1 @@
+﻿Move-Item -Path 'C:\users\guy\Documents\Test Script data\yrjnls\*.pdf' -Destination "\\wserver\users\GuyH" -Force

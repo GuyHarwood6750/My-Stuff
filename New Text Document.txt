@@ -1,0 +1,4 @@
+Example 1: Copy a file to the specified directory
+    PS C:\>Copy-Item "C:\Wabash\Logfiles\mar1604.log.txt" -Destination "C:\Presentation"
+
+vvvvvvvvvvvvvvvvvvvvv
