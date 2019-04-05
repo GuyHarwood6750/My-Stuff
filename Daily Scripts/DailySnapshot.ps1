@@ -39,7 +39,7 @@ if ($status.statuscode -eq 0) {
     $range2.Font.Name = 'Calibri'
     $range2.Font.Bold = $true
     $range2.Font.ColorIndex = '-4105'
-    $range3 = $xl.Range("K1").Entirecolumn
+    #$range3 = $xl.Range("K1").Entirecolumn
     #$range3.Select()
     #$xlfilter = "Arrived"
     #$range3.AutoFilter(11, $xlfilter)
@@ -53,15 +53,22 @@ if ($status.statuscode -eq 0) {
     Get-process EXCEL | stop-process
     [System.Runtime.InteropServices.Marshal]::ReleaseComObject($xl)
    
-    $src1 = '\\wserver\Kiosk\Daily Reports\'
-    $dest1 = '\\wserver\kiosk\Daily Reports\old'
+        $src1 = '\\wserver\Kiosk\Daily Reports\'
+        $dest1 = '\\wserver\kiosk\Daily Reports\old'
+
+        $src2 = '\\wserver\wmarine\Booking Reports\julia\'
+        $dest2 = '\\wserver\WMarine\booking reports\julia\old'
     
     Get-ChildItem -Path $src1\Daily_snapshot*.xlsx | Move-Item -Destination $dest1 -Force
+    Get-ChildItem -Path $src2\Daily_snapshot*.xlsx | Move-Item -Destination $dest2 -Force
+
 
    move-item -Path $a `
                -Destination '\\wserver\Kiosk\Daily Reports'
 
-   Copy-Item -Path $src1\daily_snap*.xlsx -Destination 'C:\Userdata\Circe Launches\Daily Reports'          
+        Copy-Item -Path $src1\daily_snap*.xlsx -Destination 'C:\Userdata\Circe Launches\Daily Reports'  
+        Copy-Item -Path $src1\daily_snap*.xlsx -Destination '\\wserver\WMarine\booking reports\julia'          
+        
    }
     else {Guy-SendGmail "Daily Snapshot file not found" "Check if script was run on server"}
 }

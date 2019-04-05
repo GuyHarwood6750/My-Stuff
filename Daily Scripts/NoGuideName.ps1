@@ -60,13 +60,17 @@ if ($status.statuscode -eq 0) {
         Get-process EXCEL | stop-process
         [System.Runtime.InteropServices.Marshal]::ReleaseComObject($xl)
 
-        $src1 = '\\wserver\Kiosk\'
-        $dest1 = '\\wserver\kiosk\old'
+        $src1 = '\\wserver\Kiosk\Daily Reports'
+        $dest1 = '\\wserver\kiosk\Daily reports\old'
+        $src2 = '\\wserver\WMarine\booking reports\Julia'
+        $dest2 = '\\wserver\wmarine\booking reports\Julia\OLD'
     
         Get-ChildItem -Path $src1\NoGuideName*.xlsx | Move-Item -Destination $dest1 -Force
+        Get-ChildItem -Path $src2\NoGuideName*.xlsx | Move-Item -Destination $dest2 -Force
+
 
         Copy-item -path $a `
-            -Destination '\\wserver\wmarine\kiosk' 
+            -Destination '\\wserver\wmarine\kiosk\Daily Reports' 
         Move-item -Path $a `
             -Destination '\\wserver\wmarine\booking reports\Julia'
     }
