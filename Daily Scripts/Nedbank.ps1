@@ -2,17 +2,18 @@
     Output to text file to be imported as a Pastel Journal batch.
 
 #>
-$pastelperiod = 2                                           #MODIFY THIS BASED ON PASTEL PERIOD
+$pastelperiod = 2                                           #MODIFY THIS BASED ON PASTEL PERIOD (1=Mar, 2=Apr, 12=Feb)
 $csvclient = 'C:\userdata\route 62\Nedbank\apr 19.csv'      #Input from Client spreadsheet
-$outfile = 'C:\userdata\Route 62\nedbank\nedpas.txt'
-$outfile2 = 'C:\userdata\Route 62\nedbank\nedpas2.txt'      #File to be imported into Pastel
+$outfile = 'C:\userdata\Route 62\nedbank\nedpas.txt'        #Temp file
+$outfile2 = 'C:\userdata\Route 62\nedbank\nedbatch.txt'     #File to be imported into Pastel
 
 $checkfile = Test-Path $outfile2
-if ($checkfile) { Remove-Item $outfile2 }
+if ($checkfile) { Remove-Item $outfile2 }                   #Remove last file imported to Pastel
 
 
-$data = Import-Csv -path $csvclient -header date, batch, amt
-foreach ($aObj in $data) {
+$data = Import-Csv -path $csvclient -header date, batch, amt    #Import latest csv from Client spreadsheet
+
+foreach ($aObj in $data) {                                      #Format Pastel batch
     $props = [ordered] @{
         Period  = $pastelperiod
         Date    = $aObj.date
