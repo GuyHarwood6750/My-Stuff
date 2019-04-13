@@ -7,13 +7,17 @@ $csvclient = 'C:\userdata\route 62\petrol books\pa.csv'      #Input from Client 
 $outfile = 'C:\userdata\route 62\petrol books\petrolinv1a.txt'        #Temp file
 $outfile2 = 'C:\userdata\route 62\petrol books\petrolinv2a.txt'     #File to be imported into Pastel
 
+#Remove last file imported to Pastel
+
 $checkfile = Test-Path $outfile2
-if ($checkfile) { Remove-Item $outfile2 }                   #Remove last file imported to Pastel
+if ($checkfile) { Remove-Item $outfile2 }                   
 
+#Import latest csv from Client spreadsheet
 
-$data = Import-Csv -path $csvclient -header acc, date, invnum, ordernum, reg, lt, fuel, amt, slipno    #Import latest csv from Client spreadsheet
+$data = Import-Csv -path $csvclient -header acc, date, invnum, ordernum, reg, lt, fuel, amt, slipno
 
-foreach ($aObj in $data) {                                      #Format Pastel batch
+foreach ($aObj in $data) {
+    #Format Pastel batch
     $props = [ordered] @{
         hd    = 'Header'
         f1    = ''
@@ -124,6 +128,6 @@ foreach ($aObj in $data) {                                      #Format Pastel b
     $objlist | Select-Object * | Export-Csv -path $outfile -NoTypeInformation -Append
 }  
 #Remove header information so file can be imported into Pastel Accounting.
-#
+
 Get-Content -Path $outfile | Select-Object -skip 1 | Set-Content -path $outfile2
 Remove-Item -Path $outfile
