@@ -3,7 +3,7 @@
 
 #>
 $pastelperiod = 2                                           #MODIFY THIS BASED ON PASTEL PERIOD (1=Mar, 2=Apr, 12=Feb)
-$csvclient = 'C:\userdata\route 62\petrol books\pa.csv'      #Input from Client spreadsheet
+$csvclient = 'C:\userdata\route 62\petrol books\sheet1.csv'      #Input from Client spreadsheet
 $outfile = 'C:\userdata\route 62\petrol books\petrolinv1a.txt'        #Temp file
 $outfile2 = 'C:\userdata\route 62\petrol books\petrolinv2a.txt'     #File to be imported into Pastel
 
