@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "C:\\Users\\Guy\\Documents\\WindowsPowerShell\\Modules"
 		}
 	],
 	"settings": {

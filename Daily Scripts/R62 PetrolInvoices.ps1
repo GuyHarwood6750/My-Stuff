@@ -2,10 +2,9 @@
     Output to text file to be imported as a Pastel Invoice batch.
 
 #>
-$pastelperiod = 2                                           #MODIFY THIS BASED ON PASTEL PERIOD (1=Mar, 2=Apr, 12=Feb)
 $csvclient = 'C:\userdata\route 62\petrol books\sheet1.csv'      #Input from Client spreadsheet
-$outfile = 'C:\userdata\route 62\petrol books\petrolinv1a.txt'        #Temp file
-$outfile2 = 'C:\userdata\route 62\petrol books\petrolinv2a.txt'     #File to be imported into Pastel
+$outfile = 'C:\userdata\route 62\petrol books\petrolinv.txt'        #Temp file
+$outfile2 = 'C:\userdata\route 62\petrol books\petrolinvioces.txt'     #File to be imported into Pastel
 
 #Remove last file imported to Pastel
 
@@ -17,6 +16,9 @@ if ($checkfile) { Remove-Item $outfile2 }
 $data = Import-Csv -path $csvclient -header acc, date, invnum, ordernum, reg, lt, fuel, amt, slipno
 
 foreach ($aObj in $data) {
+    #Return Pastel accounting period based on the transaction date.
+    $pastelper = PastelPeriods -transactiondate $aObj.date
+
     #Format Pastel batch
     $props = [ordered] @{
         hd    = 'Header'
@@ -24,7 +26,7 @@ foreach ($aObj in $data) {
         f2    = ''
         f3    = 'Y'
         acc   = $aObj.acc
-        per   = $pastelperiod
+        per   = $pastelper
         dte   = $aObj.date
         order = $aObj.invnum
         f4    = "N"
@@ -131,3 +133,4 @@ foreach ($aObj in $data) {
 
 Get-Content -Path $outfile | Select-Object -skip 1 | Set-Content -path $outfile2
 Remove-Item -Path $outfile
+#Remove-Item -Path $csvclient

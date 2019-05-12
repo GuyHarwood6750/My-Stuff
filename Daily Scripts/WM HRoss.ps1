@@ -65,12 +65,12 @@ if ($status.statuscode -eq 0) {
 
     }
     else { Guy-SendGmail "Hilton Ross Booking details file not found" "Check if script was run on Server"
-        Write-EventLog -LogName MyPowerShell -Source "HROSS" -EntryType Warning -EventId 20 -Message "HROSS script failed."
+        Write-EventLog -LogName MyPowerShell -Source "HROSS" -EntryType Error -EventId 30 -Message "Script failed, file not found"
 
 }
        
 }       
 else { Guy-SendGmail "Connection to WServer does not exists!" "PLEASE INVESTIGATE" 
-    Write-EventLog -LogName MyPowerShell -Source "HROSS" -EntryType Warning -EventId 21 -Message "HROSS script failed, VPN connection not found"
+    Write-EventLog -LogName MyPowerShell -Source "HROSS" -EntryType Error -EventId 31 -Message "Script failed, VPN connection not found"
 
 }

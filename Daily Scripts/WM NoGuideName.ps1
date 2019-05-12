@@ -40,7 +40,7 @@ if ($status.statuscode -eq 0) {
         $range2.Font.Bold = $true
         $range2.Font.ColorIndex = '-4105'
 
-        $range2a = $xl.Range("2:12").EntireRow
+        $range2a = $xl.Range("2:22").EntireRow
         $range2a.Select()
         $range2a.Font.Name = 'Calibri'
         #$range2a.Font.Bold = $true
@@ -57,7 +57,7 @@ if ($status.statuscode -eq 0) {
         $xl.Workbooks.Close()
         $xl.Quit()
 
-        Get-process EXCEL | stop-process
+        Get-Process EXCEL | Stop-Process
         [System.Runtime.InteropServices.Marshal]::ReleaseComObject($xl)
 
         $src1 = '\\wserver\Kiosk\Daily Reports'
@@ -69,13 +69,23 @@ if ($status.statuscode -eq 0) {
         Get-ChildItem -Path $src2\NoGuideName*.xlsx | Move-Item -Destination $dest2 -Force
 
 
-        Copy-item -path $a `
+        Copy-Item -path $a `
             -Destination '\\wserver\wmarine\kiosk\Daily Reports' 
-        Move-item -Path $a `
+        Move-Item -Path $a `
             -Destination '\\wserver\wmarine\booking reports\Julia'
+            
+        Write-EventLog -LogName MyPowerShell -Source "WM" -EntryType Information -EventId 10 -Message "NoGuideName script completed"
+
     }
-    Else {Guy-SendGmail "No Guide Name spreadsheet found" "Check if script ran on WSERVER"}
+    Else { Guy-SendGmail "No Guide Name spreadsheet found" "Check if script ran on WSERVER" 
+    
+        Write-EventLog -LogName MyPowerShell -Source "WM" -EntryType Error -EventId 30 -Message "NoGuideName script failed, file not found on server"
+
+}
    }
  else {
     Guy-SendGmail "Connection to WSERVER does not exist" "PLEASE INVESTIGATE"
+
+    Write-EventLog -LogName MyPowerShell -Source "WM" -EntryType Error -EventId 31 -Message "NoGuideName script failed, VPN connection not found"
+
  }

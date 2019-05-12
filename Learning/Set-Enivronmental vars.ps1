@@ -8,6 +8,6 @@ $env:Lastname
 $env:City
 $env:fullname
 $env:HOMEPATH
-$env:Path
-$env:PSModulePath
+$env:Path -split ';'
+$env:PSModulePath -split ';'
 [System.Math]::Round( (1904002170088 / 1gb), 2)
