@@ -2,7 +2,7 @@
     Output to text file to be imported as a Pastel Invoice batch.
 
 #>
-$csvclient = 'C:\test\invWM\vchinv11MAY.csv'            #Input csv file
+$csvclient = 'C:\test\invWM\invsam22may.csv'            #Input csv file
 $csvrate = 'C:\test\invwm\accitemrate.csv'      #Rates per customer
 $outfile = 'C:\test\invWM\WMinvTmp.txt'        #Temp file
 $outfile2 = 'C:\test\invWM\WMinvioces.txt'     #File to be imported into Pastel
@@ -15,6 +15,7 @@ if ($checkfile) { Remove-Item $outfile2 }
 
 $data = Import-Csv -path $csvclient -header accnum, date, time, customername, BookingID, groupname, voucher, ptype, type, qty, rate, guide
 
+
 $ratelkup = Import-csv -Path $csvrate -Header acc, code, desc, rate
 
 foreach ($aObj in $data) {
@@ -22,6 +23,7 @@ foreach ($aObj in $data) {
     $pastelper = PastelPeriods -transactiondate $aObj.date
     
     foreach ($bObj in $ratelkup) {
+        
         if ($aObj.'accnum' -eq $bObj.'acc') {
             $ratecode = $bObj.code
             $description = $bObj.desc

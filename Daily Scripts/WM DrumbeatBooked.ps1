@@ -1,10 +1,10 @@
 $status = Test-Connection wserver
 if ($status.statuscode -eq 0) {
-    $file = Test-Path -path '\\wserver\kiosk\invoices\Gem Tours\preparation\GemTours*.xlsx'
+    $file = Test-Path -path '\\wserver\kiosk\invoices\Drumbeat\preparation\DrumbeatBookingDetails Booked*.xlsx'
     if ($file -eq $true) { 
-        $path = '\\wserver\Kiosk\invoices\Gem Tours\Preparation\'
+        $path = '\\wserver\Kiosk\invoices\Drumbeat\Preparation\'
         #$path = 'C:\Test\'
-        $file = Get-ChildItem -Path $path -Name 'GemToursBookingDetails*.xlsx'
+        $file = Get-ChildItem -Path $path -Name 'DrumbeatBookingDetails Booked*.xlsx'
         $a = $path + $file
 
         $xl = New-Object -ComObject Excel.Application
@@ -39,11 +39,11 @@ if ($status.statuscode -eq 0) {
         $range2.Font.Name = 'Calibri'
         $range2.Font.Bold = $true
         $range2.Font.ColorIndex = '-4105'
-        $range3 = $xl.Range("K1").Entirecolumn
-        $range3.Select()
-        $xlfilter = "Arrived"
-        $range3.AutoFilter(12, $xlfilter)
-        $rangefinal = $xl.Range("A1")
+        #$range3 = $xl.Range("L1").Entirecolumn
+        #$range3.Select()
+        #$xlfilter = "Arrived"
+        #$range3.AutoFilter(12, $xlfilter)
+        $rangefinal = $xl.Range("B1")
         $rangefinal.Select()
 
         $wb.save()
@@ -53,19 +53,19 @@ if ($status.statuscode -eq 0) {
         Get-Process EXCEL | Stop-Process
         [System.Runtime.InteropServices.Marshal]::ReleaseComObject($xl)
   
-        $src1 = '\\wserver\Kiosk\Invoices\Gem Tours'
-        $dest1 = '\\wserver\kiosk\Invoices\Gem Tours\OLD'
+        $src1 = '\\wserver\Kiosk\Invoices\Drumbeat'
+        $dest1 = '\\wserver\kiosk\Invoices\Drumbeat\OLD'
     
-        Get-ChildItem -Path $src1\GemToursBookingDetails*.xlsx | Move-Item -Destination $dest1 -Force
+        Get-ChildItem -Path $src1\DrumbeatBookingDetails Booked*.xlsx | Move-Item -Destination $dest1 -Force
  
         Move-Item -Path $a `
-            -Destination '\\wserver\Kiosk\Invoices\Gem Tours'
+            -Destination '\\wserver\Kiosk\Invoices\Drumbeat'
 
-        Write-EventLog -LogName MyPowerShell -Source "GemTours" -EntryType Information -EventId 10 -Message "GemTours script completed"
+        #Write-EventLog -LogName MyPowerShell -Source "Drumbeat" -EntryType Information -EventId 10 -Message "GemTours script completed"
 
     }
-    else { Guy-SendGmail "Gem Tours Booking details file not found" "Check if script was run on Server"
-        Write-EventLog -LogName MyPowerShell -Source "GemTours" -EntryType Error -EventId 30 -Message "Script failed, file not found"
+    else { Guy-SendGmail "Drumbeat Booking details file not found" "Check if script was run on Server"
+        #Write-EventLog -LogName MyPowerShell -Source "GemTours" -EntryType Error -EventId 30 -Message "Script failed, file not found"
 
 }
        

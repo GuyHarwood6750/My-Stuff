@@ -7,8 +7,8 @@ $inspreadsheet = 'C:\userdata\route 62\petrol books\PETROL BOOKS.xlsx'
 $csvfile = 'sheet1.csv'
 $pathout = 'C:\userdata\route 62\petrol books\'
 $custsheet = 'WWB'                          #Customer worksheet
-$startR = 3150                                    #Start row
-$endR = 3157                                     #End Row
+$startR = 3161                                    #Start row
+$endR = 3166                                     #End Row
 $startCol = 1                                    #Start Col (don't change)
 $endCol = 9                                      #End Col (don't change)
 
