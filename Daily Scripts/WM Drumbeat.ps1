@@ -70,7 +70,7 @@ if ($status.statuscode -eq 0) {
 }
        
 }       
-else { Guy-SendGmail "Connection to WServer does not exists!" "PLEASE INVESTIGATE" 
+else { Guy-SendGmail "Connection to WServer does not exists!" "WM Durmbeat" 
     Write-EventLog -LogName MyPowerShell -Source "GemTours" -EntryType Error -EventId 31 -Message "Script failed, VPN connection not found"
 
 }

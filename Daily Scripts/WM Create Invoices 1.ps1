@@ -2,15 +2,18 @@
         Modify the $StartR (startrow) and $endR (endrow).
         This can only be done by eyeball as spreadsheet has historical data.
 #>
+$playsoung = New-Object System.Media.Soundplayer
+$playsoung.SoundLocation = 'C:\Users\Guy\Documents\Powershell\Sound\script start.WAV'
+$playsoung.playsync()
 
-$inspreadsheet = 'C:\test\InvWM\vch28may.xlsx'
+$inspreadsheet = 'C:\userdata\circe launches\InvWM\inv22JULY.xlsx'
 $csvfile = 'arrived.csv'
-$csvfile2 = 'vch28may.csv'
+$csvfile2 = 'inv22JULY.csv'
 
-$pathout = 'C:\test\InvWM\'
+$pathout = 'C:\userdata\circe launches\InvWM\'
 $custsheet = 'sheet1'                          #Customer worksheet
 $startR = 1                                    #Start row
-$endR = 7                                     #End Row
+$endR = 4                                    #End Row
 $startCol = 1                                    #Start Col (don't change)
 $endCol = 12                                      #End Col (don't change)
 
@@ -35,4 +38,8 @@ $xl.Workbooks.Close()
 $xl.Quit()
 #>     
 Get-Content -Path $outfile | Select-Object -skip 1 | Set-Content -path $outfile2
-Remove-Item -Path $outfile 
+Remove-Item -Path $outfile
+
+$playsoung = New-Object System.Media.Soundplayer
+$playsoung.SoundLocation = 'C:\Users\Guy\Documents\Powershell\Sound\script end.WAV'
+$playsoung.playsync()

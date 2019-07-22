@@ -2,10 +2,14 @@
     Get list of invoices from spreadsheet
     Output to text file to be imported as a Pastel Invoice batch.
 #>
-$csvclient = 'c:\test\invwm\vch28may.csv' #Input csv file
-$csvrate = 'c:\test\invwm\accitemrate.csv'  #Rates per customer
-$outfile = 'c:\test\invwm\WMinvTmp.txt'     #Temp file
-$outfile2 = 'c:\test\invwm\WMinviocesvch28May.txt'  #File to be imported into Pastel
+$playsoung = New-Object System.Media.Soundplayer
+$playsoung.SoundLocation = 'C:\Users\Guy\Documents\Powershell\Sound\script start.WAV'
+$playsoung.playsync()
+
+$csvclient = 'c:\userdata\circe launches\invwm\inv22july.csv' #Input csv file
+$csvrate = 'c:\userdata\circe launches\invwm\rate file\accitemrate.csv'  #Rates per customer
+$outfile = 'c:\userdata\circe launches\invwm\WMinvTmp.txt'     #Temp file
+$outfile2 = 'c:\userdata\circe launches\invwm\WMinv22july.txt'  #File to be imported into Pastel
 #Remove last file imported to Pastel
 
 if (Test-Path $outfile2) { Remove-Item $outfile2 }
@@ -23,8 +27,7 @@ foreach ($aObj in $data) {
     
     # If booking id has changed then add a header record,
     # this with happen for the first header as well
-    if ($aObj.BookingID -ne $prevbookingID)
-    {
+    if ($aObj.BookingID -ne $prevbookingID) {
         $prevbookingID = $aObj.BookingID
 
         $headerProperties = [ordered] @{
@@ -87,39 +90,40 @@ foreach ($aObj in $data) {
             Col26 = ''
             Col27 = ''
             Col28 = ''
-            Col29 = '' }
-            #
-            $Line2Properties = [ordered] @{
-            col1   = 'Detail'
-            Col2   = '0'
-            Col3   = '1'
-            Col4   = '0'
-            Col5   = '0'
-            Col6   = ''
-            Col7   = '0'
-            Col8   = '3'
-            Col9   = '0'
-            col10   = "'"
-            Col11   = $aObj.voucher
-            col12   = 7
-            col13   = ''
-            col14   = ''
-            col15   = ''
-            col16   = ''
-            col17   = ''
-            col18   = ''
-            col19   = ''
-            col20   = ''
-            col21   = ''
-            col22   = ''
-            col23   = ''
-            col24   = ''
-            col25   = ''
-            col26   = ''
-            col27   = ''
-            col28   = ''
-            col29   = ''
-            }
+            Col29 = '' 
+        }
+        #
+        $Line2Properties = [ordered] @{
+            col1  = 'Detail'
+            Col2  = '0'
+            Col3  = '1'
+            Col4  = '0'
+            Col5  = '0'
+            Col6  = ''
+            Col7  = '0'
+            Col8  = '3'
+            Col9  = '0'
+            col10 = "'"
+            Col11 = $aObj.voucher
+            col12 = 7
+            col13 = ''
+            col14 = ''
+            col15 = ''
+            col16 = ''
+            col17 = ''
+            col18 = ''
+            col19 = ''
+            col20 = ''
+            col21 = ''
+            col22 = ''
+            col23 = ''
+            col24 = ''
+            col25 = ''
+            col26 = ''
+            col27 = ''
+            col28 = ''
+            col29 = ''
+        }
         $Line3Properties = [ordered] @{
             col1  = 'Detail'
             Col2  = '0'
@@ -299,15 +303,15 @@ foreach ($aObj in $data) {
         
         $objGroup = New-Object -TypeName psobject -Property $Line7Properties 
         $objGroup | Select-Object * | Export-Csv -path $outfile -Append -NoTypeInformation
-     }
+    }
 
     foreach ($bObj in $ratelkup) {
         if ($aObj.accnum -eq $bObj.acc -and ($aobj.type -eq $bObj.desc)) {
             $ratecode = $bObj.code
             #$description = $bObj.desc
-            [decimal]$amount = $bObj.rate
+            [decimal]$amount = $aObj.rate                   #$bObj.rate (rate file csv) otherwise rate from spreadsheet
             [decimal]$vat = $amount * 15 / 115
-            [decimal]$amtexvat = $bObj.rate - $vat
+            [decimal]$amtexvat = $aObj.rate - $vat          #$bObj.rate (rate file csv) otherwise rate from spreadsheet
             $vatexamt = [math]::Round($amtexvat, 2)
         }
         else {
@@ -344,7 +348,7 @@ foreach ($aObj in $data) {
         Col27 = ''
         Col28 = ''
         Col29 = ''
-        } 
+    } 
 
     $objDetails = New-Object -TypeName psobject -Property $detailProperties 
     $objDetails | Select-Object * | Export-Csv -path $outfile -Append -NoTypeInformation
@@ -354,3 +358,6 @@ foreach ($aObj in $data) {
 Get-Content -Path $outfile | Select-Object -skip 1 | Set-Content -path $outfile2
 Remove-Item -Path $outfile
 #Remove-Item -Path $csvclient
+$playsoung = New-Object System.Media.Soundplayer
+$playsoung.SoundLocation = 'C:\Users\Guy\Documents\Powershell\Sound\script end.WAV'
+$playsoung.playsync()

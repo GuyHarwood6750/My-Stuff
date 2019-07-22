@@ -1,13 +1,11 @@
-<#  Warren Marine
-    Get list of Cash Vouchers
+<#  Get list of Cash purchases
     Output to text file to be imported as a Pastel Cashbook batch.
 #>
-#Input from Client spreadsheet
-$csvclient = 'C:\Userdata\Circe Launches\cash vouchers\cv14june.csv'                  
-#Temp file
-$outfile1 = 'C:\Userdata\Circe Launches\cash vouchers\cashvch1.txt'                  
+ #Input from Client spreadsheet
+$csvclient = 'C:\Userdata\route 62\cash purchases\cash purchases june 2019.csv'                 
+$outfile1 = 'C:\Userdata\route 62\cash purchases\cashsupplier.txt'                  #Temp file
 #File to be imported into Pastel
-$outfileF = 'C:\Userdata\Circe Launches\cash vouchers\cashvchpastel.txt'             
+$outfileF = 'C:\Userdata\route 62\cash purchases\cashpurpastel.txt'             
 #Remove last file imported to Pastel
 $checkfile = Test-Path $outfileF
 if ($checkfile) { Remove-Item $outfilef }                   
@@ -18,22 +16,32 @@ $data = Import-Csv -path $csvclient -header Expacc, date, ref, desc, amt, vat
 foreach ($aObj in $data) {
     #Return Pastel accounting period based on the transaction date.
     $pastelper = PastelPeriods -transactiondate $aObj.date
-
+    
     Switch ($aObj.Expacc) {
-        MVE {$expacc = '4150000' }         #Expense account
-        RM {$expacc = '4350000'}            #Expense account
-        TEL {$expacc = '4600000'}            #Expense account
-        CLN {$expacc = '3210000'}            #Expense account
-        PC {$expacc = '4550000'}            #Expense account
-        MED {$expacc = '4050000'}            #Expense account
-        Default {$expacc = '9992000'}       #Unallocated Expense account
+        NPUR { $expacc = '2000012' }
+        PUR {$expacc = '2000010'}         
+        RM { $expacc = '4350000' } 
+        STA { $expacc = '4200000' }
+        FUEL { $expacc = '4150001' }
+        MVR { $expacc = '4150002' }
+        ELEC { $expacc = '3650000' }
+        COUR { $expacc = '3400000' }
+        ADV { $expacc = '3050000' }         
+        CLN { $expacc = '3250000' }         
+        PVT { $expacc = '5201001' }         
+        
+        Default {$expacc = '9983000'}       
     }
+
     Switch ($aObj.vat) {
         Y { $VATind = '15' }
         N { $VATind = '0' }
         Default {$VATind = '15'}
     }
+
+
     #Format Pastel batch
+    
     $props1 = [ordered] @{
         Period  = $pastelper
         Date    = $aObj.date
@@ -46,7 +54,7 @@ foreach ($aObj in $data) {
         fil2    = '0'
         fil3    = ' '
         fil4    = '     '
-        fil5    = '8410000'                     #Cash voucher contra account number
+        fil5    = '8430000'                     #Cash voucher contra account number
         fil6    = '1'
         fil7    = '1'
         fil8    = '0'
@@ -60,5 +68,6 @@ foreach ($aObj in $data) {
     
     }  
     #Remove header information so file can be imported into Pastel Accounting.
+    
     Get-Content -Path $outfile1 | Select-Object -skip 1 | Set-Content -path $outfilef
     Remove-Item -Path $outfile1

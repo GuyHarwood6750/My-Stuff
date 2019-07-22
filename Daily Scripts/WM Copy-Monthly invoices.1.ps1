@@ -5,16 +5,12 @@
 #$Dateend = '2018/12/31' must be this format
 #Scheduled task 17:15 every Friday.
 
-$playsoung = New-Object System.Media.Soundplayer
-$playsoung.SoundLocation = 'C:\Users\Guy\Documents\Powershell\Sound\script start.WAV'
-$playsoung.playsync()
-
 #The Search Invoices folder contains the PDF files that have been indexed by Windows Index
 $StopWatch = [System.Diagnostics.Stopwatch]::StartNew()
 $searchPath = "C:\Search Invoices"
 
 #Read the CSV file to see with customer had invoices for the reporting period
-$listacc = Import-csv -path 'C:\Userdata\Circe Launches\Monthly Invoices\accounts.csv' | Where-Object { $_.CopyInv -eq 1 }
+$listacc = Import-csv -path 'C:\Userdata\Circe Launches\Monthly Invoices\accounts.csv' | Where-Object {$_.CopyInv -eq 1}
 foreach ($tocopy in $listacc) {
     $customer = $($tocopy.acnum)
     $period = $($tocopy.accper)
@@ -28,14 +24,14 @@ foreach ($tocopy in $listacc) {
     $sql = "SELECT System.ItemName, System.ItempathDisplay, " +
     "System.DateModified FROM SYSTEMINDEX " +
     "WHERE DIRECTORY = '$searchPath' AND FREETEXT('$Customer') AND System.DateModified >= '$Datestart'"
-    
+       
     #Load the data into tables from the Windows Index (SQL database)
     $provider = "provider=search.collatordso;extended properties=’application=windows’;" 
     $connector = new-object system.data.oledb.oledbdataadapter -argument $sql, $provider 
     $dataset = new-object system.data.dataset 
     
-    if ($connector.fill($dataset)) { $dataset.tables[0] | Export-Csv 'c:\Userdata\Circe Launches\Monthly Invoices\pdflist.txt' -Append }
-    
+    if ($connector.fill($dataset)) {$dataset.tables[0] | Export-Csv 'c:\Userdata\Circe Launches\Monthly Invoices\pdflistall.txt' -Append}
+   <# 
     #Final location for invoices for this customer, obtained from the CSV file.
     $finalpath = "$mainloc\$finalcf\$period"    
     
@@ -54,13 +50,7 @@ foreach ($tocopy in $listacc) {
         else {
             Copy-Item $searchpath\"$($datarow.'SYSTEM.ITEMNAME')" -Destination $finalpath -Force
         }
-    }
+    }#>
 }
 $elapsed = $StopWatch.Elapsed
-Write-Host "All completed. Elapsed time: $elapsed"   
-
-$playsoung = New-Object System.Media.Soundplayer
-$playsoung.SoundLocation = 'C:\Users\Guy\Documents\Powershell\Sound\script end.WAV'
-$playsoung.playsync()
-
-
+Write-Host "All completed. Elapsed time: $elapsed"      

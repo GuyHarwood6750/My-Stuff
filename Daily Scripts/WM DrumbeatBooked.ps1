@@ -56,7 +56,7 @@ if ($status.statuscode -eq 0) {
         $src1 = '\\wserver\Kiosk\Invoices\Drumbeat'
         $dest1 = '\\wserver\kiosk\Invoices\Drumbeat\OLD'
     
-        Get-ChildItem -Path $src1\DrumbeatBookingDetails Booked*.xlsx | Move-Item -Destination $dest1 -Force
+        #Get-ChildItem -Path $src1\DrumbeatBookingDetails Booked*.xlsx | Move-Item -Destination $dest1 -Force
  
         Move-Item -Path $a `
             -Destination '\\wserver\Kiosk\Invoices\Drumbeat'
@@ -70,7 +70,7 @@ if ($status.statuscode -eq 0) {
 }
        
 }       
-else { Guy-SendGmail "Connection to WServer does not exists!" "PLEASE INVESTIGATE" 
+else { Guy-SendGmail "Connection to WServer does not exists!" "WM DrumbeatBooked" 
     Write-EventLog -LogName MyPowerShell -Source "GemTours" -EntryType Error -EventId 31 -Message "Script failed, VPN connection not found"
 
 }

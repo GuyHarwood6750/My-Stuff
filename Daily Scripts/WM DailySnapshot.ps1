@@ -1,8 +1,8 @@
 $status = Test-Connection wserver
 if ($status.statuscode -eq 0) {
-    $file = Test-Path -path '\\wserver\kiosk\daily reports\preparation\Daily_snap*.xlsx'
+    $file = Test-Path -path '\\wserver\wmarine\booking reports\Daily_snap*.xlsx'
     if ($file -eq $true) {
-        $path = '\\wserver\Kiosk\Daily Reports\Preparation\'
+        $path = '\\wserver\wmarine\Booking Reports\'
         #$path = 'C:\Test\'
         $file = Get-ChildItem -Path $path -Name 'Daily_snapshot*.xlsx'
         $a = $path + $file

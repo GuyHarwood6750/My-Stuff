@@ -1,3 +1,8 @@
+$playsoung = New-Object System.Media.Soundplayer
+$playsoung.SoundLocation = 'C:\Users\Guy\Documents\Powershell\Sound\script start.WAV'
+$playsoung.playsync()
+
+
 $status = Test-Connection wserver
 if ($status.statuscode -eq 0) {
     $file = Test-Path -path '\\wserver\kiosk\invoices\Hylton Ross\preparation\Hross*.xlsx'
@@ -64,13 +69,18 @@ if ($status.statuscode -eq 0) {
         Write-EventLog -LogName MyPowerShell -Source "HROSS" -EntryType Information -EventId 10 -Message "HROSS script completed"
 
     }
-    else { Guy-SendGmail "Hilton Ross Booking details file not found" "Check if script was run on Server"
+    else {
+        Guy-SendGmail "Hilton Ross Booking details file not found" "Check if script was run on Server"
         Write-EventLog -LogName MyPowerShell -Source "HROSS" -EntryType Error -EventId 30 -Message "Script failed, file not found"
 
-}
+    }
        
 }       
-else { Guy-SendGmail "Connection to WServer does not exists!" "PLEASE INVESTIGATE" 
+else {
+    Guy-SendGmail "Connection to WServer does not exists!" "WM HRoss" 
     Write-EventLog -LogName MyPowerShell -Source "HROSS" -EntryType Error -EventId 31 -Message "Script failed, VPN connection not found"
 
 }
+$playsoung = New-Object System.Media.Soundplayer
+$playsoung.SoundLocation = 'C:\Users\Guy\Documents\Powershell\Sound\script end.WAV'
+$playsoung.playsync()
