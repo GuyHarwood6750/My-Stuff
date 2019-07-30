@@ -2,7 +2,7 @@
     Output to text file to be imported as a Pastel Invoice batch.
 
 #>
-$csvclient = 'C:\userdata\route 62\blue label\21July.csv'      #Input from Client spreadsheet
+$csvclient = 'C:\userdata\route 62\blue label\28July.csv'      #Input from Client spreadsheet
 $outfile = 'C:\userdata\route 62\blue label\supplierinv.txt'        #Temp file
 $outfile2 = 'C:\userdata\route 62\blue label\bluelabelinvioces.txt'     #File to be imported into Pastel
 

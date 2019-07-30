@@ -3,7 +3,7 @@
     Output to text file to be imported as a Pastel Cashbook batch.
 #>
 #Input from Client spreadsheet
-$csvclient = 'C:\Userdata\Circe Launches\cash vouchers\cv14june.csv'                  
+$csvclient = 'C:\Userdata\Circe Launches\cash vouchers\cv24july.csv'                  
 #Temp file
 $outfile1 = 'C:\Userdata\Circe Launches\cash vouchers\cashvch1.txt'                  
 #File to be imported into Pastel
@@ -20,12 +20,13 @@ foreach ($aObj in $data) {
     $pastelper = PastelPeriods -transactiondate $aObj.date
 
     Switch ($aObj.Expacc) {
-        MVE {$expacc = '4150000' }         #Expense account
-        RM {$expacc = '4350000'}            #Expense account
-        TEL {$expacc = '4600000'}            #Expense account
-        CLN {$expacc = '3210000'}            #Expense account
-        PC {$expacc = '4550000'}            #Expense account
-        MED {$expacc = '4050000'}            #Expense account
+        MVE {$expacc = '4150000' }         #Motor vehicles
+        RM {$expacc = '4350000'}            #Repairs and Maintenance
+        TEL {$expacc = '4600000'}            #Telephone
+        CLN {$expacc = '3210000'}            #Cleaning
+        PC {$expacc = '4550000'}            #Protective clothing
+        MED {$expacc = '4050000'}            #Medical expenses
+        SS {$expacc = '3750000'}            #Ship stores & provisions
         Default {$expacc = '9992000'}       #Unallocated Expense account
     }
     Switch ($aObj.vat) {
