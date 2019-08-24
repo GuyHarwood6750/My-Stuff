@@ -46,7 +46,7 @@ if ($status.statuscode -eq 0) {
         $range2.Font.ColorIndex = '-4105'
         $range3 = $xl.Range("K1").Entirecolumn
         $range3.Select()
-        $xlfilter = "Cancelled"
+        $xlfilter = "Cancel"
         $range3.AutoFilter(12, $xlfilter)
         $xlfilter = "PRPD"
         $range3.AutoFilter(7, $xlfilter)

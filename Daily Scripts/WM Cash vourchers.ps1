@@ -3,7 +3,7 @@
     Output to text file to be imported as a Pastel Cashbook batch.
 #>
 #Input from Client spreadsheet
-$csvclient = 'C:\Userdata\Circe Launches\cash vouchers\cv24july.csv'                  
+$csvclient = 'C:\Userdata\Circe Launches\cash vouchers\cashvch02aug.csv'                  
 #Temp file
 $outfile1 = 'C:\Userdata\Circe Launches\cash vouchers\cashvch1.txt'                  
 #File to be imported into Pastel

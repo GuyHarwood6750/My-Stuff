@@ -54,7 +54,7 @@ if ($status.statuscode -eq 0) {
         $xlfilter = $datefilter
         $range3.AutoFilter(1, $xlfilter)
         #Status filter
-        $xlfilter = "Cancelled"
+        $xlfilter = "Cancel"
         $range3.AutoFilter(12, $xlfilter)
         #$xlfilter = "Cancelled"
         #$range3.AutoFilter(12, $xlfilter)

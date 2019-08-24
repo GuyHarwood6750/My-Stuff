@@ -2,9 +2,9 @@
     Output to text file to be imported as a Pastel Invoice batch.
 
 #>
-$csvclient = 'C:\userdata\route 62\_all suppliers\30JULY.csv'      #Input from Client spreadsheet
+$csvclient = 'C:\userdata\route 62\_all suppliers\suppliers 16AUG.csv'      #Input from Client spreadsheet
 $outfile = 'C:\userdata\route 62\_all suppliers\supplierinv.txt'        #Temp file
-$outfile2 = 'C:\userdata\route 62\_all suppliers\suppliers30JULY.txt'     #File to be imported into Pastel
+$outfile2 = 'C:\userdata\route 62\_all suppliers\suppliersAUG16.txt'     #File to be imported into Pastel
 
 #Remove last file imported to Pastel
 
@@ -13,7 +13,7 @@ if ($checkfile) { Remove-Item $outfile2 }
 
 #Import latest csv from Client spreadsheet
 
-$data = Import-Csv -path $csvclient -header acc, date, invnum, amt
+$data = Import-Csv -path $csvclient -header acc, date, invnum, amt, vat, method
 
 foreach ($aObj in $data) {
     #Return Pastel accounting period based on the transaction date.
@@ -26,6 +26,7 @@ foreach ($aObj in $data) {
 
     Switch ($aObj.acc) {
         BADEN1 { $expacc = '2000010'; $description = 'Purchases' }
+        BAT { $expacc = '2000010'; $description = 'Purchases' }
         CAPDRY { $expacc = '2000010'; $description = 'Purchases' }
         GAYD { $expacc = '2000010'; $description = 'Purchases' }
         GEI { $expacc = '2000010'; $description = 'Purchases' }
@@ -37,8 +38,12 @@ foreach ($aObj in $data) {
         MANNY { $expacc = '2000010'; $description = 'Purchases' }
         MBRAND { $expacc = '2000010'; $description = 'Purchases' }
         MERRYP { $expacc = '2000010'; $description = 'Purchases' }
+        NUTS { $expacc = '2000010'; $description = 'Purchases' }
+        OFOOD { $expacc = '2000010'; $description = 'Purchases' }
         PACKT { $expacc = '2000010'; $description = 'Purchases' }
         PARMA { $expacc = '2000010'; $description = 'Purchases' }
+        PENBEV { $expacc = '2000010'; $description = 'Purchases' }
+        RAIM { $expacc = '2000010'; $description = 'Purchases' }
         SGV { $expacc = '2000010'; $description = 'Purchases' }
         SIMBA { $expacc = '2000010'; $description = 'Purchases' }
         TWISP { $expacc = '2000010'; $description = 'Purchases' }

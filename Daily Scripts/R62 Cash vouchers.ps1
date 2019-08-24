@@ -2,7 +2,7 @@
     Output to text file to be imported as a Pastel Cashbook batch.
 #>
  #Input from Client spreadsheet
-$csvclient = 'C:\Userdata\route 62\cash purchases\cash purchases june 2019.csv'                 
+$csvclient = 'C:\Userdata\route 62\cash purchases\cash purchases july 2019.csv'                 
 $outfile1 = 'C:\Userdata\route 62\cash purchases\cashsupplier.txt'                  #Temp file
 #File to be imported into Pastel
 $outfileF = 'C:\Userdata\route 62\cash purchases\cashpurpastel.txt'             
@@ -29,6 +29,7 @@ foreach ($aObj in $data) {
         ADV { $expacc = '3050000' }         
         CLN { $expacc = '3250000' }         
         PVT { $expacc = '5201001' }         
+        TEL { $expacc = '4600000' }         
         
         Default {$expacc = '9983000'}       
     }
