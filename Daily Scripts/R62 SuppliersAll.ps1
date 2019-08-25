@@ -2,11 +2,11 @@
     Output to text file to be imported as a Pastel Invoice batch.
 #>
 #Input from Supplier spreadsheet
-$csvsupplier = 'C:\userdata\route 62\_all suppliers\augdev2.csv'
+$csvsupplier = 'C:\userdata\route 62\_all suppliers\AUGDEV3.csv'
 #Temp file      
 $outfile = 'C:\userdata\route 62\_all suppliers\supplierinv.txt'
 #File to be imported into Pastel        
-$outfile2 = 'C:\userdata\route 62\_all suppliers\augdev2.txt'     
+$outfile2 = 'C:\userdata\route 62\_all suppliers\AUGDEV3.txt'     
 
 #Remove last file imported to Pastel
 $checkfile = Test-Path $outfile2
@@ -42,6 +42,8 @@ foreach ($aObj in $data) {
     Switch ($aObj.acc) {
         AIDOR { $expacc = '4350000'; $description = 'Repairs' }
         AUTOC { $expacc = '4150002'; $description = 'Repairs' }
+        GRIDH { $expacc = '4600000'; $description = 'Hosting' }
+        SASF { $expacc = '4301000'; $description = 'Rental' }
         
     }
     
