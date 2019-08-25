@@ -1,56 +1,40 @@
 ﻿<#  Get list of Supplier invoices from spreadsheet
     Output to text file to be imported as a Pastel Invoice batch.
-
 #>
-$csvclient = 'C:\userdata\route 62\_all suppliers\suppliers 16AUG.csv'      #Input from Client spreadsheet
+$csvsupplier = 'C:\userdata\route 62\_all suppliers\augdev2.csv'      #Input from Supplier spreadsheet
 $outfile = 'C:\userdata\route 62\_all suppliers\supplierinv.txt'        #Temp file
-$outfile2 = 'C:\userdata\route 62\_all suppliers\suppliersAUG16.txt'     #File to be imported into Pastel
+$outfile2 = 'C:\userdata\route 62\_all suppliers\augdev2.txt'     #File to be imported into Pastel
 
 #Remove last file imported to Pastel
-
 $checkfile = Test-Path $outfile2
 if ($checkfile) { Remove-Item $outfile2 }                   
 
-#Import latest csv from Client spreadsheet
-
-$data = Import-Csv -path $csvclient -header acc, date, invnum, amt, vat, method
+#Import latest csv from Supplier spreadsheet, VAT & NO-VAT, not MIXED VAT.
+$data = Import-Csv -path $csvsupplier -header acc, date, invnum, amt, vat
 
 foreach ($aObj in $data) {
     #Return Pastel accounting period based on the transaction date.
     $pastelper = PastelPeriods -transactiondate $aObj.date
 
-    [decimal]$amount = $aObj.amt
-    [decimal]$vat = $amount * 15 / 115
-    [decimal]$amtexvat = $aObj.amt - $vat
-    $vatexamt = [math]::Round($amtexvat, 2)
+    switch ($aObj.vat) { 
+    Y {[decimal]$amount = $aObj.amt
+            [decimal]$vat = $amount * 15 / 115
+            [decimal]$amtexvat = $aObj.amt - $vat
+            $vatexamt = [math]::Round($amtexvat, 2)
+            $vatpercent = 15 
+            $expacc = '2000010'
+            $description = 'Purchases'}
+    N {[decimal] $amount = $aObj.amt
+            [decimal] $vatexamt = $aObj.amt
+            $vatpercent = 0 
+            $expacc = '2000012' 
+            $description = 'Purchases'}
+    }   
 
     Switch ($aObj.acc) {
-        BADEN1 { $expacc = '2000010'; $description = 'Purchases' }
-        BAT { $expacc = '2000010'; $description = 'Purchases' }
-        CAPDRY { $expacc = '2000010'; $description = 'Purchases' }
-        GAYD { $expacc = '2000010'; $description = 'Purchases' }
-        GEI { $expacc = '2000010'; $description = 'Purchases' }
-        HENT { $expacc = '2000010'; $description = 'Purchases' }
-        JANIBA { $expacc = '2000010'; $description = 'Purchases' }
-        KKI { $expacc = '2000010'; $description = 'Purchases' }
-        KONIG { $expacc = '2000010'; $description = 'Purchases' }
-        KOW { $expacc = '2000010'; $description = 'Purchases' }
-        MANNY { $expacc = '2000010'; $description = 'Purchases' }
-        MBRAND { $expacc = '2000010'; $description = 'Purchases' }
-        MERRYP { $expacc = '2000010'; $description = 'Purchases' }
-        NUTS { $expacc = '2000010'; $description = 'Purchases' }
-        OFOOD { $expacc = '2000010'; $description = 'Purchases' }
-        PACKT { $expacc = '2000010'; $description = 'Purchases' }
-        PARMA { $expacc = '2000010'; $description = 'Purchases' }
-        PENBEV { $expacc = '2000010'; $description = 'Purchases' }
-        RAIM { $expacc = '2000010'; $description = 'Purchases' }
-        SGV { $expacc = '2000010'; $description = 'Purchases' }
-        SIMBA { $expacc = '2000010'; $description = 'Purchases' }
-        TWISP { $expacc = '2000010'; $description = 'Purchases' }
-        VASC { $expacc = '2000010'; $description = 'Purchases' }
-        VEGA { $expacc = '2000010'; $description = 'Purchases' }
+        AIDOR {$expacc = '4350000'; $description = 'Repairs' }
+        AUTOC {$expacc = '4150002'; $description = 'Repairs' }
         
-        Default { $expacc = '2000010' }
     }
     
     #Format Pastel batch
@@ -75,7 +59,7 @@ foreach ($aObj in $data) {
         f13   = ''
         f14   = ''
         f15   = '0'
-        f16   = '30/04/2019'
+        f16   = $aObj.date
         f17   = ''
         f18   = ''
         f19   = ''
@@ -90,7 +74,7 @@ foreach ($aObj in $data) {
         f28   = $vatexamt
         f29   = $aObj.amt
         f30   = ''
-        f31   = '15'
+        f31   = $vatpercent
         f32   = '0'
         f33   = '0'
         f34   = $expacc
@@ -107,4 +91,3 @@ foreach ($aObj in $data) {
 
 Get-Content -Path $outfile | Select-Object -skip 1 | Set-Content -path $outfile2
 Remove-Item -Path $outfile
-#Remove-Item -Path $csvclient
