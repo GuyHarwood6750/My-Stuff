@@ -1,9 +1,12 @@
 ﻿<#  Get list of Supplier invoices from spreadsheet
     Output to text file to be imported as a Pastel Invoice batch.
 #>
-$csvsupplier = 'C:\userdata\route 62\_all suppliers\augdev2.csv'      #Input from Supplier spreadsheet
-$outfile = 'C:\userdata\route 62\_all suppliers\supplierinv.txt'        #Temp file
-$outfile2 = 'C:\userdata\route 62\_all suppliers\augdev2.txt'     #File to be imported into Pastel
+#Input from Supplier spreadsheet
+$csvsupplier = 'C:\userdata\route 62\_all suppliers\augdev2.csv'
+#Temp file      
+$outfile = 'C:\userdata\route 62\_all suppliers\supplierinv.txt'
+#File to be imported into Pastel        
+$outfile2 = 'C:\userdata\route 62\_all suppliers\augdev2.txt'     
 
 #Remove last file imported to Pastel
 $checkfile = Test-Path $outfile2
@@ -16,24 +19,29 @@ foreach ($aObj in $data) {
     #Return Pastel accounting period based on the transaction date.
     $pastelper = PastelPeriods -transactiondate $aObj.date
 
+    #Process transactions based on VAT=Y or VAT=N  
     switch ($aObj.vat) { 
-    Y {[decimal]$amount = $aObj.amt
+        Y {
+            [decimal]$amount = $aObj.amt
             [decimal]$vat = $amount * 15 / 115
             [decimal]$amtexvat = $aObj.amt - $vat
             $vatexamt = [math]::Round($amtexvat, 2)
             $vatpercent = 15 
             $expacc = '2000010'
-            $description = 'Purchases'}
-    N {[decimal] $amount = $aObj.amt
+            $description = 'Purchases'
+        }
+        N {
+            [decimal] $amount = $aObj.amt
             [decimal] $vatexamt = $aObj.amt
             $vatpercent = 0 
             $expacc = '2000012' 
-            $description = 'Purchases'}
+            $description = 'Purchases'
+        }
     }   
-
+    #Process Supplier that are not 'default purchases'
     Switch ($aObj.acc) {
-        AIDOR {$expacc = '4350000'; $description = 'Repairs' }
-        AUTOC {$expacc = '4150002'; $description = 'Repairs' }
+        AIDOR { $expacc = '4350000'; $description = 'Repairs' }
+        AUTOC { $expacc = '4150002'; $description = 'Repairs' }
         
     }
     
@@ -88,6 +96,6 @@ foreach ($aObj in $data) {
     $objlist | Select-Object * | Export-Csv -path $outfile -NoTypeInformation -Append
 }  
 #Remove header information so file can be imported into Pastel Accounting.
-
 Get-Content -Path $outfile | Select-Object -skip 1 | Set-Content -path $outfile2
+#Remove Temp file.
 Remove-Item -Path $outfile
