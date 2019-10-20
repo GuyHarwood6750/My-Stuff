@@ -30,7 +30,8 @@ switch ((Get-date).DayOfWeek) {
         Compress-Archive -Path "\\wserver\Kiosk\Invoices\*Scanned*" -DestinationPath "d:\circe launches backups\kiosk\Invoices\F2020\Scanned2020 $(get-date -f yyyyMMdd-HHmmss).zip" -force
     }
     Sunday {
-
+        #Compress-Archive -Path "\\wserver\Kiosk\Invoices\F2020" -DestinationPath "d:\circe launches backups\kiosk\Invoices\F2020\Invoices2020 $(get-date -f yyyyMMdd-HHmmss).zip" -force
+        #Compress-Archive -Path "\\wserver\Kiosk\Schedules" -DestinationPath "d:\circe launches backups\kiosk\Schedules\Schedules $(get-date -f yyyyMMdd-HHmmss).zip" -force
     }
     Default { }
 

@@ -3,12 +3,12 @@
         This can only be done by eyeball as spreadsheet has historical data.
 #>
 
-$inspreadsheet = 'C:\userdata\route 62\petrol books\petrol books 20190821.xlsx'
+$inspreadsheet = 'C:\userdata\route 62\petrol books\petrol books.xlsx'
 $csvfile = 'sheet1.csv'
 $pathout = 'C:\userdata\route 62\petrol books\'
 $custsheet = 'wwb'                          #Customer worksheet
-$startR = 3231                                    #Start row
-$endR = 3235                                    #End Row
+$startR = 3237                                    #Start row
+$endR = 3238                                    #End Row
 $startCol = 1                                    #Start Col (don't change)
 $endCol = 9                                      #End Col (don't change)
 

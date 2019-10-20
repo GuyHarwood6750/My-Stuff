@@ -2,7 +2,7 @@
     Output to text file to be imported as a Pastel Cashbook batch.
 #>
  #Input from Client spreadsheet
-$csvclient = 'C:\Userdata\route 62\cash purchases\cash purchases july 2019.csv'                 
+$csvclient = 'C:\Userdata\route 62\cash purchases\cash purchases september 2019.csv'                 
 $outfile1 = 'C:\Userdata\route 62\cash purchases\cashsupplier.txt'                  #Temp file
 #File to be imported into Pastel
 $outfileF = 'C:\Userdata\route 62\cash purchases\cashpurpastel.txt'             
@@ -18,17 +18,18 @@ foreach ($aObj in $data) {
     $pastelper = PastelPeriods -transactiondate $aObj.date
     
     Switch ($aObj.Expacc) {
-        NPUR { $expacc = '2000012' }
-        PUR {$expacc = '2000010'}         
-        RM { $expacc = '4350000' } 
-        STA { $expacc = '4200000' }
-        FUEL { $expacc = '4150001' }
-        MVR { $expacc = '4150002' }
-        ELEC { $expacc = '3650000' }
-        COUR { $expacc = '3400000' }
         ADV { $expacc = '3050000' }         
         CLN { $expacc = '3250000' }         
+        COMPA { $expacc = '6250010' }         
+        COUR { $expacc = '3400000' }
+        ELEC { $expacc = '3650000' }
+        FUEL { $expacc = '4150001' }
+        MVR { $expacc = '4150002' }
+        NPUR { $expacc = '2000012' }
+        PUR {$expacc = '2000010'}         
         PVT { $expacc = '5201001' }         
+        RM { $expacc = '4350000' } 
+        STAT { $expacc = '4200000' }
         TEL { $expacc = '4600000' }         
         
         Default {$expacc = '9983000'}       

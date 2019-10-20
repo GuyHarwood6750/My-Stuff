@@ -2,18 +2,18 @@
     Output to text file to be imported as a Pastel Invoice batch.
 #>
 #Input from Supplier spreadsheet
-$csvsupplier = 'C:\userdata\route 62\_all suppliers\september_d.csv'
+$csvsupplier = 'C:\userdata\circe launches\_all suppliers\invrwood.csv'
 #Temp file      
-$outfile = 'C:\userdata\route 62\_all suppliers\supplierinv.txt'
+$outfile = 'C:\userdata\circe launches\_all suppliers\supplierinv.txt'
 #File to be imported into Pastel        
-$outfile2 = 'C:\userdata\route 62\_all suppliers\september_d.txt'     
+$outfile2 = 'C:\userdata\circe launches\_all suppliers\supplier invoices.txt'     
 
 #Remove last file imported to Pastel
 $checkfile = Test-Path $outfile2
 if ($checkfile) { Remove-Item $outfile2 }                   
 
-#Import latest csv from Supplier spreadsheet, VAT & NO-VAT, not MIXED VAT.
-$data = Import-Csv -path $csvsupplier -header acc, date, invnum, descr, amt, vat
+#Import latest csv from Supplier spreadsheet, VAT & NO-VAT
+$data = Import-Csv -path $csvsupplier -header acc, date, invnum, desc, amt, vat
 
 foreach ($aObj in $data) {
     #Return Pastel accounting period based on the transaction date.
@@ -27,35 +27,25 @@ foreach ($aObj in $data) {
             [decimal]$amtexvat = $aObj.amt - $vat
             $vatexamt = [math]::Round($amtexvat, 2)
             $vatpercent = 15 
-            $expacc = '2000010'
-            $description = $aObj.descr
         }
         N {
             [decimal] $amount = $aObj.amt
             [decimal] $vatexamt = $aObj.amt
             $vatpercent = 0 
-            $expacc = '2000012' 
-            $description = $aObj.descr
         }
     }   
-    #Process Supplier that are not 'default purchases'
+    #Process Supplier
     Switch ($aObj.acc) {
-        AIDOR { $expacc = '4350000'; $description = $aObj.descr }
-        AUTOC { $expacc = '4150002'; $description = $aObj.descr }
-        CON001 { $expacc = '4600000'; $description = $aObj.descr }
-        GRIDH { $expacc = '4600000'; $description = $aObj.descr }
-        METRA { $expacc = '4350000'; $description = $aObj.descr }
-        MOOVR { $expacc = '4300000'; $description = $aObj.descr }
-        MIOSA { $expacc = '4550000'; $description = $aObj.descr }
-        MSCHER { $expacc = '3000000'; $description = $aObj.descr }
-        RENOKI { $expacc = '3250000'; $description = $aObj.descr }
-        SAMRO { $expacc = '4550000'; $description = $aObj.descr }
-        SWDMUN { $expacc = '3650000'; $description = $aObj.descr }
-        WAF00 { $expacc = '4600000'; $description = $aObj.descr }
-        WALTON { $expacc = '4200000'; $description = $aObj.descr }
+        AFROX { $expacc = '4350000'; $description = $aObj.desc }
+        CELLC { $expacc = '4600000'; $description = $aObj.desc }
+        DANSH { $expacc = '4000000'; $description = $aObj.desc }
+        GRIDH { $expacc = '4600000'; $description = $aObj.desc }
+        HBON { $expacc = '4200000'; $description = $aObj.desc }
+        MACSTE { $expacc = '4350000'; $description = $aObj.desc }
+        RWOOD { $expacc = '4350000'; $description = $aObj.desc }
+        SIGARA { $expacc = '3750000'; $description = $aObj.desc }
         
     }
-    
     #Format Pastel batch
     $props = [ordered] @{
         hd    = 'Header'
@@ -102,7 +92,6 @@ foreach ($aObj in $data) {
         f37   = ''
         f38   = ''
     }
-                 
     $objlist = New-Object -TypeName psobject -Property $props 
     $objlist | Select-Object * | Export-Csv -path $outfile -NoTypeInformation -Append
 }  

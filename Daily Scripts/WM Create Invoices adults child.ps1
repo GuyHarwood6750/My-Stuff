@@ -6,10 +6,10 @@ $playsoung = New-Object System.Media.Soundplayer
 $playsoung.SoundLocation = 'C:\Users\Guy\Documents\Powershell\Sound\script start.WAV'
 $playsoung.playsync()
 
-$csvclient = 'c:\userdata\circe launches\invwm\invsam23aug.csv' #Input csv file
+$csvclient = 'c:\userdata\circe launches\invwm\vch19oct.csv' #Input csv file
 $csvrate = 'c:\userdata\circe launches\invwm\rate file\accitemrate.csv'  #Rates per customer
 $outfile = 'c:\userdata\circe launches\invwm\WMinvTmp.txt'     #Temp file
-$outfile2 = 'c:\userdata\circe launches\invwm\WMinvsam23aug.txt'  #File to be imported into Pastel
+$outfile2 = 'c:\userdata\circe launches\invwm\WMvch19oct.txt'  #File to be imported into Pastel
 #Remove last file imported to Pastel
 
 if (Test-Path $outfile2) { Remove-Item $outfile2 }

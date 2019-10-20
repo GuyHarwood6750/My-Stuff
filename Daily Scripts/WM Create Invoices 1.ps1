@@ -6,14 +6,14 @@ $playsoung = New-Object System.Media.Soundplayer
 $playsoung.SoundLocation = 'C:\Users\Guy\Documents\Powershell\Sound\script start.WAV'
 $playsoung.playsync()
 
-$inspreadsheet = 'C:\userdata\circe launches\InvWM\invsam23aug.xlsx'
+$inspreadsheet = 'C:\userdata\circe launches\InvWM\vch19oct.xlsx'
 $csvfile = 'arrived.csv'
-$csvfile2 = 'invsam23aug.csv'
+$csvfile2 = 'vch19oct.csv'
 
 $pathout = 'C:\userdata\circe launches\InvWM\'
 $custsheet = 'sheet1'                          #Customer worksheet
 $startR = 1                                    #Start row
-$endR = 3                                    #End Row
+$endR = 6                                    #End Row
 $startCol = 1                                    #Start Col (don't change)
 $endCol = 12                                      #End Col (don't change)
 
