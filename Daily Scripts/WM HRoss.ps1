@@ -55,7 +55,7 @@ if ($status.statuscode -eq 0) {
         $xl.Workbooks.Close()
         $xl.Quit()
 
-        Get-Process EXCEL | Stop-Process
+        #Get-Process EXCEL | Stop-Process
         [System.Runtime.InteropServices.Marshal]::ReleaseComObject($xl)
   
         $src1 = '\\wserver\Kiosk\Invoices\Hylton Ross'

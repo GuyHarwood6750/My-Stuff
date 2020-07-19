@@ -32,6 +32,10 @@ if ($status.statuscode -eq 0) {
         $range5.Select()
         $range5.HorizontalAlignment = -4108
 
+        $range5 = $xl.Range("E1").Entirecolumn
+        $range5.Select()
+        $range5.HorizontalAlignment = -4108
+
         $range = $xl.Range("B:B").Entirecolumn
         $range.NumberFormat = 'dd/mm/yyyy'
         $range2 = $xl.Range("1:1").EntireRow
@@ -46,12 +50,7 @@ if ($status.statuscode -eq 0) {
         $range2a.Font.Name = 'Calibri'
         $range2a.Font.Bold = $true
         $range2a.Font.ColorIndex = '3'
-        <#
-        $range3 = $xl.Range("K1").Entirecolumn
-        $range3.Select()
-        $xlfilter = "Unknown"
-        $range3.AutoFilter(11, $xlfilter)
-        #>
+               
         $rangefinal = $xl.Range("A1")
         $rangefinal.Select()
 
@@ -59,7 +58,7 @@ if ($status.statuscode -eq 0) {
         $xl.Workbooks.Close()
         $xl.Quit()
 
-        Get-Process EXCEL | Stop-Process
+        #Get-Process EXCEL | Stop-Process
         [System.Runtime.InteropServices.Marshal]::ReleaseComObject($xl)
 
         #Move the file from previous day to 'OLD"    
@@ -74,7 +73,7 @@ if ($status.statuscode -eq 0) {
         Write-EventLog -LogName MyPowerShell -Source "WM" -EntryType Information -EventId 10 -Message "BookingRateZero script completed"
 
     }
-    Else { Guy-SendGmail "BookingRateZero spreadsheet not found" "Check if script ran on WSERVER" 
+    Else { Guy-SendGmail "BookingRateZero spreadsheet not found" "Check if script ran on WSERVER - Script -> BookRateZero" 
     
         Write-EventLog -LogName MyPowerShell -Source "WM" -EntryType Error -EventId 30 -Message "BookingRateZero script failed, file not found on server"
 

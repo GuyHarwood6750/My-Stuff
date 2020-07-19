@@ -2,18 +2,18 @@
     Output to text file to be imported as a Pastel Invoice batch.
 #>
 #Input from Supplier spreadsheet
-$csvsupplier = 'C:\userdata\circe launches\_all suppliers\invrwood.csv'
+#$csvsupplier = 'C:\userdata\circe launches\_all suppliers\suppliers june 2020_4.csv'
 #Temp file      
 $outfile = 'C:\userdata\circe launches\_all suppliers\supplierinv.txt'
 #File to be imported into Pastel        
-$outfile2 = 'C:\userdata\circe launches\_all suppliers\supplier invoices.txt'     
+$outfile3 = 'C:\userdata\circe launches\_all suppliers\supplier invoices.txt'     
 
 #Remove last file imported to Pastel
-$checkfile = Test-Path $outfile2
-if ($checkfile) { Remove-Item $outfile2 }                   
+$checkfile = Test-Path $outfile3
+if ($checkfile) { Remove-Item $outfile3 }                   
 
 #Import latest csv from Supplier spreadsheet, VAT & NO-VAT
-$data = Import-Csv -path $csvsupplier -header acc, date, invnum, desc, amt, vat
+$data = Import-Csv -path $outfile2 -header acc, Expacc, date, ref, invnum, desc, amt, vat
 
 foreach ($aObj in $data) {
     #Return Pastel accounting period based on the transaction date.
@@ -36,14 +36,41 @@ foreach ($aObj in $data) {
     }   
     #Process Supplier
     Switch ($aObj.acc) {
+        307LUB { $expacc = '3800000'; $description = $aObj.desc }
+        ABPRO { $expacc = '3050000'; $description = $aObj.desc }
         AFROX { $expacc = '4350000'; $description = $aObj.desc }
+        ANCH { $expacc = '4350000'; $description = $aObj.desc }
+        ASTRO { $expacc = '4350000'; $description = $aObj.desc }
+        ASPA { $expacc = '4350000'; $description = $aObj.desc }
+        BALT { $expacc = '4350000'; $description = $aObj.desc }
+        BOLTF { $expacc = '4350000'; $description = $aObj.desc }
+        CAPERU { $expacc = '4350000'; $description = $aObj.desc }
         CELLC { $expacc = '4600000'; $description = $aObj.desc }
+        CHCOM { $expacc = '3050000'; $description = $aObj.desc }
         DANSH { $expacc = '4000000'; $description = $aObj.desc }
+        COCR { $expacc = '5600472'; $description = $aObj.desc }
+        COCE { $expacc = '3650000'; $description = $aObj.desc }
+        CRS { $expacc = '4350000'; $description = $aObj.desc }
+        EXCFLA { $expacc = '4350000'; $description = $aObj.desc }
+        EXPHB { $expacc = '3050000'; $description = $aObj.desc }
+        FEW { $expacc = '4350000'; $description = $aObj.desc }
+        FOWBR { $expacc = '4350000'; $description = $aObj.desc }
         GRIDH { $expacc = '4600000'; $description = $aObj.desc }
+        HARW { $expacc = '4300000'; $description = $aObj.desc }
         HBON { $expacc = '4200000'; $description = $aObj.desc }
+        HBYC { $expacc = '4300000'; $description = $aObj.desc }
+        HYDT { $expacc = '4350000'; $description = $aObj.desc }
+        INNEW { $expacc = '3050000'; $description = $aObj.desc }
+        LTD { $expacc = '4350000'; $description = $aObj.desc }
+        NDE { $expacc = '4350000'; $description = $aObj.desc }
+        MANEX { $expacc = '4350000'; $description = $aObj.desc }
         MACSTE { $expacc = '4350000'; $description = $aObj.desc }
+        RADH { $expacc = '4350000'; $description = $aObj.desc }
+        RPW { $expacc = '4200000'; $description = $aObj.desc }
         RWOOD { $expacc = '4350000'; $description = $aObj.desc }
         SIGARA { $expacc = '3750000'; $description = $aObj.desc }
+        VONMOT { $expacc = '4350000'; $description = $aObj.desc }
+        VIKING { $expacc = '4350000'; $description = $aObj.desc }
         
     }
     #Format Pastel batch
@@ -96,6 +123,6 @@ foreach ($aObj in $data) {
     $objlist | Select-Object * | Export-Csv -path $outfile -NoTypeInformation -Append
 }  
 #Remove header information so file can be imported into Pastel Accounting.
-Get-Content -Path $outfile | Select-Object -skip 1 | Set-Content -path $outfile2
+Get-Content -Path $outfile | Select-Object -skip 1 | Set-Content -path $outfile3
 #Remove Temp file.
 Remove-Item -Path $outfile

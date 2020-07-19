@@ -14,7 +14,7 @@ $StopWatch = [System.Diagnostics.Stopwatch]::StartNew()
 $searchPath = "C:\Search Invoices"
 
 #Read the CSV file to see with customer had invoices for the reporting period
-$listacc = Import-csv -path 'C:\Userdata\Circe Launches\Monthly Invoices\accounts.csv' | Where-Object { $_.CopyInv -eq 1 }
+$listacc = Import-csv -path 'C:\Userdata\Circe Launches\Monthly Invoices\accountsMar2020.csv' | Where-Object { $_.CopyInv -eq 1 }
 foreach ($tocopy in $listacc) {
     $customer = $($tocopy.acnum)
     $period = $($tocopy.accper)

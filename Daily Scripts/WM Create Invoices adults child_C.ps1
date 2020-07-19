@@ -1,19 +1,50 @@
-﻿<#  
-    Get list of invoices from spreadsheet
-    Output to text file to be imported as a Pastel Invoice batch.
+﻿<#      Extract from Customer spreadsheet the range for new invoices to be generated.
+        Modify the $endR (endrow) only.
+        This can only be done by eyeball as spreadsheet has historical data.
 #>
 $playsoung = New-Object System.Media.Soundplayer
 $playsoung.SoundLocation = 'C:\Users\Guy\Documents\Powershell\Sound\script start.WAV'
 $playsoung.playsync()
 
-$csvclient = 'c:\userdata\circe launches\invwm\invsam08NovA.csv' #Input csv file
+$inspreadsheet = 'C:\userdata\circe launches\InvWM\inv23MarA.xlsx'
+$csvfile = 'arrived.csv'                                        
+$csvfile2 = 'inv23MarA.csv'
+$pathout = 'C:\userdata\circe launches\InvWM\'
+$custsheet = 'sheet1'                          #Customer worksheet
+$startR = 1                                   #Start row (don't change)
+$endR = 3                                #End Row
+$startCol = 1                                    #Start Col (don't change)
+$endCol = 12                                      #End Col (don't change)
+#
+$Outfile = $pathout + $csvfile
+$Outfile2 = $pathout + $csvfile2
+#
+Import-Excel -Path $inspreadsheet -WorksheetName $custsheet -StartRow $startR -StartColumn $startCol -EndRow $endR -EndColumn $endCol | Export-Csv -Path $Outfile -NoTypeInformation -Encoding UTF8
+#Format date column correctly
+Get-ChildItem -Path $pathout -Name $csvfile
+$xl = New-Object -ComObject Excel.Application
+$xl.Visible = $false
+$xl.DisplayAlerts = $false
+$wb = $xl.workbooks.Open($Outfile)
+#$xl.Sheets.Item('arrived').Activate()
+$range = $xl.Range("b:b").Entirecolumn
+$range.NumberFormat = 'dd/mm/yyyy'
+$wb.save()
+$xl.Workbooks.Close()
+$xl.Quit()
+#>     
+Get-Content -Path $outfile | Select-Object -skip 1 | Set-Content -path $outfile2
+Remove-Item -Path $outfile
+<#  
+    Get list of invoices from spreadsheet
+    Output to text file to be imported as a Pastel Invoice batch.
+#>
+$csvclient = 'c:\userdata\circe launches\invwm\inv23MarA.csv' #Input csv file
 $csvrate = 'c:\userdata\circe launches\invwm\rate file\accitemrate.csv'  #Rates per customer
 $outfile = 'c:\userdata\circe launches\invwm\WMinvTmp.txt'     #Temp file
-$outfile2 = 'c:\userdata\circe launches\invwm\WMinvsam08NovA.txt'  #File to be imported into Pastel
+$outfile2 = 'c:\userdata\circe launches\invwm\WMinv23MarA.txt'  #File to be imported into Pastel
 #Remove last file imported to Pastel
-
 if (Test-Path $outfile2) { Remove-Item $outfile2 }
-
 #Import latest csv from Client spreadsheet
 $data = Import-Csv -path $csvclient -header accnum, date, time, customername, BookingID, groupname, voucher, ptype, type, qty, rate, guide
 

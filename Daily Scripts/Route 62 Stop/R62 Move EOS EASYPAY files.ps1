@@ -1,6 +1,6 @@
-$src1 = 'C:\Users\Guy\Dropbox\R62\Kittie\EOS'
+$src1 = 'C:\Users\Guy\Dropbox\R62\Accounts\EOS'
 $dest1 = 'C:\Userdata\Route 62\EOS Not Processed'
-$src2 = 'C:\Users\Guy\Dropbox\R62\Kittie\EASYPAY'
+$src2 = 'C:\Users\Guy\Dropbox\R62\Accounts\EASYPAY'
 $dest2 = 'C:\Userdata\Route 62\Easypay'
 $dest3 = 'C:\Userdata\Route 62\EOS Not Processed\Reports'
 

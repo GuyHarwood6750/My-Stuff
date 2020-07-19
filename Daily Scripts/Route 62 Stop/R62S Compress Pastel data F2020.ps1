@@ -1,6 +1,8 @@
 ﻿#Backup Route 62 Stop current financial year Pastel files.
 
-Compress-Archive -Path "C:\Pastel18\R622020A" -DestinationPath "D:\Pastel Backups\Route 62 Stop\2020\R622020A $(get-date -f yyyyMMdd-HHmmss).zip" -force
+Compress-Archive -Path "C:\Pastel18\R622021A" -DestinationPath "D:\Pastel Backups\Route 62 Stop\2021\R622021A $(get-date -f yyyyMMdd-HHmmss).zip" -force
+#
+#Compress-Archive -Path "C:\Pastel18\R622020A" -DestinationPath "C:\USERS\GUY\DROPBOX\R62\ACCOUNTS\PASTEL BACKUP\R622020A $(get-date -f yyyyMMdd-HHmmss).zip" -force
 <#
  Compress-Archive -Path "C:\Pastel18\R622020A" -DestinationPath "\\wserver\backup\PastelBKP\R622020A $(get-date -f yyyyMMdd-HHmmss).zip" -force   
 #>

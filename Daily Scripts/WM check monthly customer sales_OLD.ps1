@@ -7,9 +7,8 @@ $datapath = 'c:\userdata\circe launches\monthly invoices\sales.txt'
 $outfile = 'C:\userdata\circe launches\monthly invoices\outlist.txt'
 #Delete outfile if it exists
 $checkfile = Test-Path $outfile
-if ($checkfile) {
-    Remove-Item $outfile
-}   
+if ($checkfile) {Remove-Item $outfile}
+   
 #Read Sales file and only select the "Customer : " line to extract the customer number.
 $data1a = Get-Content $datapath | select-string -Pattern '"Customer : ' 
 for ($i = 0; $i -lt $data1a.length; $i++) {

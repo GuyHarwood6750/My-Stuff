@@ -81,7 +81,8 @@ if ($status.statuscode -eq 0) {
        
 }       
 else {
-    Guy-SendGmail "Connection to WServer does not exists!" "PLEASE INVESTIGATE" 
+    $ThisScript = $MyInvocation.MyCommand.Name
+    Guy-SendGmail "Connection to WServer does not exists!" "PLEASE INVESTIGATE - $ThisScript" 
     Write-EventLog -LogName MyPowerShell -Source "WM" -EntryType Error -EventId 31 -Message "Script failed, VPN connection not found"
 
 }

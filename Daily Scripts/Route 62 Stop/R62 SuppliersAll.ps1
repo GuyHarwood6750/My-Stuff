@@ -1,19 +1,53 @@
-﻿<#  Get list of Supplier invoices from spreadsheet
+﻿<#      Extract from EXPENSES spreadsheet the range for new invoices to be generated.
+        Modify the $StartR (startrow) and $endR (endrow). 
+#>
+$inspreadsheet = 'C:\userdata\route 62\_all suppliers\suppliers LATE INVOICES july 20.xlsm'          #Source workbook
+$csvfile = 'suppliers_1.csv'                                                                                    #Temp file
+$pathout = 'C:\userdata\route 62\_all suppliers\'
+$custsheet = 'LATE INVOICES'                                                                        #Month worksheet - changes each month
+$outfile2 = 'C:\userdata\route 62\_all suppliers\suppliers july 2020_1.csv'                  #Change each month
+$startR = 5                                             #Start row - does not change       
+$endR = 15                                              #End Row - changes each month depending on number of invoices
+$startCol = 1                                           #Start Col (don't change)
+$endCol = 11                                             #End Col (don't change)
+$filter = "CSH"                                          #Filter - Not CASH VOUCHERS - SER Where-Object BELOW
+$Outfile = $pathout + $csvfile
+
+Import-Excel -Path $inspreadsheet -WorksheetName $custsheet -StartRow $startR -StartColumn $startCol -EndRow $endR -EndColumn $endCol -NoHeader -DataOnly | Where-Object -Filterscript { $_.P2 -ne $filter -and $_.P2 -ne 'CC' -and $_.P11 -ne 'done'} | Export-Csv -Path $Outfile -NoTypeInformation
+
+# Format date column correctly
+Get-ChildItem -Path $pathout -Name $csvfile
+$xl = New-Object -ComObject Excel.Application
+$xl.Visible = $false
+$xl.DisplayAlerts = $false
+$wb = $xl.workbooks.Open($Outfile)
+$xl.Sheets.Item('suppliers_1').Activate()
+$range = $xl.Range("d:d").Entirecolumn
+$range.NumberFormat = 'dd/mm/yyyy'
+
+$wb.save()
+$xl.Workbooks.Close()
+$xl.Quit()
+
+Get-Content -Path $outfile | Select-Object -skip 1 | Set-Content -path $outfile2
+Remove-Item -Path $outfile
+
+<#  Get list of Supplier invoices from spreadsheet
     Output to text file to be imported as a Pastel Invoice batch.
 #>
 #Input from Supplier spreadsheet
-$csvsupplier = 'C:\userdata\route 62\_all suppliers\september_d.csv'
+#$csvsupplier = 'C:\userdata\route 62\_all suppliers\suppliers june 2020.csv'
 #Temp file      
 $outfile = 'C:\userdata\route 62\_all suppliers\supplierinv.txt'
 #File to be imported into Pastel        
-$outfile2 = 'C:\userdata\route 62\_all suppliers\september_d.txt'     
+$outfileF = 'C:\userdata\route 62\_all suppliers\suppliers july 2020.txt'     
 
 #Remove last file imported to Pastel
-$checkfile = Test-Path $outfile2
-if ($checkfile) { Remove-Item $outfile2 }                   
+$checkfile = Test-Path $outfileF
+if ($checkfile) { Remove-Item $outfileF }                   
 
 #Import latest csv from Supplier spreadsheet, VAT & NO-VAT, not MIXED VAT.
-$data = Import-Csv -path $csvsupplier -header acc, date, invnum, descr, amt, vat
+$data = Import-Csv -path $outfile2 -header allocate, acc, suppname, date, ref, invnum, descr, amt, vat
 
 foreach ($aObj in $data) {
     #Return Pastel accounting period based on the transaction date.
@@ -46,10 +80,13 @@ foreach ($aObj in $data) {
         GRIDH { $expacc = '4600000'; $description = $aObj.descr }
         METRA { $expacc = '4350000'; $description = $aObj.descr }
         MOOVR { $expacc = '4300000'; $description = $aObj.descr }
+        MOOVG { $expacc = '2100111'; $description = $aObj.descr }
         MIOSA { $expacc = '4550000'; $description = $aObj.descr }
         MSCHER { $expacc = '3000000'; $description = $aObj.descr }
         RENOKI { $expacc = '3250000'; $description = $aObj.descr }
+        TELK00 { $expacc = '4600000'; $description = $aObj.descr }
         SAMRO { $expacc = '4550000'; $description = $aObj.descr }
+        STCOMP { $expacc = '3300000'; $description = $aObj.descr }
         SWDMUN { $expacc = '3650000'; $description = $aObj.descr }
         WAF00 { $expacc = '4600000'; $description = $aObj.descr }
         WALTON { $expacc = '4200000'; $description = $aObj.descr }
@@ -107,6 +144,6 @@ foreach ($aObj in $data) {
     $objlist | Select-Object * | Export-Csv -path $outfile -NoTypeInformation -Append
 }  
 #Remove header information so file can be imported into Pastel Accounting.
-Get-Content -Path $outfile | Select-Object -skip 1 | Set-Content -path $outfile2
+Get-Content -Path $outfile | Select-Object -skip 1 | Set-Content -path $outfileF
 #Remove Temp file.
 Remove-Item -Path $outfile

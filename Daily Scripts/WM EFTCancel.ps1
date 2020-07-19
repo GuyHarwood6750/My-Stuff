@@ -81,7 +81,8 @@ if ($status.statuscode -eq 0) {
 
     }
     else {
-        Guy-SendGmail "EFTCancel script failed." "Check connection to Server"
+        $ThisScript = $MyInvocation.MyCommand.Name
+        Guy-SendGmail "EFTCancel script failed." "Check connection to Server - $ThisScript"
         Write-EventLog -LogName MyPowerShell -Source "WM" -EntryType Error -EventId 30 -Message "EFTCancel Script failed"
 
     }

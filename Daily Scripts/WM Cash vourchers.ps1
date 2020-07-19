@@ -2,18 +2,18 @@
     Get list of Cash Vouchers
     Output to text file to be imported as a Pastel Cashbook batch.
 #>
-#Input from Client spreadsheet
-$csvclient = 'C:\Userdata\Circe Launches\cash vouchers\cshvchsepA.csv'                  
+#Input from Supplier spreadsheet
+$csvclient = 'C:\Userdata\Circe Launches\_ALL SUPPLIERS\CSH June 2020.csv'                  
 #Temp file
-$outfile1 = 'C:\Userdata\Circe Launches\cash vouchers\cashvch1.txt'                  
+$outfile1 = 'C:\Userdata\Circe Launches\_ALL SUPPLIERS\cashvch1.txt'                  
 #File to be imported into Pastel
-$outfileF = 'C:\Userdata\Circe Launches\cash vouchers\cashvchpastel.txt'             
+$outfileF = 'C:\Userdata\Circe Launches\_ALL SUPPLIERS\cashvchpastel.txt'             
 #Remove last file imported to Pastel
 $checkfile = Test-Path $outfileF
 if ($checkfile) { Remove-Item $outfilef }                   
 
-#Import latest csv from Client spreadsheet
-$data = Import-Csv -path $csvclient -header Expacc, date, ref, desc, amt, vat    
+#Import latest csv from Supplier spreadsheet
+$data = Import-Csv -path $csvclient -header acc, Expacc, date, ref, invnum, desc, amt, vat    
 
 foreach ($aObj in $data) {
     #Return Pastel accounting period based on the transaction date.
@@ -21,14 +21,18 @@ foreach ($aObj in $data) {
 
     Switch ($aObj.Expacc) {
         CLN {$expacc = '3210000'}            #Cleaning
-        GIFT {$expacc = '35510000'}            #Trade Gifts
-        MED {$expacc = '4050000'}            #Medical expenses
+        FUEL {$expacc = '4150000' }         #Motor vehicles
+        GIFT {$expacc = '3551000'}            #Trade Gifts
+        MED {$expacc = '4500000'}            #Medical expenses, Staff welfare
         MVE {$expacc = '4150000' }         #Motor vehicles
         PC {$expacc = '4550000'}            #Protective clothing
+        RENT {$expacc = '4300000'}            #Rent
         RM {$expacc = '4350000'}            #Repairs and Maintenance
+        REF {$expacc = '4500000'}            #Staff refreshments
         SS {$expacc = '3750000'}            #Ship stores & provisions
+        STATIONARY {$expacc = '4200000'}    #Stationery
         TEL {$expacc = '4600000'}            #Telephone
-        TETA {$expacc = '4451000'}            #Telephone
+        TETA {$expacc = '4451000'}            #TETA Training
         Default {$expacc = '9992000'}       #Unallocated Expense account
     }
     Switch ($aObj.vat) {

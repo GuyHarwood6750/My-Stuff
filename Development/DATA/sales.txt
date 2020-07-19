@@ -1,0 +1,130 @@
+"Prepared by:  Guy Harwood"
+"Sales by Customer 01/03/2020 to 31/03/2020"
+ 
+"Customer Code and Name","Qty","Total Selling"
+ 
+"Category : 1 - Monthly"
+ 
+"Customer : AFRINC - Africa Incoming (Pty) Ltd"
+ 
+"","Doc No : IN107216      02/03/2020",2,102.61
+"","Doc No : IN107217      03/03/2020",3,153.91
+"","Doc No : IN107228      07/03/2020",5,256.52
+"","Doc No : IN107242      10/03/2020",2,102.61
+"","Doc No : IN107245      11/03/2020",2,102.61
+"","Doc No : IN107257      15/03/2020",5,256.52
+"","Doc No : IN107258      16/03/2020",6,307.83
+"","Doc No : IN107262      21/03/2020",4,205.22
+ 
+"Total for Customer : AFRINC",29,1487.83
+ 
+"Customer : AFRIPR - African Pride Tours"
+ 
+"","Doc No : IN107222      05/03/2020",2,90.43
+"","Doc No : IN107223      05/03/2020",2,102.61
+"","Doc No : IN107253      14/03/2020",29,1487.83
+ 
+"Total for Customer : AFRIPR",33,1680.87
+ 
+"Customer : AKIL - Akilanga (Pty) Ltd"
+ 
+"","Doc No : IN107224      05/03/2020",14,590.43
+ 
+"Total for Customer : AKIL",14,590.43
+ 
+"Customer : EAT - Easy Africa Tours"
+ 
+"","Doc No : IN107219      04/03/2020",21,1077.39
+"","Doc No : IN107246      11/03/2020",8,410.43
+ 
+"Total for Customer : EAT",29,1487.82
+ 
+"Customer : ERM - ERM Tours (Pty) Ltd"
+ 
+"","Doc No : IN107220      04/03/2020",22,994.78
+"","Doc No : IN107254      14/03/2020",10,452.17
+ 
+"Total for Customer : ERM",32,1446.95
+ 
+"Customer : HYLTR - Hylton Ross Exclusive Touring"
+ 
+"","Doc No : IN107248      13/03/2020",10,452.17
+"","Doc No : IC100277      25/03/2020",,-243.48
+ 
+"Total for Customer : HYLTR",10,208.69
+ 
+"Customer : ILUK - Iluka Tourism Investments (Pty) Ltd."
+ 
+"","Doc No : IN107212      01/03/2020",4,180.87
+"","Doc No : IN107229      07/03/2020",2,90.43
+"","Doc No : IN107230      09/03/2020",2,90.43
+"","Doc No : IN107231      09/03/2020",2,90.43
+"","Doc No : IN107247      11/03/2020",1,45.22
+"","Doc No : IN107249      13/03/2020",2,90.43
+ 
+"Total for Customer : ILUK",13,587.81
+ 
+"Customer : KUON - Private Safaris (Pty) Ltd"
+ 
+"","Doc No : IN107226      06/03/2020",3,153.91
+"","Doc No : IN107243      10/03/2020",19,974.78
+"","Doc No : IN107250      13/03/2020",22,1128.7
+ 
+"Total for Customer : KUON",44,2257.39
+ 
+"Customer : LIVETH - Live the Journey"
+ 
+"","Doc No : IN107218      03/03/2020",17,827.83
+"","Doc No : IN107244      10/03/2020",15,730.43
+"","Doc No : IN107251      13/03/2020",18,876.52
+"","Doc No : IN107255      14/03/2020",18,876.52
+"","Doc No : IN107259      18/03/2020",18,876.52
+"","Doc No : IN107260      20/03/2020",18,876.52
+ 
+"Total for Customer : LIVETH",104,5064.34
+ 
+"Customer : MIOLA - Miola Safaris (Pty) Ltd"
+ 
+"","Doc No : IN107221      04/03/2020",15,769.57
+ 
+"Total for Customer : MIOLA",15,769.57
+ 
+"Customer : MPUM - MPUM: ta Quality Touring Services"
+ 
+"","Doc No : IN107213      01/03/2020",3,153.91
+"","Doc No : IN107225      05/03/2020",2,102.61
+"","Doc No : IN107252      13/03/2020",2,102.61
+ 
+"Total for Customer : MPUM",7,359.13
+ 
+"Customer : SANDWN - Sandown Tour and Incentives"
+ 
+"","Doc No : IN107232      09/03/2020",38,1949.57
+ 
+"Total for Customer : SANDWN",38,1949.57
+ 
+"Customer : SPRING - Springbok Atlas"
+ 
+"","Doc No : IN107214      01/03/2020",45,2015.66
+ 
+"Total for Customer : SPRING",45,2015.66
+ 
+"Customer : TOURVS - Tourvest Destination Management"
+ 
+"","Doc No : IN107256      14/03/2020",13,666.96
+ 
+"Total for Customer : TOURVS",13,666.96
+ 
+"Customer : TRAVCA - Travcare Holidays"
+ 
+"","Doc No : IN107215      01/03/2020",6,307.83
+"","Doc No : IN107227      06/03/2020",38,1949.57
+"","Doc No : IN107233      09/03/2020",15,769.57
+"","Doc No : IN107234      09/03/2020",9,420
+ 
+"Total for Customer : TRAVCA",68,3446.97
+ 
+"Total for Category : 1",494,24019.99
+ 
+"GRAND TOTAL",494,24019.99
+ 

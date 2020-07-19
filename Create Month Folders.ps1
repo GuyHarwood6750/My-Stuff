@@ -8,12 +8,13 @@
             $doctype = $($listf.DocType)
       
     $monthfolder = "$scan"+" $month"+" $doctype"+" $Year"
-    $mainloc = 'c:\test\Fuel Invoices\'+"$monthfolder"+"\"
-    #$mainloc = '\\wserver\wmarine\kiosk\invoices\'+"$monthfolder"+"\"
+    #$mainloc = 'c:\test\monthly folders\'+"$monthfolder"+"\"
+    $mainloc = '\\wserver\wmarine\kiosk\schedules\F2021\'+"$monthfolder"+"\"
     
      Do
      { 
-     $finalfolder = "$mainloc"+"$day"+" $month"+" $year"
+     #$finalfolder = "$mainloc"+" $month"+" $year"               #create month only
+     $finalfolder = "$mainloc"+"$day"+" $month"+" $year"       #create month & each day of month
      New-Item -Path $finalfolder -ItemType 'directory' -force
      #$day
      $day--

@@ -1,17 +1,17 @@
-<#  RSSA
+<#  GUY\_SARS
     Get list of bank transactions (csv) captured manually from paper.
     Output to text file to be imported as a Pastel Cashbook batch.
     Output file for payments (P)
     Output file for receipts (R)
 #>
 #Input bank transactions captured manually
-$csvclient = 'C:\Userdata\RSSA\2020\bank transactions\903.csv'                  
+$csvclient = 'C:\Userdata\GUY\_SARS\2020\bank statements\bank transactions\207t.csv'                  
 #Temp file
-$outfile1 = 'C:\Userdata\RSSA\2020\bank transactions\tempreceipts.txt'                  
-$outfile2 = 'C:\Userdata\RSSA\2020\bank transactions\temppayments.txt'                  
+$outfile1 = 'C:\Userdata\GUY\_SARS\2020\bank statements\bank transactions\tempreceipts.txt'                  
+$outfile2 = 'C:\Userdata\GUY\_SARS\2020\bank statements\bank transactions\temppayments.txt'                  
 #File to be imported into Pastel
-$outfileF1 = 'C:\Userdata\RSSA\2020\bank transactions\903R.txt'       #Receipts           
-$outfileF2 = 'C:\Userdata\RSSA\2020\bank transactions\903P.txt'       #Payments            
+$outfileF1 = 'C:\Userdata\GUY\_SARS\2020\bank statements\bank transactions\207tR.txt'       #Receipts           
+$outfileF2 = 'C:\Userdata\GUY\_SARS\2020\bank statements\bank transactions\207tP.txt'       #Payments            
 #Remove last file imported to Pastel
 $checkfile = Test-Path $outfileF1
 if ($checkfile) { Remove-Item $outfilef1 }                   
@@ -23,40 +23,46 @@ $data = Import-Csv -path $csvclient -header type, acc, date, ref, desc, amt
 #
 foreach ($aObj in $data) {
     #Return Pastel accounting period based on the transaction date.
-    $pastelper = PastelPeriods2 -transactiondate $aObj.date
+    $pastelper = PastelPeriods -transactiondate $aObj.date
     Switch ($aObj.acc) {
-        ACCOM { $acc = '3950030' }
-        ACC { $acc = '3000000' }
-        ASSAF { $acc = '1600010' }
-        AGRAY { $acc = '7100000' }
-        AWARDS { $acc = '4210010' }
+        AGRAY { $acc = '8300000' }
+        AGRAYA { $acc = '1000006' }
         BC { $acc = '3200000' }
-        CASH { $acc = '9984000' }
-        CLAUDE { $acc = '1300040' }
-        CLR { $acc = '9984000' }
-        COMPA { $acc = '6250010' }
-        DINE { $acc = '3910000' }
-        DINI { $acc = '1400000' }
-        DIV { $acc = '2760000' }
+        BKSOFTL { $acc = '4550000' }
+        COMP { $acc = '3300000' }
+        DFOOD { $acc = '3600001' }
+        DISC { $acc = '8420000' }
+        DIV { $acc = '1000009' }
+        DON { $acc = '3550000' }
+        ELEC { $acc = '3650000' }
+        FNBC { $acc = '8410000' }
+        FUEL { $acc = '4150001' }
+        FT { $acc = '4450000' }
+        INSREF { $acc = '2850000' }
         INTP { $acc = '3900000' }
-        MARK { $acc = '4620020' }
-        ML { $acc = '8410000' }
-        PACFEE { $acc = '9400020' }
-        PPAYE { $acc = '9400010' }
-        PAYE { $acc = '4400030' }
-        PRINT { $acc = '4200000' }
-        PRIZE { $acc = '4620010' }
-        PSAL { $acc = '9400010' }
-        REF { $acc = '3950010' }
-        SAL { $acc = '4400010' }
-        SP { $acc = '4352000' }
-        SUBS { $acc = '1000000' }
-        TRANS { $acc = '4610020' }
-        TRAVEL { $acc = '3950020' }
-        UNKR { $acc = '9991000' }
-        UNKP { $acc = '9992000' }
-        WEB { $acc = '4601000' }
-        Default { $acc = '9983000' }
+        INTR { $acc = '2750000' }
+        KUSA { $acc = '4450000' }
+        LOT { $acc = '4500000' }
+        MEDP { $acc = '4000000' }
+        MVR { $acc = '4150002' }
+        PHSOFTL { $acc = '4551000' }
+        POL { $acc = '3950000' }
+        PTAX { $acc = '3800004' }
+        PVT { $acc = '4500000' }
+        RA { $acc = '3951000' }
+        REP { $acc = '4350000' }
+        SA { $acc = '4050000' }
+        SARSR { $acc = '3800005' }
+        SEC { $acc = '4210000' }
+        STA { $acc = '4201000' }
+        SWM { $acc = '3650000' }
+        TI { $acc = '4600000' }
+        UINC { $acc = '9992000' }
+        UINP { $acc = '9991000' }
+        VET { $acc = '3600002' }
+        W { $acc = '4400000' }
+        WSAR { $acc = '4451000' }
+        Default { $acc = '9993000' }
     }
     Switch ($aObj.type) {
         r {  

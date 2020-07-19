@@ -50,7 +50,7 @@ if ($status.statuscode -eq 0) {
         $xl.Workbooks.Close()
         $xl.Quit()
 
-        Get-Process EXCEL | Stop-Process
+        #Get-Process EXCEL | Stop-Process
         [System.Runtime.InteropServices.Marshal]::ReleaseComObject($xl)
    
         $src1 = '\\wserver\Kiosk\Daily Reports\'
@@ -83,7 +83,9 @@ if ($status.statuscode -eq 0) {
 
     }
 }
- else {Guy-SendGmail "Connection to WSERVER does not exists" "PLEASE INVESTIGATE"
+else {
+    $ThisScript = $MyInvocation.MyCommand.Name
+    Guy-SendGmail "Connection to WSERVER does not exists" "PLEASE INVESTIGATE - Script -> $ThisScript"
 
     Write-EventLog -LogName MyPowerShell -Source "WM" -EntryType Error -EventId 31 -Message "DailySnapshot script failed, VPN connection not found"
 
