@@ -6,7 +6,7 @@ $inspreadsheet = 'C:\userdata\route 62\_All Suppliers\Suppliers July 2020.xlsm'
 $outfile2 = 'C:\userdata\route 62\_All Suppliers\CSH July 2020_1.csv'
 $custsheet = 'July 2020'                                #Month worksheet
 $startR = 5                                             #Start row - do not change
-$endR = 80                                              #End Row - change if necessary depending on number of purchases
+$endR = 116                                              #End Row - change if necessary depending on number of purchases
 $csvfile = 'SHEET1.csv'
 $pathout = 'C:\userdata\route 62\_All Suppliers\'
 $startCol = 1                                                                   #Start Col (don't change)
@@ -58,6 +58,7 @@ foreach ($aObj in $data) {
         EQUIP { $expacc = '2999000' }
         FUEL { $expacc = '4150001' }
         MVR { $expacc = '4150002' }
+        PACKAGING { $expacc = '2000010' }
         POST { $expacc = '3400000' }
         NPUR { $expacc = '2000012' }
         PUR {$expacc = '2000010'}         

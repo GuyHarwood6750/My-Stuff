@@ -1,13 +1,13 @@
 ﻿<#      Extract from EXPENSES spreadsheet the range for new invoices to be generated.
         Modify the $StartR (startrow) and $endR (endrow). 
 #>
-$inspreadsheet = 'C:\userdata\route 62\_all suppliers\suppliers LATE INVOICES july 20.xlsm'          #Source workbook
+$inspreadsheet = 'C:\userdata\route 62\_all suppliers\suppliers july 2020.xlsm'          #Source workbook
 $csvfile = 'suppliers_1.csv'                                                                                    #Temp file
 $pathout = 'C:\userdata\route 62\_all suppliers\'
-$custsheet = 'LATE INVOICES'                                                                        #Month worksheet - changes each month
-$outfile2 = 'C:\userdata\route 62\_all suppliers\suppliers july 2020_1.csv'                  #Change each month
+$custsheet = 'july 2020'                                                                        #Month worksheet - changes each month
+$outfile2 = 'C:\userdata\route 62\_all suppliers\suppliers july 2020_2.csv'                  #Change each month
 $startR = 5                                             #Start row - does not change       
-$endR = 15                                              #End Row - changes each month depending on number of invoices
+$endR = 116                                              #End Row - changes each month depending on number of invoices
 $startCol = 1                                           #Start Col (don't change)
 $endCol = 11                                             #End Col (don't change)
 $filter = "CSH"                                          #Filter - Not CASH VOUCHERS - SER Where-Object BELOW
