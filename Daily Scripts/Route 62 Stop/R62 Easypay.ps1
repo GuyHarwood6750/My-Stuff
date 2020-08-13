@@ -2,7 +2,7 @@
     Output to text file to be imported as a Pastel Journal batch.
 
 #>
-$csvclient = 'C:\userdata\route 62\easypay\easypay742.csv'                  #Input from Client spreadsheet
+$csvclient = 'C:\userdata\route 62\easypay\easypay762.csv'                  #Input from Client spreadsheet
 $outfile1 = 'C:\userdata\route 62\easypay\easypay1.txt'                  #Temp file
 $outfileF = 'C:\userdata\route 62\easypay\easypaypastel.txt'             #File to be imported into Pastel
 
