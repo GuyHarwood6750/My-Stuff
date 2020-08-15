@@ -2,11 +2,11 @@
         Modify the $StartR (startrow) and $endR (endrow).
                 This can only be done by eyeball as spreadsheet has historical data.
 #>
-$inspreadsheet = 'C:\userdata\route 62\_All Suppliers\Suppliers July 2020.xlsm'
-$outfile2 = 'C:\userdata\route 62\_All Suppliers\CSH July 2020_1.csv'
-$custsheet = 'July 2020'                                #Month worksheet
+$inspreadsheet = 'C:\userdata\route 62\_All Suppliers\Suppliers august 2020.xlsm'
+$outfile2 = 'C:\userdata\route 62\_All Suppliers\CSH august 2020_1.csv'
+$custsheet = 'august 2020'                                #Month worksheet
 $startR = 5                                             #Start row - do not change
-$endR = 116                                              #End Row - change if necessary depending on number of purchases
+$endR = 59                                              #End Row - change if necessary depending on number of purchases
 $csvfile = 'SHEET1.csv'
 $pathout = 'C:\userdata\route 62\_All Suppliers\'
 $startCol = 1                                                                   #Start Col (don't change)
