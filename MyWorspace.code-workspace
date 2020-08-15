@@ -1,13 +1,16 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "C:\\Users\\Guy\\Documents\\WindowsPowerShell\\Modules"
-		}
-	],
-	"settings": {
-		"workbench.panel.defaultLocation": "right"
-	}
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "C:\\Users\\Guy\\Documents\\WindowsPowerShell\\Modules"
+    },
+    {
+      "path": "..\\Route 62 Stop"
+    }
+  ],
+  "settings": {
+    "workbench.panel.defaultLocation": "right"
+  }
 }
