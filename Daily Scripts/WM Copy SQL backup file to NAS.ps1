@@ -1,1 +1,0 @@
-﻿Copy-Item -Path "D:\Circe Launches Backups\SQL Circe Bookings\circe_bkp.bak" -destination "\\wdmycloudmirror\Public\Userdata\Circe Launches\SQL Database Backups" -Recurse -Force
