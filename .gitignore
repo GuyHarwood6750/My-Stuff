@@ -1,3 +1,5 @@
-GIT/
+/GIT/
 testgit/
 *.code-workspace
+*.pdf
+*.zip
